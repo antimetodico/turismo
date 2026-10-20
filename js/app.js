@@ -121,41 +121,7 @@ if (!reduceMotion) {
   }, ROTATION_MS);
 }
 
-/* Load uMap only when first opened, with a cache-busting query parameter. */
-function loadMapIfNeeded() {
-  if (!mapFrame || mapFrame.hasAttribute('src')) return;
-  const freshMapUrl = new URL(mapFrame.dataset.src, window.location.href);
-  freshMapUrl.searchParams.set('_refresh', Date.now().toString());
-  mapFrame.src = freshMapUrl.toString();
-}
-
-function openMap() {
-  if (!mapSection || !mapToggle) return;
-  loadMapIfNeeded();
-  mapSection.inert = false;
-  mapSection.setAttribute('aria-hidden', 'false');
-  mapSection.classList.add('is-open');
-  mapToggle.setAttribute('aria-expanded', 'true');
-  if (panoramaToggle) panoramaToggle.focus({ preventScroll: true });
-}
-
-function closeMap() {
-  if (!mapSection || !mapToggle) return;
-  mapSection.classList.remove('is-open');
-  mapSection.inert = true;
-  mapSection.setAttribute('aria-hidden', 'true');
-  mapToggle.setAttribute('aria-expanded', 'false');
-  mapToggle.focus({ preventScroll: true });
-}
-
-mapToggle?.addEventListener('click', openMap);
-panoramaToggle?.addEventListener('click', closeMap);
-
-document.addEventListener('keydown', event => {
-  if (event.key === 'Escape' && mapSection?.classList.contains('is-open')) {
-    closeMap();
-  }
-});
+/* The selectable GeoJSON map interface is managed by js/maps.js. */
 
 /* Animate the ASISTENTE hand-off before opening GesellGO. */
 const assistantLink = document.querySelector(".assistant-toggle");
