@@ -1,0 +1,1805 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98985,
+          -37.265841
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Bulonera La 22",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Boulevard Silvio Gesell N° 2148–2198 (esquina Paseo 122), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–5 PM | Tuesday: 8 AM–5 PM | Wednesday: 8 AM–5 PM | Thursday: 8 AM–5 PM | Friday: 8 AM–5 PM | Saturday: 8:30 AM–1:30 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Bulonería y ferretería industrial ubicada en Boulevard Silvio Gesell y Paseo 122, especializada en fijaciones, tornillería y herramientas. (Calificación Google Maps: 4.3 (122)).",
+        "description": "Bulonería y ferretería industrial ubicada en Boulevard Silvio Gesell y Paseo 122, especializada en fijaciones, tornillería y herramientas. (Calificación Google Maps: 4.3 (122)).\n\nQué vende / Servicios: Bulones, tornillos, tuercas, arandelas, fijaciones especiales, mechas, discos de corte, herramientas manuales y eléctricas e insumos para taller y cuatriciclos/4x4.\n\nDirección: Boulevard Silvio Gesell N° 2148–2198 (esquina Paseo 122), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Bulonería y ferretería industrial ubicada en Boulevard Silvio Gesell y Paseo 122, especializada en fijaciones, tornillería y herramientas.",
+        "products_sold": "Bulones, tornillos, tuercas, arandelas, fijaciones especiales, mechas, discos de corte, herramientas manuales y eléctricas e insumos para taller y cuatriciclos/4x4",
+        "what_to_do": "Venta en mostrador, entregas en el día, cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Bulones, tornillos, tuercas, arandelas, fijaciones especiales, mechas, discos de corte, herramientas manuales y eléctricas e insumos para taller y cuatriciclos/4x4. Venta en mostrador, entregas en el día, cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Specialist bolt, fastener, and tool shop along the boulevard; especially handy for vehicle, trailer, or 4x4/ATV hardware fixes before or after dune excursions.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.983031,
+          -37.273467
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Carnes Gesell",
+        "category": "Locales / Carnicería y Verdulería",
+        "address": "Avenida 3 y Paseo 124, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2267 47-3043",
+        "website": "https://www.instagram.com/carnesgesell_oficial",
+        "instagram": "https://www.instagram.com/carnesgesell_oficial",
+        "opening_hours": "Monday: Closed | Tuesday: 9 AM–7 PM | Wednesday: 9 AM–7 PM | Thursday: 9 AM–7 PM | Friday: 9 AM–7 PM | Saturday: 9 AM–7 PM | Sunday: 9 AM–2 PM",
+        "price_range": "",
+        "short_description": "Carnicería artesanal y gourmet emplazada en Avenida 3 y Paseo 124, dedicada tanto a los cortes clásicos de asado argentino como a cortes especiales de autor. (Calificación Google Maps: 4.3 (161)).",
+        "description": "Carnicería artesanal y gourmet emplazada en Avenida 3 y Paseo 124, dedicada tanto a los cortes clásicos de asado argentino como a cortes especiales de autor. (Calificación Google Maps: 4.3 (161)).\n\nQué vende / Servicios: Cortes artesanales y gourmet de carne vacuna, cerdo y aves, achuras, chacinados, fiambres seleccionados y productos para parrilla.\n\nDirección: Avenida 3 y Paseo 124, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Carnicería artesanal y gourmet emplazada en Avenida 3 y Paseo 124, dedicada tanto a los cortes clásicos de asado argentino como a cortes especiales de autor.",
+        "products_sold": "Cortes artesanales y gourmet de carne vacuna, cerdo y aves, achuras, chacinados, fiambres seleccionados y productos para parrilla",
+        "what_to_do": "Compra en tienda, retiro de pedidos y envíos a domicilio, horario corrido de martes a sábado y domingos por la mañana, acepta tarjetas y NFC",
+        "services": "Cortes artesanales y gourmet de carne vacuna, cerdo y aves, achuras, chacinados, fiambres seleccionados y productos para parrilla. Compra en tienda, retiro de pedidos y envíos a domicilio, horario corrido de martes a sábado y domingos por la mañana, acepta tarjetas y NFC",
+        "data_source": "Google Maps / Instagram @carnesgesell_oficial (2026)",
+        "vibe": "Modern, artisanal butcher shop on Avenida 3; a great stop for grill enthusiasts looking for specialty meat cuts and charcuterie.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.971032,
+          -37.255281
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Carnicería Nereo",
+        "category": "Locales / Carnicería y Verdulería",
+        "address": "Paseo 105 N° 498 (esquina Avenida 5), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-6727",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–1 PM, 5–8:30 PM | Tuesday: 9 AM–1 PM, 5–8:30 PM | Wednesday: 9 AM–1 PM, 5–8:30 PM | Thursday: 9 AM–1 PM, 5–8:30 PM | Friday: 9 AM–1 PM, 5–8:30 PM | Saturday: 9 AM–1 PM, 5–8:30 PM | Sunday: 9 AM–1 PM",
+        "price_range": "",
+        "short_description": "Carnicería tradicional ubicada en la esquina de Paseo 105 y Avenida 5, especializada en cortes seleccionados de carne vacuna, cerdo, cordero y aves. (Calificación Google Maps: 4.4 (80)).",
+        "description": "Carnicería tradicional ubicada en la esquina de Paseo 105 y Avenida 5, especializada en cortes seleccionados de carne vacuna, cerdo, cordero y aves. (Calificación Google Maps: 4.4 (80)).\n\nQué vende / Servicios: Cortes de carne vacuna para parrilla y horno, cerdo, cordero, pollo, achuras y embutidos frescos.\n\nDirección: Paseo 105 N° 498 (esquina Avenida 5), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Carnicería tradicional ubicada en la esquina de Paseo 105 y Avenida 5, especializada en cortes seleccionados de carne vacuna, cerdo, cordero y aves.",
+        "products_sold": "Cortes de carne vacuna para parrilla y horno, cerdo, cordero, pollo, achuras y embutidos frescos",
+        "what_to_do": "Atención en mostrador y envíos a domicilio, estacionamiento gratuito en el lugar, abierto domingos al mediodía, acepta débito y pagos NFC",
+        "services": "Cortes de carne vacuna para parrilla y horno, cerdo, cordero, pollo, achuras y embutidos frescos. Atención en mostrador y envíos a domicilio, estacionamiento gratuito en el lugar, abierto domingos al mediodía, acepta débito y pagos NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Quality-focused neighborhood butcher shop on Paseo 105; ideal for vacationers planning a Sunday family asado.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.997181,
+          -37.290932
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Carnicería y Verdulería Los Acuanautas",
+        "category": "Locales / Carnicería y Verdulería",
+        "address": "Avenida 3 N° 4501 (esquina Paseo 145), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2245 42-2139",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–2 PM, 5–9 PM | Tuesday: 9 AM–2 PM, 5–9 PM | Wednesday: 9 AM–2 PM, 5–9 PM | Thursday: 9 AM–2 PM, 5–9 PM | Friday: 9 AM–2 PM, 5–9 PM | Saturday: 9 AM–2 PM, 5–9 PM | Sunday: 9 AM–2 PM",
+        "price_range": "",
+        "short_description": "Mercado familiar en Avenida 3 y Paseo 145 que integra carnicería, verdulería, fiambrería, vinoteca y almacén para abastecer la Zona Sur. (Calificación Google Maps: 4.4 (185)).",
+        "description": "Mercado familiar en Avenida 3 y Paseo 145 que integra carnicería, verdulería, fiambrería, vinoteca y almacén para abastecer la Zona Sur. (Calificación Google Maps: 4.4 (185)).\n\nQué vende / Servicios: Carnes bovinas, porcinas y avícolas, frutas, verduras y hortalizas frescas, fiambres y quesos, vinos, productos de almacén y limpieza.\n\nDirección: Avenida 3 N° 4501 (esquina Paseo 145), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Mercado familiar en Avenida 3 y Paseo 145 que integra carnicería, verdulería, fiambrería, vinoteca y almacén para abastecer la Zona Sur.",
+        "products_sold": "Carnes bovinas, porcinas y avícolas, frutas, verduras y hortalizas frescas, fiambres y quesos, vinos, productos de almacén y limpieza",
+        "what_to_do": "Compra en salón, consultas por WhatsApp, estacionamiento gratuito, acceso para sillas de ruedas y pagos con tarjetas o NFC",
+        "services": "Carnes bovinas, porcinas y avícolas, frutas, verduras y hortalizas frescas, fiambres y quesos, vinos, productos de almacén y limpieza. Compra en salón, consultas por WhatsApp, estacionamiento gratuito, acceso para sillas de ruedas y pagos con tarjetas o NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Friendly, family-run butcher and produce market in Zona Sur; ideal for buying fresh meat, wine, and vegetables for a house barbecue.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.986183,
+          -37.277136
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Cerrajería Aznarez Jr.",
+        "category": "Locales / Cerrajería",
+        "address": "Avenida 3 N° 2927 (esquina Paseo 129), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 60-3207",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–1 PM, 4–6:30 PM | Tuesday: 9 AM–1 PM, 4–6:30 PM | Wednesday: 9 AM–1 PM, 4–6:30 PM | Thursday: 9 AM–1 PM, 4–6:30 PM | Friday: 9 AM–1 PM, 4–6:30 PM | Saturday: 9 AM–1 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Cerrajería especializada en alta seguridad vehicular y domiciliaria sobre Avenida 3 y Paseo 129. (Calificación Google Maps: 4.5 (135)).",
+        "description": "Cerrajería especializada en alta seguridad vehicular y domiciliaria sobre Avenida 3 y Paseo 129. (Calificación Google Maps: 4.5 (135)).\n\nQué vende / Servicios: Llaves codificadas con chip para automóviles y motos (incluso por pérdida total), cerraduras de seguridad, candados y copias de llaves.\n\nDirección: Avenida 3 N° 2927 (esquina Paseo 129), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Cerrajería especializada en alta seguridad vehicular y domiciliaria sobre Avenida 3 y Paseo 129.",
+        "products_sold": "Llaves codificadas con chip para automóviles y motos (incluso por pérdida total), cerraduras de seguridad, candados y copias de llaves",
+        "what_to_do": "Apertura de autos de alta seguridad y viviendas sin daño, cambios de combinación, programación de llaves con chip y asistencia a domicilio",
+        "services": "Llaves codificadas con chip para automóviles y motos (incluso por pérdida total), cerraduras de seguridad, candados y copias de llaves. Apertura de autos de alta seguridad y viviendas sin daño, cambios de combinación, programación de llaves con chip y asistencia a domicilio",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Skilled automotive and residential locksmith on Avenida 3; best contact when a traveler loses chipped car or motorcycle keys on the beach.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.972062,
+          -37.258927
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Cerrajería Facundo",
+        "category": "Locales / Cerrajería",
+        "address": "Paseo 107 N° 409 (esquina Avenida 4), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 9 2255 42-5303",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–1:30 PM, 4–7 PM | Tuesday: 9 AM–1:30 PM, 4–7 PM | Wednesday: 9 AM–1:30 PM, 4–7 PM | Thursday: 9 AM–1:30 PM, 4–7 PM | Friday: 9 AM–1:30 PM, 4–7 PM | Saturday: 10 AM–1:30 PM, 5–7 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Cerrajería integral del hogar y del automotor ubicada en la zona céntrica sobre Paseo 107 y Avenida 4. (Calificación Google Maps: 4.5 (116)).",
+        "description": "Cerrajería integral del hogar y del automotor ubicada en la zona céntrica sobre Paseo 107 y Avenida 4. (Calificación Google Maps: 4.5 (116)).\n\nQué vende / Servicios: Copias de llaves domiciliarias y codificadas con chip, carcasas de llaves de auto, cerraduras, candados y cilindros.\n\nDirección: Paseo 107 N° 409 (esquina Avenida 4), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Cerrajería integral del hogar y del automotor ubicada en la zona céntrica sobre Paseo 107 y Avenida 4.",
+        "products_sold": "Copias de llaves domiciliarias y codificadas con chip, carcasas de llaves de auto, cerraduras, candados y cilindros",
+        "what_to_do": "Apertura de puertas y vehículos, reparación y cambio de combinación de cerraduras, duplicado de llaves con chip",
+        "services": "Copias de llaves domiciliarias y codificadas con chip, carcasas de llaves de auto, cerraduras, candados y cilindros. Apertura de puertas y vehículos, reparación y cambio de combinación de cerraduras, duplicado de llaves con chip",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Trusted downtown locksmith for both home locks and chipped car keys; essential if a tourist loses or breaks a car or apartment key.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.980724,
+          -37.273867
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Cerrajería Maxi Llaves (24 Horas)",
+        "category": "Locales / Cerrajería",
+        "address": "Paseo 123 y Avenida 1, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 9 2255 42-4495",
+        "website": "https://www.instagram.com/maxi.llaves.cerrajero",
+        "instagram": "https://www.instagram.com/maxi.llaves.cerrajero",
+        "opening_hours": "Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours | Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours",
+        "price_range": "",
+        "short_description": "Cerrajería de urgencias las 24 horas ubicada cerca de la costa en Paseo 123 y Avenida 1, con asistencia a domicilio y por WhatsApp. (Calificación Google Maps: 4.9 (49)).",
+        "description": "Cerrajería de urgencias las 24 horas ubicada cerca de la costa en Paseo 123 y Avenida 1, con asistencia a domicilio y por WhatsApp. (Calificación Google Maps: 4.9 (49)).\n\nQué vende / Servicios: Copias de llaves en el acto, confección de llaves desde cero, cerraduras nuevas y candados.\n\nDirección: Paseo 123 y Avenida 1, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Cerrajería de urgencias las 24 horas ubicada cerca de la costa en Paseo 123 y Avenida 1, con asistencia a domicilio y por WhatsApp.",
+        "products_sold": "Copias de llaves en el acto, confección de llaves desde cero, cerraduras nuevas y candados",
+        "what_to_do": "Urgencias de cerrajería las 24 horas los 7 días de la semana, aperturas domiciliarias, cambios de combinación y reparación de cerraduras",
+        "services": "Copias de llaves en el acto, confección de llaves desde cero, cerraduras nuevas y candados. Urgencias de cerrajería las 24 horas los 7 días de la semana, aperturas domiciliarias, cambios de combinación y reparación de cerraduras",
+        "data_source": "Google Maps / Instagram @maxi.llaves.cerrajero (2026)",
+        "vibe": "Responsive 24/7 locksmith near the beach at Paseo 123; the go-to emergency contact if locked out of a beach house or apartment at any hour.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98417,
+          -37.260104
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Cooperativa Obrera (Sucursal 130)",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Boulevard Silvio Gesell N° 1330 (entre Paseos 113 y 114), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "https://www.cooperativaobrera.coop/",
+        "instagram": "https://www.instagram.com/lacoopeencasa/",
+        "opening_hours": "Monday: 8:30 AM–9 PM | Tuesday: 8:30 AM–9 PM | Wednesday: 8:30 AM–9 PM | Thursday: 8:30 AM–9 PM | Friday: 8:30 AM–9 PM | Saturday: 8:30 AM–9 PM | Sunday: 9 AM–9 PM",
+        "price_range": "",
+        "short_description": "Sucursal N° 130 del supermercado cooperativo Cooperativa Obrera sobre Boulevard Silvio Gesell, muy valorada por residentes y turistas por su relación precio-calidad y el surtido de su carnicería. (Calificación Google Maps: 4.4 (1256)).",
+        "description": "Sucursal N° 130 del supermercado cooperativo Cooperativa Obrera sobre Boulevard Silvio Gesell, muy valorada por residentes y turistas por su relación precio-calidad y el surtido de su carnicería. (Calificación Google Maps: 4.4 (1256)).\n\nQué vende / Servicios: Almacén, productos de marca propia Cooperativa, carnicería con cortes para asado, verdulería, fiambrería, lácteos, bebidas, panadería, limpieza, perfumería y artículos de hogar.\n\nDirección: Boulevard Silvio Gesell N° 1330 (entre Paseos 113 y 114), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Sucursal N° 130 del supermercado cooperativo Cooperativa Obrera sobre Boulevard Silvio Gesell, muy valorada por residentes y turistas por su relación precio-calidad y el surtido de su carnicería.",
+        "products_sold": "Almacén, productos de marca propia Cooperativa, carnicería con cortes para asado, verdulería, fiambrería, lácteos, bebidas, panadería, limpieza, perfumería y artículos de hogar",
+        "what_to_do": "Supermercado con estacionamiento gratuito y accesible, compra en salón, retiro en sucursal, envíos a domicilio sin contacto, tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Almacén, productos de marca propia Cooperativa, carnicería con cortes para asado, verdulería, fiambrería, lácteos, bebidas, panadería, limpieza, perfumería y artículos de hogar. Supermercado con estacionamiento gratuito y accesible, compra en salón, retiro en sucursal, envíos a domicilio sin contacto, tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps / cooperativaobrera.coop (2026)",
+        "vibe": "Well-stocked, budget-friendly cooperative supermarket favored by locals and savvy vacationers; best choice for stocking up on affordable groceries and quality butcher cuts for an Argentine asado.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.981652,
+          -37.271632
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Espacio Animal Veterinaria",
+        "category": "Locales / Veterinaria, Forrajería y Mascotas",
+        "address": "Avenida 3 N° 2095 (esquina Paseo 121), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 55-5554",
+        "website": "https://www.instagram.com/vet.espacioanimal_23",
+        "instagram": "https://www.instagram.com/vet.espacioanimal_23",
+        "opening_hours": "Monday: 9 AM–4 PM | Tuesday: 9 AM–4 PM | Wednesday: 9 AM–4 PM | Thursday: 9 AM–4 PM | Friday: 9 AM–4 PM | Saturday: 9 AM–1 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Clínica veterinaria de pequeños animales, farmacia veterinaria y pet shop en Avenida 3 y Paseo 121. (Calificación Google Maps: 4.7 (46)).",
+        "description": "Clínica veterinaria de pequeños animales, farmacia veterinaria y pet shop en Avenida 3 y Paseo 121. (Calificación Google Maps: 4.7 (46)).\n\nQué vende / Servicios: Medicamentos veterinarios, pipetas, antiparasitarios, alimento terapéutico y balanceado, indumentaria y accesorios para mascotas.\n\nDirección: Avenida 3 N° 2095 (esquina Paseo 121), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Clínica veterinaria de pequeños animales, farmacia veterinaria y pet shop en Avenida 3 y Paseo 121.",
+        "products_sold": "Medicamentos veterinarios, pipetas, antiparasitarios, alimento terapéutico y balanceado, indumentaria y accesorios para mascotas",
+        "what_to_do": "Consultorio clínico veterinario, oftalmología, fisioterapia y rehabilitación, cirugía, coordinación de turnos por mensaje de WhatsApp y entrada accesible",
+        "services": "Medicamentos veterinarios, pipetas, antiparasitarios, alimento terapéutico y balanceado, indumentaria y accesorios para mascotas. Consultorio clínico veterinario, oftalmología, fisioterapia y rehabilitación, cirugía, coordinación de turnos por mensaje de WhatsApp y entrada accesible",
+        "data_source": "Google Maps / Instagram @vet.espacioanimal_23 (2026)",
+        "vibe": "Professional veterinary clinic on Avenida 3 offering general care, ophthalmology, and pet pharmacy supplies for families traveling with pets.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.995895,
+          -37.289343
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Cornalo",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 3 N° 4350 (entre Paseos 143 y 144), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-0935",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8:30 AM–2 PM, 4–9:30 PM | Tuesday: 8:30 AM–2 PM, 4–9:30 PM | Wednesday: 8:30 AM–2 PM, 4–9:30 PM | Thursday: 8:30 AM–2 PM, 4–9:30 PM | Friday: 8:30 AM–2 PM, 4–9:30 PM | Saturday: 8:30 AM–2 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Farmacia y polirrubro de salud y belleza con 20 años de trayectoria en la Zona Sur sobre Avenida 3, con amplio salón de perfumería y accesorios. (Calificación Google Maps: 4.4 (226)).",
+        "description": "Farmacia y polirrubro de salud y belleza con 20 años de trayectoria en la Zona Sur sobre Avenida 3, con amplio salón de perfumería y accesorios. (Calificación Google Maps: 4.4 (226)).\n\nQué vende / Servicios: Medicamentos, dermocosmética, suplementos deportivos y proteínas, anteojos de sol, perfumería, cuidado capilar y artículos para bebés.\n\nDirección: Avenida 3 N° 4350 (entre Paseos 143 y 144), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Farmacia y polirrubro de salud y belleza con 20 años de trayectoria en la Zona Sur sobre Avenida 3, con amplio salón de perfumería y accesorios.",
+        "products_sold": "Medicamentos, dermocosmética, suplementos deportivos y proteínas, anteojos de sol, perfumería, cuidado capilar y artículos para bebés",
+        "what_to_do": "Atención de obras sociales, consultas por WhatsApp, envíos a domicilio, estacionamiento y entrada accesible para sillas de ruedas",
+        "services": "Medicamentos, dermocosmética, suplementos deportivos y proteínas, anteojos de sol, perfumería, cuidado capilar y artículos para bebés. Atención de obras sociales, consultas por WhatsApp, envíos a domicilio, estacionamiento y entrada accesible para sillas de ruedas",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Spacious, drugstore-style pharmacy in southern Villa Gesell; a one-stop shop for medications, sunglasses, sunscreen, cosmetics, and supplements.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98131,
+          -37.271342
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Farmacor",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 3 N° 2049 (entre Paseos 120 y 121), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-3189",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8:30 AM–2 PM, 4–9:30 PM | Tuesday: 8:30 AM–2 PM, 4–9:30 PM | Wednesday: 8:30 AM–2 PM, 4–9:30 PM | Thursday: 8:30 AM–2 PM, 4–9:30 PM | Friday: 8:30 AM–2 PM, 4–9:30 PM | Saturday: 8:30 AM–2 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Completa farmacia, perfumería y herboristería en Avenida 3 entre Paseos 120 y 121, que incorpora además línea de suplementos y alimentos sin TACC. (Calificación Google Maps: 4.8 (144)).",
+        "description": "Completa farmacia, perfumería y herboristería en Avenida 3 entre Paseos 120 y 121, que incorpora además línea de suplementos y alimentos sin TACC. (Calificación Google Maps: 4.8 (144)).\n\nQué vende / Servicios: Medicamentos, perfumería, herboristería, homeopatía, suplementos deportivos y amplia línea de alimentos libres de gluten (sin TACC).\n\nDirección: Avenida 3 N° 2049 (entre Paseos 120 y 121), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Completa farmacia, perfumería y herboristería en Avenida 3 entre Paseos 120 y 121, que incorpora además línea de suplementos y alimentos sin TACC.",
+        "products_sold": "Medicamentos, perfumería, herboristería, homeopatía, suplementos deportivos y amplia línea de alimentos libres de gluten (sin TACC)",
+        "what_to_do": "Atención en local y por WhatsApp, retiro en tienda, envíos a domicilio, estacionamiento y acceso para sillas de ruedas, tarjetas y NFC",
+        "services": "Medicamentos, perfumería, herboristería, homeopatía, suplementos deportivos y amplia línea de alimentos libres de gluten (sin TACC). Atención en local y por WhatsApp, retiro en tienda, envíos a domicilio, estacionamiento y acceso para sillas de ruedas, tarjetas y NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Well-stocked mid-south pharmacy that doubles as a gluten-free food and sports-supplement stop; great for celiac travelers and health-conscious visitors.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.977669,
+          -37.265991
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Farmagesell",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 4 N° 1398 (esquina Paseo 114), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-2474",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8:30 AM–2 PM, 4–9:30 PM | Tuesday: 8:30 AM–2 PM, 4–9:30 PM | Wednesday: 8:30 AM–2 PM, 4–9:30 PM | Thursday: 8:30 AM–2 PM, 4–9:30 PM | Friday: 8:30 AM–2 PM, 4–9:30 PM | Saturday: 8:30 AM–2 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Farmacia con más de 10 años de servicio ubicada en Avenida 4 y Paseo 114, reconocida por su trato cálido y servicio de envíos. (Calificación Google Maps: 4.6 (142)).",
+        "description": "Farmacia con más de 10 años de servicio ubicada en Avenida 4 y Paseo 114, reconocida por su trato cálido y servicio de envíos. (Calificación Google Maps: 4.6 (142)).\n\nQué vende / Servicios: Medicamentos bajo receta y de venta libre, perfumería, artículos para bebés, protectores solares y cuidado personal.\n\nDirección: Avenida 4 N° 1398 (esquina Paseo 114), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Farmacia con más de 10 años de servicio ubicada en Avenida 4 y Paseo 114, reconocida por su trato cálido y servicio de envíos.",
+        "products_sold": "Medicamentos bajo receta y de venta libre, perfumería, artículos para bebés, protectores solares y cuidado personal",
+        "what_to_do": "Compra en local, retiro en tienda, envíos a domicilio, atención por WhatsApp, acceso para sillas de ruedas y pagos electrónicos",
+        "services": "Medicamentos bajo receta y de venta libre, perfumería, artículos para bebés, protectores solares y cuidado personal. Compra en local, retiro en tienda, envíos a domicilio, atención por WhatsApp, acceso para sillas de ruedas y pagos electrónicos",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Welcoming neighborhood pharmacy on Avenida 4 known for attentive, empathetic staff and reliable delivery service.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.975303,
+          -37.264942
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Farmar",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 3 N° 1151 (entre Paseos 111 y 112), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 41-2209",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–2 PM, 4–9:30 PM | Tuesday: 8 AM–2 PM, 4–9:30 PM | Wednesday: 8 AM–2 PM, 4–9:30 PM | Thursday: 8 AM–2 PM, 4–9:30 PM | Friday: 8 AM–2 PM, 4–9:30 PM | Saturday: 8 AM–2 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Farmacia, perfumería y homeopatía sobre Avenida 3 a media cuadra del supermercado Disco, con consultas por WhatsApp y envíos a domicilio. (Calificación Google Maps: 4.9 (31)).",
+        "description": "Farmacia, perfumería y homeopatía sobre Avenida 3 a media cuadra del supermercado Disco, con consultas por WhatsApp y envíos a domicilio. (Calificación Google Maps: 4.9 (31)).\n\nQué vende / Servicios: Medicamentos, preparados magistrales, homeopatía, perfumería, dermocosmética y cuidado personal.\n\nDirección: Avenida 3 N° 1151 (entre Paseos 111 y 112), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Farmacia, perfumería y homeopatía sobre Avenida 3 a media cuadra del supermercado Disco, con consultas por WhatsApp y envíos a domicilio.",
+        "products_sold": "Medicamentos, preparados magistrales, homeopatía, perfumería, dermocosmética y cuidado personal",
+        "what_to_do": "Atención de obras sociales, consultas por WhatsApp, envíos a domicilio, entrada accesible y cobro con tarjetas y NFC",
+        "services": "Medicamentos, preparados magistrales, homeopatía, perfumería, dermocosmética y cuidado personal. Atención de obras sociales, consultas por WhatsApp, envíos a domicilio, entrada accesible y cobro con tarjetas y NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Modern, highly rated pharmacy on Avenida 3 with responsive WhatsApp customer service and home delivery.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.972498,
+          -37.261562
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Filgueira Fernández",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 3 N° 899 (esquina Paseo 109), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-2327",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–2 PM, 4–9 PM | Tuesday: 8 AM–2 PM, 4–9 PM | Wednesday: 8 AM–2 PM, 4–9 PM | Thursday: 8 AM–2 PM, 4–9 PM | Friday: 8 AM–2 PM, 4–9 PM | Saturday: 8 AM–2 PM, 4–9 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Farmacia y laboratorio de preparados magistrales en la esquina céntrica de Avenida 3 y Paseo 109, con gabinete de aplicaciones y dermocosmética. (Calificación Google Maps: 4.2 (109)).",
+        "description": "Farmacia y laboratorio de preparados magistrales en la esquina céntrica de Avenida 3 y Paseo 109, con gabinete de aplicaciones y dermocosmética. (Calificación Google Maps: 4.2 (109)).\n\nQué vende / Servicios: Medicamentos, preparados magistrales, homeopatía, Flores de Bach, dermocosmética, fragancias importadas y protectores solares.\n\nDirección: Avenida 3 N° 899 (esquina Paseo 109), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Farmacia y laboratorio de preparados magistrales en la esquina céntrica de Avenida 3 y Paseo 109, con gabinete de aplicaciones y dermocosmética.",
+        "products_sold": "Medicamentos, preparados magistrales, homeopatía, Flores de Bach, dermocosmética, fragancias importadas y protectores solares",
+        "what_to_do": "Atención de obras sociales y prepagas, aplicación de inyectables, reserva telefónica de medicación, envíos a domicilio y acceso para sillas de ruedas",
+        "services": "Medicamentos, preparados magistrales, homeopatía, Flores de Bach, dermocosmética, fragancias importadas y protectores solares. Atención de obras sociales y prepagas, aplicación de inyectables, reserva telefónica de medicación, envíos a domicilio y acceso para sillas de ruedas",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Professional, full-service pharmacy with compounding lab and injection nursing service; a trusted choice for medical consultations and specialized prescriptions.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.982943,
+          -37.273162
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Galdeano",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 3 N° 2382 (entre Paseos 123 y 124), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 45-5959",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8:30 AM–1:30 PM, 4:30–9:30 PM | Tuesday: 8:30 AM–1:30 PM, 4:30–9:30 PM | Wednesday: 8:30 AM–1:30 PM, 4:30–9:30 PM | Thursday: 8:30 AM–1:30 PM, 4:30–9:30 PM | Friday: 8:30 AM–1:30 PM, 4:30–9:30 PM | Saturday: 8:30 AM–1:30 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Farmacia ubicada sobre Avenida 3 entre Paseos 123 y 124, con gabinete de toma de presión, aplicaciones y amplio stock de medicamentos. (Calificación Google Maps: 4.3 (50)).",
+        "description": "Farmacia ubicada sobre Avenida 3 entre Paseos 123 y 124, con gabinete de toma de presión, aplicaciones y amplio stock de medicamentos. (Calificación Google Maps: 4.3 (50)).\n\nQué vende / Servicios: Medicamentos recetados y de venta libre, insumos de primeros auxilios, dermocosmética y perfumería.\n\nDirección: Avenida 3 N° 2382 (entre Paseos 123 y 124), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Farmacia ubicada sobre Avenida 3 entre Paseos 123 y 124, con gabinete de toma de presión, aplicaciones y amplio stock de medicamentos.",
+        "products_sold": "Medicamentos recetados y de venta libre, insumos de primeros auxilios, dermocosmética y perfumería",
+        "what_to_do": "Atención de obras sociales, toma de presión arterial, aplicación de inyectables, envíos a domicilio y acceso para sillas de ruedas",
+        "services": "Medicamentos recetados y de venta libre, insumos de primeros auxilios, dermocosmética y perfumería. Atención de obras sociales, toma de presión arterial, aplicación de inyectables, envíos a domicilio y acceso para sillas de ruedas",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Helpful neighborhood pharmacy near Paseo 124 offering blood-pressure checks, injections, and hard-to-find prescription stock.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.967849,
+          -37.255209
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Llanos",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 3 N° 352 (entre Paseos 103 y 104), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-3440",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–2 PM, 4–9:30 PM | Tuesday: 9 AM–2 PM, 4–9:30 PM | Wednesday: 9 AM–2 PM, 4–9:30 PM | Thursday: 9 AM–2 PM, 4–9:30 PM | Friday: 9 AM–2 PM, 4–9:30 PM | Saturday: 9 AM–2 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Farmacia céntrica ubicada sobre la Avenida 3 a metros de la Plaza Primera Junta y el Paseo de los Artesanos. (Calificación Google Maps: 3.7 (40)).",
+        "description": "Farmacia céntrica ubicada sobre la Avenida 3 a metros de la Plaza Primera Junta y el Paseo de los Artesanos. (Calificación Google Maps: 3.7 (40)).\n\nQué vende / Servicios: Medicamentos bajo receta y de venta libre, protectores solares, artículos de primeros auxilios, perfumería e higiene personal.\n\nDirección: Avenida 3 N° 352 (entre Paseos 103 y 104), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Farmacia céntrica ubicada sobre la Avenida 3 a metros de la Plaza Primera Junta y el Paseo de los Artesanos.",
+        "products_sold": "Medicamentos bajo receta y de venta libre, protectores solares, artículos de primeros auxilios, perfumería e higiene personal",
+        "what_to_do": "Atención de obras sociales, retiro en local, envíos a domicilio, acceso para sillas de ruedas y pagos con tarjetas o NFC",
+        "services": "Medicamentos bajo receta y de venta libre, protectores solares, artículos de primeros auxilios, perfumería e higiene personal. Atención de obras sociales, retiro en local, envíos a domicilio, acceso para sillas de ruedas y pagos con tarjetas o NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Centrally located downtown pharmacy near Plaza Primera Junta; convenient for picking up sunscreen, first-aid supplies, or prescriptions while walking Avenida 3.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.969868,
+          -37.258148
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Mujica",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 3 N° 573 (entre Paseos 105 y 106), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-3269",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–1 PM, 4:30–9 PM | Tuesday: 9 AM–1 PM, 4:30–9 PM | Wednesday: 8:30 AM–1 AM | Thursday: 8:30 AM–1 AM | Friday: 9 AM–1 PM, 4:30–9 PM | Saturday: 9 AM–2 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Farmacia tradicional en plena peatonal céntrica de Avenida 3 (frente a la Galería Gesell Plaza), con amplia cobertura de obras sociales y prepagas. (Calificación Google Maps: 4.1 (63)).",
+        "description": "Farmacia tradicional en plena peatonal céntrica de Avenida 3 (frente a la Galería Gesell Plaza), con amplia cobertura de obras sociales y prepagas. (Calificación Google Maps: 4.1 (63)).\n\nQué vende / Servicios: Medicamentos con receta y de venta libre, dermocosmética, cuidado solar, maternidad y perfumería.\n\nDirección: Avenida 3 N° 573 (entre Paseos 105 y 106), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Farmacia tradicional en plena peatonal céntrica de Avenida 3 (frente a la Galería Gesell Plaza), con amplia cobertura de obras sociales y prepagas.",
+        "products_sold": "Medicamentos con receta y de venta libre, dermocosmética, cuidado solar, maternidad y perfumería",
+        "what_to_do": "Atención de obras sociales y prepagas, envíos a domicilio, cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Medicamentos con receta y de venta libre, dermocosmética, cuidado solar, maternidad y perfumería. Atención de obras sociales y prepagas, envíos a domicilio, cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Reliable downtown pharmacy right on the main pedestrian block; known for accepting health insurance plans (obras sociales) and quick prescription fulfillment.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.993846,
+          -37.286129
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Farmacia Sánchez Muriel",
+        "category": "Locales / Farmacia y Perfumería",
+        "address": "Avenida 3 N° 4051 (esquina Paseo 141), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-6126",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–1 PM, 5–9 PM | Tuesday: 9 AM–1 PM, 5–9 PM | Wednesday: 9 AM–1 PM, 5–9 PM | Thursday: 9 AM–1 PM, 5–9 PM | Friday: 9 AM–1 PM, 5–9 PM | Saturday: 9 AM–1 PM, 5–9 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Tradicional farmacia de la Zona Sur ubicada frente a la Casa de la Cultura en Avenida 3 y Paseo 141, atendida por sus propios farmacéuticos. (Calificación Google Maps: 4.4 (47)).",
+        "description": "Tradicional farmacia de la Zona Sur ubicada frente a la Casa de la Cultura en Avenida 3 y Paseo 141, atendida por sus propios farmacéuticos. (Calificación Google Maps: 4.4 (47)).\n\nQué vende / Servicios: Medicamentos, productos de cuidado personal, protectores solares, artículos de farmacia y perfumería.\n\nDirección: Avenida 3 N° 4051 (esquina Paseo 141), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Tradicional farmacia de la Zona Sur ubicada frente a la Casa de la Cultura en Avenida 3 y Paseo 141, atendida por sus propios farmacéuticos.",
+        "products_sold": "Medicamentos, productos de cuidado personal, protectores solares, artículos de farmacia y perfumería",
+        "what_to_do": "Asesoramiento farmacéutico personalizado, envíos a domicilio, entrada accesible y cobro con tarjetas de crédito, débito y NFC",
+        "services": "Medicamentos, productos de cuidado personal, protectores solares, artículos de farmacia y perfumería. Asesoramiento farmacéutico personalizado, envíos a domicilio, entrada accesible y cobro con tarjetas de crédito, débito y NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Classic, community-trusted pharmacy at Paseo 141 run by its resident pharmacists; ideal for visitors staying near Polo Cultural Sur.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.994073,
+          -37.28709
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Ferretería Austral",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Avenida 3 N° 4136 (entre Paseos 141 y 142), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 45-2134",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–6 PM | Tuesday: 8 AM–6 PM | Wednesday: 8 AM–6 PM | Thursday: 8 AM–6 PM | Friday: 8 AM–6 PM | Saturday: 8 AM–6 PM | Sunday: 9 AM–1 PM",
+        "price_range": "",
+        "short_description": "Ferretería atendida por sus dueños en la Zona Sur sobre Avenida 3, abierta los 365 días del año (incluidos domingos y feriados) y declarada espacio pet-friendly. (Calificación Google Maps: 4.6 (67)).",
+        "description": "Ferretería atendida por sus dueños en la Zona Sur sobre Avenida 3, abierta los 365 días del año (incluidos domingos y feriados) y declarada espacio pet-friendly. (Calificación Google Maps: 4.6 (67)).\n\nQué vende / Servicios: Bulonería y tornillería, adhesivos, siliconas y lubricantes, grampas y soportes, tejidos y cerramientos, herrajes, cerraduras y candados, electricidad, agua, gas, pinturería básica y herramientas.\n\nDirección: Avenida 3 N° 4136 (entre Paseos 141 y 142), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Ferretería atendida por sus dueños en la Zona Sur sobre Avenida 3, abierta los 365 días del año (incluidos domingos y feriados) y declarada espacio pet-friendly.",
+        "products_sold": "Bulonería y tornillería, adhesivos, siliconas y lubricantes, grampas y soportes, tejidos y cerramientos, herrajes, cerraduras y candados, electricidad, agua, gas, pinturería básica y herramientas",
+        "what_to_do": "Asesoramiento personalizado por sus dueños, abierto domingos y feriados todo el año, local pet-friendly, envíos en el día, acepta tarjetas y pagos NFC",
+        "services": "Bulonería y tornillería, adhesivos, siliconas y lubricantes, grampas y soportes, tejidos y cerramientos, herrajes, cerraduras y candados, electricidad, agua, gas, pinturería básica y herramientas. Asesoramiento personalizado por sus dueños, abierto domingos y feriados todo el año, local pet-friendly, envíos en el día, acepta tarjetas y pagos NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Friendly, owner-operated neighborhood hardware store in Zona Sur that stays open every Sunday and holiday; ideal for emergency holiday repairs on Avenida 3.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.999386,
+          -37.293659
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Ferretería de la Costa",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Avenida 3 N° 4760 (entre Paseos 147 y 148), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 9 2255 41-9679",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–12:30 PM, 2:30–7 PM | Tuesday: 8 AM–12:30 PM, 2:30–7 PM | Wednesday: 8 AM–12:30 PM, 2:30–7 PM | Thursday: 8 AM–12:30 PM, 2:30–7 PM | Friday: 8 AM–12:30 PM, 2:30–7 PM | Saturday: 8 AM–12:30 PM, 2:30–7 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Ferretería establecida desde 2008 en el extremo sur de Avenida 3 (cerca del límite hacia Mar de las Pampas), con amplio surtido y envíos en el día. (Calificación Google Maps: 4.6 (111)).",
+        "description": "Ferretería establecida desde 2008 en el extremo sur de Avenida 3 (cerca del límite hacia Mar de las Pampas), con amplio surtido y envíos en el día. (Calificación Google Maps: 4.6 (111)).\n\nQué vende / Servicios: Ferretería general, herramientas, plomería, electricidad, pinturería, artículos para jardín y playa, herrajes y bulonería.\n\nDirección: Avenida 3 N° 4760 (entre Paseos 147 y 148), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Ferretería establecida desde 2008 en el extremo sur de Avenida 3 (cerca del límite hacia Mar de las Pampas), con amplio surtido y envíos en el día.",
+        "products_sold": "Ferretería general, herramientas, plomería, electricidad, pinturería, artículos para jardín y playa, herrajes y bulonería",
+        "what_to_do": "Compra en tienda, retiro en local, envíos a domicilio en el día, entrada accesible para sillas de ruedas, tarjetas de crédito, débito y NFC",
+        "services": "Ferretería general, herramientas, plomería, electricidad, pinturería, artículos para jardín y playa, herrajes y bulonería. Compra en tienda, retiro en local, envíos a domicilio en el día, entrada accesible para sillas de ruedas, tarjetas de crédito, débito y NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Well-established, courteous hardware store serving the far south of Villa Gesell; the closest full hardware shop for visitors staying between Paseo 145 and Paseo 152.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.977809,
+          -37.252328
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Ferretería Don Andrés",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Boulevard Silvio Gesell N° 586 (entre Paseos 105 y 106), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 50-5314",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–7 PM | Tuesday: 8 AM–7 PM | Wednesday: 8 AM–7 PM | Thursday: 8 AM–7 PM | Friday: 8 AM–7 PM | Saturday: 8:30 AM–2 PM | Sunday: 9 AM–1 PM",
+        "price_range": "",
+        "short_description": "Ferretería, bulonería y casa de repuestos de electrodomésticos sobre Boulevard Silvio Gesell, con apertura dominical por la mañana. (Calificación Google Maps: 4.6 (93)).",
+        "description": "Ferretería, bulonería y casa de repuestos de electrodomésticos sobre Boulevard Silvio Gesell, con apertura dominical por la mañana. (Calificación Google Maps: 4.6 (93)).\n\nQué vende / Servicios: Ferretería general, bulonería, materiales eléctricos, insumos de refrigeración, repuestos de lavarropas y heladeras, herramientas y plomería.\n\nDirección: Boulevard Silvio Gesell N° 586 (entre Paseos 105 y 106), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Ferretería, bulonería y casa de repuestos de electrodomésticos sobre Boulevard Silvio Gesell, con apertura dominical por la mañana.",
+        "products_sold": "Ferretería general, bulonería, materiales eléctricos, insumos de refrigeración, repuestos de lavarropas y heladeras, herramientas y plomería",
+        "what_to_do": "Venta en mostrador, envíos a domicilio en el día, abierto domingos por la mañana, acepta tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Ferretería general, bulonería, materiales eléctricos, insumos de refrigeración, repuestos de lavarropas y heladeras, herramientas y plomería. Venta en mostrador, envíos a domicilio en el día, abierto domingos por la mañana, acepta tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Practical, specialist hardware and appliance-parts shop; particularly useful when a rental house washing machine, refrigerator, or electrical fixture needs a spare part.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.986003,
+          -37.262345
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Ferretería Edu",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Boulevard Silvio Gesell N° 1643 (entre Paseos 116 y 117), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 221 524-8659",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–7 PM | Tuesday: 8 AM–7 PM | Wednesday: 8 AM–7 PM | Thursday: 8 AM–7 PM | Friday: 8 AM–7 PM | Saturday: 9 AM–2 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Ferretería, pinturería y casa de sanitarios ubicada en el sector medio de Boulevard Silvio Gesell, con horario corrido de lunes a viernes. (Calificación Google Maps: 4.6 (73)).",
+        "description": "Ferretería, pinturería y casa de sanitarios ubicada en el sector medio de Boulevard Silvio Gesell, con horario corrido de lunes a viernes. (Calificación Google Maps: 4.6 (73)).\n\nQué vende / Servicios: Ferretería general, pinturas, revestimientos, accesorios sanitarios, materiales de electricidad, máquinas eléctricas y herramientas manuales.\n\nDirección: Boulevard Silvio Gesell N° 1643 (entre Paseos 116 y 117), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Ferretería, pinturería y casa de sanitarios ubicada en el sector medio de Boulevard Silvio Gesell, con horario corrido de lunes a viernes.",
+        "products_sold": "Ferretería general, pinturas, revestimientos, accesorios sanitarios, materiales de electricidad, máquinas eléctricas y herramientas manuales",
+        "what_to_do": "Venta en local, asesoramiento técnico, entregas a domicilio en el día y cobro con tarjetas de crédito y débito",
+        "services": "Ferretería general, pinturas, revestimientos, accesorios sanitarios, materiales de electricidad, máquinas eléctricas y herramientas manuales. Venta en local, asesoramiento técnico, entregas a domicilio en el día y cobro con tarjetas de crédito y débito",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Well-rounded mid-town hardware and paint store on the main boulevard; suited for quick maintenance runs, painting supplies, and electrical or plumbing fixes.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.975807,
+          -37.251544
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Ferretería Nagama",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Paseo 105 N° 1017 (casi Avenida 10), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-0432",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–8 PM | Tuesday: 8 AM–8 PM | Wednesday: 8 AM–8 PM | Thursday: 8 AM–8 PM | Friday: 8 AM–8 PM | Saturday: 8 AM–8 PM | Sunday: 8 AM–3 PM",
+        "price_range": "",
+        "short_description": "Ferretería integral ubicada sobre Paseo 105 con amplio horario corrido toda la semana (incluidos domingos hasta las 15:00 hs) y gran stock de repuestos domésticos. (Calificación Google Maps: 4.7 (162)).",
+        "description": "Ferretería integral ubicada sobre Paseo 105 con amplio horario corrido toda la semana (incluidos domingos hasta las 15:00 hs) y gran stock de repuestos domésticos. (Calificación Google Maps: 4.7 (162)).\n\nQué vende / Servicios: Herramientas manuales y eléctricas, repuestos de cocinas, termotanques y calefacción, plomería, electricidad, bulonería, cerraduras, pinturería e insumos de mantenimiento.\n\nDirección: Paseo 105 N° 1017 (casi Avenida 10), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Ferretería integral ubicada sobre Paseo 105 con amplio horario corrido toda la semana (incluidos domingos hasta las 15:00 hs) y gran stock de repuestos domésticos.",
+        "products_sold": "Herramientas manuales y eléctricas, repuestos de cocinas, termotanques y calefacción, plomería, electricidad, bulonería, cerraduras, pinturería e insumos de mantenimiento",
+        "what_to_do": "Atención y asesoramiento técnico en mostrador, horario corrido de lunes a domingo, envíos en el día, acepta tarjetas de crédito, débito y pagos NFC",
+        "services": "Herramientas manuales y eléctricas, repuestos de cocinas, termotanques y calefacción, plomería, electricidad, bulonería, cerraduras, pinturería e insumos de mantenimiento. Atención y asesoramiento técnico en mostrador, horario corrido de lunes a domingo, envíos en el día, acepta tarjetas de crédito, débito y pagos NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Highly reliable, comprehensive hardware store open seven days a week; a lifesaver for tourists or homeowners dealing with weekend plumbing, gas, or appliance repairs.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.991032,
+          -37.267973
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Ferretería RO-DO",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Boulevard Silvio Gesell N° 2437 (entre Paseos 124 y 125), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-4306",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8:30 AM–6 PM | Tuesday: 8:30 AM–6 PM | Wednesday: 8:30 AM–6 PM | Thursday: 8:30 AM–6 PM | Friday: 8:30 AM–6 PM | Saturday: 8:30 AM–5 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Una de las ferreterías más completas de Villa Gesell, emplazada sobre Boulevard Silvio Gesell con estacionamiento propio gratuito y atención en horario corrido. (Calificación Google Maps: 4.5 (125)).",
+        "description": "Una de las ferreterías más completas de Villa Gesell, emplazada sobre Boulevard Silvio Gesell con estacionamiento propio gratuito y atención en horario corrido. (Calificación Google Maps: 4.5 (125)).\n\nQué vende / Servicios: Herramientas eléctricas y de mano, ferretería pesada y liviana, electricidad, plomería, cerrajería, pinturería, jardinería y artículos de seguridad.\n\nDirección: Boulevard Silvio Gesell N° 2437 (entre Paseos 124 y 125), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Una de las ferreterías más completas de Villa Gesell, emplazada sobre Boulevard Silvio Gesell con estacionamiento propio gratuito y atención en horario corrido.",
+        "products_sold": "Herramientas eléctricas y de mano, ferretería pesada y liviana, electricidad, plomería, cerrajería, pinturería, jardinería y artículos de seguridad",
+        "what_to_do": "Atención personalizada en salón, consultas por WhatsApp, estacionamiento gratuito en el predio, tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Herramientas eléctricas y de mano, ferretería pesada y liviana, electricidad, plomería, cerrajería, pinturería, jardinería y artículos de seguridad. Atención personalizada en salón, consultas por WhatsApp, estacionamiento gratuito en el predio, tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Large, deeply stocked traditional hardware store with on-site parking and continuous daytime hours; widely regarded by locals as having hard-to-find hardware items.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.994252,
+          -37.287311
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Ferretería SEMAC",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Avenida 3 N° 4157 (entre Paseos 141 y 142), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-0981",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–1:30 PM, 4–6:30 PM | Tuesday: 9 AM–1:30 PM, 4–6:30 PM | Wednesday: 9 AM–1:30 PM, 4–6:30 PM | Thursday: 9 AM–1:30 PM, 4–6:30 PM | Friday: 9 AM–1:30 PM, 4–6:30 PM | Saturday: 9 AM–1:30 PM, 4–6:30 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Ferretería tradicional de la Zona Sur ubicada sobre Avenida 3 entre Paseos 141 y 142, destacada por la atención personalizada y variedad de artículos para el hogar. (Calificación Google Maps: 4.8 (50)).",
+        "description": "Ferretería tradicional de la Zona Sur ubicada sobre Avenida 3 entre Paseos 141 y 142, destacada por la atención personalizada y variedad de artículos para el hogar. (Calificación Google Maps: 4.8 (50)).\n\nQué vende / Servicios: Ferretería domiciliaria, accesorios para cortinas y hogar, electricidad, iluminación, plomería, tornillería, candados y herramientas manuales.\n\nDirección: Avenida 3 N° 4157 (entre Paseos 141 y 142), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Ferretería tradicional de la Zona Sur ubicada sobre Avenida 3 entre Paseos 141 y 142, destacada por la atención personalizada y variedad de artículos para el hogar.",
+        "products_sold": "Ferretería domiciliaria, accesorios para cortinas y hogar, electricidad, iluminación, plomería, tornillería, candados y herramientas manuales",
+        "what_to_do": "Compra en tienda, retiro en local, envíos a domicilio y cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Ferretería domiciliaria, accesorios para cortinas y hogar, electricidad, iluminación, plomería, tornillería, candados y herramientas manuales. Compra en tienda, retiro en local, envíos a domicilio y cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Attentive, well-organized neighborhood hardware shop on southern Avenida 3; great for quick household fixes in rental apartments and summer houses.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.989539,
+          -37.26557
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Fontanero's Sanitarios",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Boulevard Silvio Gesell N° 2110 (esquina Paseo 121), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 50-8849",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–4 PM | Tuesday: 8 AM–4 PM | Wednesday: 8 AM–4 PM | Thursday: 8 AM–4 PM | Friday: 8 AM–4 PM | Saturday: 8 AM–1 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Comercio líder de Villa Gesell especializado en sanitarios, plomería, gas, calefacción y equipamiento para piscinas sobre Boulevard Silvio Gesell. (Calificación Google Maps: 4.6 (264)).",
+        "description": "Comercio líder de Villa Gesell especializado en sanitarios, plomería, gas, calefacción y equipamiento para piscinas sobre Boulevard Silvio Gesell. (Calificación Google Maps: 4.6 (264)).\n\nQué vende / Servicios: Repuestos de griferías, calefactores, termotanques y calefones, cañerías y accesorios de agua, gas y cloacas, bombas e insumos para piscinas.\n\nDirección: Boulevard Silvio Gesell N° 2110 (esquina Paseo 121), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Comercio líder de Villa Gesell especializado en sanitarios, plomería, gas, calefacción y equipamiento para piscinas sobre Boulevard Silvio Gesell.",
+        "products_sold": "Repuestos de griferías, calefactores, termotanques y calefones, cañerías y accesorios de agua, gas y cloacas, bombas e insumos para piscinas",
+        "what_to_do": "Asesoramiento técnico especializado en sanitarios y gas, envíos en el día, acepta tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Repuestos de griferías, calefactores, termotanques y calefones, cañerías y accesorios de agua, gas y cloacas, bombas e insumos para piscinas. Asesoramiento técnico especializado en sanitarios y gas, envíos en el día, acepta tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Go-to specialist plumbing, gas, and water-heater supply house in town; essential if a beach house has a water pump, hot water heater (termotanque/calefón), or faucet issue.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.972366,
+          -37.254237
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Forrajería Katua (Leña, Carbón y Mascotas)",
+        "category": "Locales / Veterinaria, Forrajería y Mascotas",
+        "address": "Paseo 105 N° 643 (entre Avenidas 6 y 7), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-3395",
+        "website": "https://www.instagram.com/katuavillagesell",
+        "instagram": "https://www.instagram.com/katuavillagesell",
+        "opening_hours": "Monday: 8 AM–7 PM | Tuesday: 8 AM–7 PM | Wednesday: 8 AM–7 PM | Thursday: 8 AM–7 PM | Friday: 8 AM–7 PM | Saturday: 8 AM–7 PM | Sunday: 8 AM–1 PM",
+        "price_range": "",
+        "short_description": "Forrajería, leñera y comercio de insumos para parrilla, mascotas y jardín ubicado sobre Paseo 105 con horario corrido y apertura dominical. (Calificación Google Maps: 4.0 (117)).",
+        "description": "Forrajería, leñera y comercio de insumos para parrilla, mascotas y jardín ubicado sobre Paseo 105 con horario corrido y apertura dominical. (Calificación Google Maps: 4.0 (117)).\n\nQué vende / Servicios: Leña de quebracho colorado, carbón vegetal, parrillas y accesorios de asado, alimento balanceado para perros y gatos, insecticidas, herbicidas y artículos de jardinería.\n\nDirección: Paseo 105 N° 643 (entre Avenidas 6 y 7), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Forrajería, leñera y comercio de insumos para parrilla, mascotas y jardín ubicado sobre Paseo 105 con horario corrido y apertura dominical.",
+        "products_sold": "Leña de quebracho colorado, carbón vegetal, parrillas y accesorios de asado, alimento balanceado para perros y gatos, insecticidas, herbicidas y artículos de jardinería",
+        "what_to_do": "Venta en local, retiro en tienda y envíos a domicilio en todo Villa Gesell, abierto de lunes a domingo, acepta tarjetas de crédito y débito",
+        "services": "Leña de quebracho colorado, carbón vegetal, parrillas y accesorios de asado, alimento balanceado para perros y gatos, insecticidas, herbicidas y artículos de jardinería. Venta en local, retiro en tienda y envíos a domicilio en todo Villa Gesell, abierto de lunes a domingo, acepta tarjetas de crédito y débito",
+        "data_source": "Google Maps / Instagram @katuavillagesell (2026)",
+        "vibe": "Practical one-stop shop for firewood (quebracho), charcoal, grill gear, and pet food; essential for tourists lighting an asado or firepit.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.967723,
+          -37.251557
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "La Capilla Laverap",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Avenida Buenos Aires N° 435 (Barrio Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-3690",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–9 PM | Tuesday: 9 AM–9 PM | Wednesday: 9 AM–9 PM | Thursday: 9 AM–9 PM | Friday: 9 AM–9 PM | Saturday: 9 AM–9 PM | Sunday: 9 AM–9 PM",
+        "price_range": "",
+        "short_description": "Lavadero automático de ropa en Barrio Norte sobre Avenida Buenos Aires, abierto todos los días en horario corrido de 09:00 a 21:00 hs. (Calificación Google Maps: 4.5 (15)).",
+        "description": "Lavadero automático de ropa en Barrio Norte sobre Avenida Buenos Aires, abierto todos los días en horario corrido de 09:00 a 21:00 hs. (Calificación Google Maps: 4.5 (15)).\n\nQué vende / Servicios: Servicio de lavado, secado y doblado de ropa por canasto/valet, lavado de acolchados, frazadas, toallones y ropa de cama.\n\nDirección: Avenida Buenos Aires N° 435 (Barrio Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Lavadero automático de ropa en Barrio Norte sobre Avenida Buenos Aires, abierto todos los días en horario corrido de 09:00 a 21:00 hs.",
+        "products_sold": "Servicio de lavado, secado y doblado de ropa por canasto/valet, lavado de acolchados, frazadas, toallones y ropa de cama",
+        "what_to_do": "Recepción y entrega en local en el día, lavado y secado automático tipo valet, abierto de lunes a domingo de 9:00 a 21:00 hs",
+        "services": "Servicio de lavado, secado y doblado de ropa por canasto/valet, lavado de acolchados, frazadas, toallones y ropa de cama. Recepción y entrega en local en el día, lavado y secado automático tipo valet, abierto de lunes a domingo de 9:00 a 21:00 hs",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Clean, friendly neighborhood laundry shop in Barrio Norte; ideal for families and tourists staying near Pinar del Norte needing same-day wash-and-fold service.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9859,
+          -37.276818
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Lava Express Lavadero",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Avenida 3 N° 2890 (esquina Paseo 129), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 45-6060",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 10 AM–11 PM | Tuesday: 10 AM–11 PM | Wednesday: 10 AM–11 PM | Thursday: 10 AM–11 PM | Friday: 10 AM–11 PM | Saturday: 10 AM–11 PM | Sunday: 10 AM–11 PM",
+        "price_range": "",
+        "short_description": "Lavadero express sobre Avenida 3 y Paseo 129 con horario nocturno extendido hasta las 23:00 hs todos los días y servicio de retiro y entrega a domicilio. (Calificación Google Maps: 4.2 (18)).",
+        "description": "Lavadero express sobre Avenida 3 y Paseo 129 con horario nocturno extendido hasta las 23:00 hs todos los días y servicio de retiro y entrega a domicilio. (Calificación Google Maps: 4.2 (18)).\n\nQué vende / Servicios: Lavado y secado express en el día, valet de ropa, acolchados, frazadas y blanquería.\n\nDirección: Avenida 3 N° 2890 (esquina Paseo 129), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Lavadero express sobre Avenida 3 y Paseo 129 con horario nocturno extendido hasta las 23:00 hs todos los días y servicio de retiro y entrega a domicilio.",
+        "products_sold": "Lavado y secado express en el día, valet de ropa, acolchados, frazadas y blanquería",
+        "what_to_do": "Retiro y entrega a domicilio sin cargo, servicio express en el día, horario corrido de 10:00 a 23:00 hs los 7 días de la semana",
+        "services": "Lavado y secado express en el día, valet de ropa, acolchados, frazadas y blanquería. Retiro y entrega a domicilio sin cargo, servicio express en el día, horario corrido de 10:00 a 23:00 hs los 7 días de la semana",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Convenient late-night and pickup/delivery laundry service; ideal for busy vacationers who want laundry picked up from their accommodation or need late-evening drop-off.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.984615,
+          -37.275378
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Lavadero Babar",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Avenida 3 N° 2722 (entre Paseos 127 y 128), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 45-7755",
+        "website": "https://g.page/babarlavadero/",
+        "instagram": "",
+        "opening_hours": "Monday: 9:30 AM–1:30 PM, 5–8 PM | Tuesday: 9:30 AM–1:30 PM, 5–8 PM | Wednesday: 9:30 AM–1:30 PM, 5–8 PM | Thursday: 9:30 AM–1:30 PM, 5–8 PM | Friday: 9:30 AM–1:30 PM, 5–8 PM | Saturday: 9:30 AM–1:30 PM, 5–8 PM | Sunday: 9:30 AM–1:30 PM",
+        "price_range": "",
+        "short_description": "Lavadero artesanal atendido por sus dueños con más de 32 años de trayectoria sobre Avenida 3, muy elogiado por su prolijidad, puntualidad y perfumado de prendas. (Calificación Google Maps: 4.8 (70)).",
+        "description": "Lavadero artesanal atendido por sus dueños con más de 32 años de trayectoria sobre Avenida 3, muy elogiado por su prolijidad, puntualidad y perfumado de prendas. (Calificación Google Maps: 4.8 (70)).\n\nQué vende / Servicios: Lavado artesanal por valet, secado, doblado y perfumado de ropa familiar, ropa blanca, acolchados y prendas de veraneo.\n\nDirección: Avenida 3 N° 2722 (entre Paseos 127 y 128), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Lavadero artesanal atendido por sus dueños con más de 32 años de trayectoria sobre Avenida 3, muy elogiado por su prolijidad, puntualidad y perfumado de prendas.",
+        "products_sold": "Lavado artesanal por valet, secado, doblado y perfumado de ropa familiar, ropa blanca, acolchados y prendas de veraneo",
+        "what_to_do": "Atención por sus dueños, consultas por WhatsApp, abierto todos los días (incluidos domingos por la mañana)",
+        "services": "Lavado artesanal por valet, secado, doblado y perfumado de ropa familiar, ropa blanca, acolchados y prendas de veraneo. Atención por sus dueños, consultas por WhatsApp, abierto todos los días (incluidos domingos por la mañana)",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Trustworthy, long-standing family-run laundry shop on Avenida 3; a favorite among returning tourists for spotless, neatly folded, and freshly scented clothes.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.993279,
+          -37.284869
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Lavadero Fonolava",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Avenida 3 y Paseo 139, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-7777",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–9 PM | Tuesday: 9 AM–9 PM | Wednesday: 9 AM–9 PM | Thursday: 9 AM–9 PM | Friday: 9 AM–9 PM | Saturday: 9 AM–9 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Tradicional lavadero de ropa de la Zona Sur con más de 25 años de trayectoria en Avenida 3 y Paseo 139, calificado con 4.9 estrellas por su cumplimiento y atención. (Calificación Google Maps: 4.9 (46)).",
+        "description": "Tradicional lavadero de ropa de la Zona Sur con más de 25 años de trayectoria en Avenida 3 y Paseo 139, calificado con 4.9 estrellas por su cumplimiento y atención. (Calificación Google Maps: 4.9 (46)).\n\nQué vende / Servicios: Lavado, secado y doblado de ropa por canasto, blanquería, toallones y acolchados.\n\nDirección: Avenida 3 y Paseo 139, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Tradicional lavadero de ropa de la Zona Sur con más de 25 años de trayectoria en Avenida 3 y Paseo 139, calificado con 4.9 estrellas por su cumplimiento y atención.",
+        "products_sold": "Lavado, secado y doblado de ropa por canasto, blanquería, toallones y acolchados",
+        "what_to_do": "Horario corrido de lunes a sábado de 9:00 a 21:00 hs, entrega puntual en el día y atención telefónica",
+        "services": "Lavado, secado y doblado de ropa por canasto, blanquería, toallones y acolchados. Horario corrido de lunes a sábado de 9:00 a 21:00 hs, entrega puntual en el día y atención telefónica",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Top-rated, long-established laundry shop in Zona Sur; beloved by summer regulars for its punctuality, warm service, and consistent quality.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97271,
+          -37.262895
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Lavadero LAFELAV",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Paseo 110 N° 267 (entre Avenidas 2 y 3), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-7724",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 10 AM–5 PM | Tuesday: 10 AM–5 PM | Wednesday: 10 AM–5 PM | Thursday: 10 AM–5 PM | Friday: 10 AM–5 PM | Saturday: 10 AM–5 PM | Sunday: 10 AM–5 PM",
+        "price_range": "",
+        "short_description": "Lavadero de ropa ubicado sobre Paseo 110 entre la playa y Avenida 3, destacado por el cuidado de las prendas y la separación de ropa blanca y de color. (Calificación Google Maps: 4.9 (14)).",
+        "description": "Lavadero de ropa ubicado sobre Paseo 110 entre la playa y Avenida 3, destacado por el cuidado de las prendas y la separación de ropa blanca y de color. (Calificación Google Maps: 4.9 (14)).\n\nQué vende / Servicios: Lavado diferenciado de prendas blancas y de color, secado, doblado prolijo, lavado de ropa de cama y toallones.\n\nDirección: Paseo 110 N° 267 (entre Avenidas 2 y 3), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Lavadero de ropa ubicado sobre Paseo 110 entre la playa y Avenida 3, destacado por el cuidado de las prendas y la separación de ropa blanca y de color.",
+        "products_sold": "Lavado diferenciado de prendas blancas y de color, secado, doblado prolijo, lavado de ropa de cama y toallones",
+        "what_to_do": "Atención personalizada en mostrador de lunes a domingo de 10:00 a 17:00 hs, cuidado delicado de prendas",
+        "services": "Lavado diferenciado de prendas blancas y de color, secado, doblado prolijo, lavado de ropa de cama y toallones. Atención personalizada en mostrador de lunes a domingo de 10:00 a 17:00 hs, cuidado delicado de prendas",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Meticulous, highly rated neighborhood laundry shop near the central beach; great for vacationers who want careful handling of white and colored garments.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.992921,
+          -37.263953
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Lavadero y Tintorería Artesanal Baja Espuma",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Paseo 122 Bis entre Avenidas 14 y 15, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 42-4488",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–7 PM | Tuesday: 9 AM–7 PM | Wednesday: 9 AM–7 PM | Thursday: 9 AM–7 PM | Friday: 9 AM–7 PM | Saturday: 9 AM–7 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Lavadero y tintorería artesanal en funcionamiento desde 2009 con atención personalizada y servicio de valet de lunes a sábado en horario corrido. (Calificación Google Maps: 4.2 (15)).",
+        "description": "Lavadero y tintorería artesanal en funcionamiento desde 2009 con atención personalizada y servicio de valet de lunes a sábado en horario corrido. (Calificación Google Maps: 4.2 (15)).\n\nQué vende / Servicios: Servicio de valet de ropa familiar, tintorería artesanal, lavado y secado de frazadas, acolchados, cortinas y prendas delicadas.\n\nDirección: Paseo 122 Bis entre Avenidas 14 y 15, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Lavadero y tintorería artesanal en funcionamiento desde 2009 con atención personalizada y servicio de valet de lunes a sábado en horario corrido.",
+        "products_sold": "Servicio de valet de ropa familiar, tintorería artesanal, lavado y secado de frazadas, acolchados, cortinas y prendas delicadas",
+        "what_to_do": "Presupuestos online y por mensaje de texto, atención en el local de 9:00 a 19:00 hs, tintorería y lavado de blancos",
+        "services": "Servicio de valet de ropa familiar, tintorería artesanal, lavado y secado de frazadas, acolchados, cortinas y prendas delicadas. Presupuestos online y por mensaje de texto, atención en el local de 9:00 a 19:00 hs, tintorería y lavado de blancos",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Owner-operated artisanal laundry and dry-cleaning shop; a reliable choice for bulky comforters, blankets, and delicate garments.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.969496,
+          -37.256483
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Laverap Centro",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Paseo 105 N° 331 (entre Avenidas 3 y 4), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-5444",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–9 PM | Tuesday: 9 AM–9 PM | Wednesday: 9 AM–9 PM | Thursday: 9 AM–9 PM | Friday: 9 AM–9 PM | Saturday: 9 AM–6 PM | Sunday: 9 AM–9 PM",
+        "price_range": "",
+        "short_description": "Sucursal céntrica de lavadero de ropa sobre Paseo 105 a media cuadra de la Avenida 3, reconocida por entregar prendas limpias y dobladas en pocas horas. (Calificación Google Maps: 4.6 (48)).",
+        "description": "Sucursal céntrica de lavadero de ropa sobre Paseo 105 a media cuadra de la Avenida 3, reconocida por entregar prendas limpias y dobladas en pocas horas. (Calificación Google Maps: 4.6 (48)).\n\nQué vende / Servicios: Lavado, secado y perfumado de ropa de uso diario, toallas de playa, sábanas, frazadas y acolchados por servicio de valet.\n\nDirección: Paseo 105 N° 331 (entre Avenidas 3 y 4), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Sucursal céntrica de lavadero de ropa sobre Paseo 105 a media cuadra de la Avenida 3, reconocida por entregar prendas limpias y dobladas en pocas horas.",
+        "products_sold": "Lavado, secado y perfumado de ropa de uso diario, toallas de playa, sábanas, frazadas y acolchados por servicio de valet",
+        "what_to_do": "Lavado y secado rápido en el día (entrega en 4 a 5 horas según demanda), abierto todos los días incluido domingo",
+        "services": "Lavado, secado y perfumado de ropa de uso diario, toallas de playa, sábanas, frazadas y acolchados por servicio de valet. Lavado y secado rápido en el día (entrega en 4 a 5 horas según demanda), abierto todos los días incluido domingo",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Fast, dependable downtown laundromat just steps from the main pedestrian avenue; perfect for travelers who want to drop off beach laundry in the afternoon and pick it up by evening.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.995955,
+          -37.289417
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Laverap Zona Sur",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Avenida 3 N° 4357 (entre Paseos 143 y 144), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–1 PM, 4:30–8 PM | Tuesday: 9 AM–1 PM, 4:30–8 PM | Wednesday: 9 AM–1 PM, 4:30–8 PM | Thursday: 9 AM–1 PM, 4:30–8 PM | Friday: 9 AM–1 PM, 4:30–8 PM | Saturday: 9 AM–1 PM, 4:30–8 PM | Sunday: 9 AM–8:30 PM",
+        "price_range": "",
+        "short_description": "Sucursal de Laverap en el extremo sur sobre Avenida 3 (entre Paseos 143 y 144), con apertura todos los días de la semana incluido domingo en horario corrido. (Calificación Google Maps: 3.8 (38)).",
+        "description": "Sucursal de Laverap en el extremo sur sobre Avenida 3 (entre Paseos 143 y 144), con apertura todos los días de la semana incluido domingo en horario corrido. (Calificación Google Maps: 3.8 (38)).\n\nQué vende / Servicios: Lavado y secado automático por valet, doblado y perfumado de ropa diaria, sábanas y toallas.\n\nDirección: Avenida 3 N° 4357 (entre Paseos 143 y 144), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Sucursal de Laverap en el extremo sur sobre Avenida 3 (entre Paseos 143 y 144), con apertura todos los días de la semana incluido domingo en horario corrido.",
+        "products_sold": "Lavado y secado automático por valet, doblado y perfumado de ropa diaria, sábanas y toallas",
+        "what_to_do": "Servicio de lavandería en el día, abierto domingos todo el día hasta las 20:30 hs",
+        "services": "Lavado y secado automático por valet, doblado y perfumado de ropa diaria, sábanas y toallas. Servicio de lavandería en el día, abierto domingos todo el día hasta las 20:30 hs",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Convenient southern-end laundry shop on Avenida 3; a practical option for families staying past Paseo 140, especially on Sundays.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.967033,
+          -37.252097
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Mercado La Capilla",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Avenida Buenos Aires N° 360 (Barrio Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8:30 AM–2 PM, 5–8:30 PM | Tuesday: 8:30 AM–2 PM, 5–8:30 PM | Wednesday: 8:30 AM–2 PM, 5–8:30 PM | Thursday: 8:30 AM–2 PM, 5–8:30 PM | Friday: 8:30 AM–2 PM, 5–8:30 PM | Saturday: 8:30 AM–2 PM, 5–8:30 PM | Sunday: 8:30 AM–2 PM, 5–8:30 PM",
+        "price_range": "",
+        "short_description": "Tradicional autoservicio y mercado de Barrio Norte sobre Avenida Buenos Aires, muy valorado por la frescura de su verdulería, su fiambrería y su carnicería contigua. (Calificación Google Maps: 4.0 (461)).",
+        "description": "Tradicional autoservicio y mercado de Barrio Norte sobre Avenida Buenos Aires, muy valorado por la frescura de su verdulería, su fiambrería y su carnicería contigua. (Calificación Google Maps: 4.0 (461)).\n\nQué vende / Servicios: Frutas y verduras seleccionadas, fiambres y quesos al corte, carnes, almacén variado, bebidas, lácteos y artículos de limpieza.\n\nDirección: Avenida Buenos Aires N° 360 (Barrio Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Tradicional autoservicio y mercado de Barrio Norte sobre Avenida Buenos Aires, muy valorado por la frescura de su verdulería, su fiambrería y su carnicería contigua.",
+        "products_sold": "Frutas y verduras seleccionadas, fiambres y quesos al corte, carnes, almacén variado, bebidas, lácteos y artículos de limpieza",
+        "what_to_do": "Autoservicio abierto todos los días, envíos a domicilio, cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Frutas y verduras seleccionadas, fiambres y quesos al corte, carnes, almacén variado, bebidas, lácteos y artículos de limpieza. Autoservicio abierto todos los días, envíos a domicilio, cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Friendly, classic northern-neighborhood grocery market; the primary daily shopping stop for visitors and families staying in Barrio Norte and near Pinar del Norte.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.974739,
+          -37.256832
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Mercado La Farola (Paseo 107)",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Paseo 107 y Avenida 7, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-2418",
+        "website": "https://www.facebook.com/SupermercadoLaFarola/",
+        "instagram": "https://www.instagram.com/lafarola_supermercado/",
+        "opening_hours": "Monday: 8 AM–1:30 PM, 4:30–9 PM | Tuesday: 8 AM–1:30 PM, 4:30–9 PM | Wednesday: 8 AM–1:30 PM, 4:30–9 PM | Thursday: 8 AM–1:30 PM, 4:30–9 PM | Friday: 8 AM–1:30 PM, 4:30–9 PM | Saturday: 8 AM–1:30 PM, 4:30–9 PM | Sunday: 9 AM–1 PM",
+        "price_range": "",
+        "short_description": "Sucursal barrial de Mercado La Farola en la intersección de Paseo 107 y Avenida 7, con verdulería destacada, ofertas diarias y estacionamiento propio. (Calificación Google Maps: 4.1 (512)).",
+        "description": "Sucursal barrial de Mercado La Farola en la intersección de Paseo 107 y Avenida 7, con verdulería destacada, ofertas diarias y estacionamiento propio. (Calificación Google Maps: 4.1 (512)).\n\nQué vende / Servicios: Frutas y verduras frescas, almacén, galletitas, infusiones, lácteos, fiambres, carnes, bebidas y limpieza.\n\nDirección: Paseo 107 y Avenida 7, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Sucursal barrial de Mercado La Farola en la intersección de Paseo 107 y Avenida 7, con verdulería destacada, ofertas diarias y estacionamiento propio.",
+        "products_sold": "Frutas y verduras frescas, almacén, galletitas, infusiones, lácteos, fiambres, carnes, bebidas y limpieza",
+        "what_to_do": "Autoservicio con estacionamiento gratuito en el predio, entrada accesible, atención en mostrador y cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Frutas y verduras frescas, almacén, galletitas, infusiones, lácteos, fiambres, carnes, bebidas y limpieza. Autoservicio con estacionamiento gratuito en el predio, entrada accesible, atención en mostrador y cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps / Instagram @lafarola_supermercado (2026)",
+        "vibe": "Practical, neighborhood grocery store with strong produce deals and on-site parking; convenient for visitors and residents staying in the mid-avenue blocks around Paseo 107.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.989036,
+          -37.280334
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Mercado Los Banquero",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Avenida 3 y Paseo 133, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–10 PM | Tuesday: 9 AM–10 PM | Wednesday: 9 AM–10 PM | Thursday: 9 AM–10 PM | Friday: 9 AM–10 PM | Saturday: 9 AM–10 PM | Sunday: 9 AM–2 PM, 5–10 PM",
+        "price_range": "",
+        "short_description": "Mercado y autoservicio de la Zona Sur sobre Avenida 3 y Paseo 133, destacado por su carnicería, verdulería, productos orgánicos y horario corrido de lunes a sábado. (Calificación Google Maps: 4.2 (144)).",
+        "description": "Mercado y autoservicio de la Zona Sur sobre Avenida 3 y Paseo 133, destacado por su carnicería, verdulería, productos orgánicos y horario corrido de lunes a sábado. (Calificación Google Maps: 4.2 (144)).\n\nQué vende / Servicios: Carnicería vacuna y de cerdo, frutas y verduras, productos orgánicos, fiambrería, almacén, bebidas y artículos de limpieza.\n\nDirección: Avenida 3 y Paseo 133, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Mercado y autoservicio de la Zona Sur sobre Avenida 3 y Paseo 133, destacado por su carnicería, verdulería, productos orgánicos y horario corrido de lunes a sábado.",
+        "products_sold": "Carnicería vacuna y de cerdo, frutas y verduras, productos orgánicos, fiambrería, almacén, bebidas y artículos de limpieza",
+        "what_to_do": "Compra en tienda, estacionamiento gratuito en el lugar, acceso para sillas de ruedas, promociones con Cuenta DNI, tarjetas de crédito, débito y NFC",
+        "services": "Carnicería vacuna y de cerdo, frutas y verduras, productos orgánicos, fiambrería, almacén, bebidas y artículos de limpieza. Compra en tienda, estacionamiento gratuito en el lugar, acceso para sillas de ruedas, promociones con Cuenta DNI, tarjetas de crédito, débito y NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Convenient southern-zone neighborhood market with continuous weekday hours and quality butcher cuts; ideal for visitors staying near Paseos 130–136.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.978347,
+          -37.268666
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Petshop Catdog",
+        "category": "Locales / Veterinaria, Forrajería y Mascotas",
+        "address": "Avenida 3 N° 1671 (entre Paseos 116 y 117), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 42-6667",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–1:30 PM, 4–8:30 PM | Tuesday: 9 AM–1:30 PM, 4:30–8:30 PM | Wednesday: 9 AM–1:30 PM, 4–8:30 PM | Thursday: 9 AM–1:30 PM, 4:30–8:30 PM | Friday: 9 AM–1:30 PM, 4–8:30 PM | Saturday: 9 AM–1:30 PM, 4–8:30 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Tienda de mascotas y peluquería canina sobre Avenida 3 entre Paseos 116 y 117, con grabado instantáneo de chapitas identificatorias. (Calificación Google Maps: 4.8 (102)).",
+        "description": "Tienda de mascotas y peluquería canina sobre Avenida 3 entre Paseos 116 y 117, con grabado instantáneo de chapitas identificatorias. (Calificación Google Maps: 4.8 (102)).\n\nQué vende / Servicios: Alimentos balanceados premium (Royal Canin, Nutrique, Eukanuba, ProPlan, Vitalcan), arena sanitaria, correas, pretales, juguetes y chapitas identificatorias grabadas en 1 minuto.\n\nDirección: Avenida 3 N° 1671 (entre Paseos 116 y 117), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Tienda de mascotas y peluquería canina sobre Avenida 3 entre Paseos 116 y 117, con grabado instantáneo de chapitas identificatorias.",
+        "products_sold": "Alimentos balanceados premium (Royal Canin, Nutrique, Eukanuba, ProPlan, Vitalcan), arena sanitaria, correas, pretales, juguetes y chapitas identificatorias grabadas en 1 minuto",
+        "what_to_do": "Peluquería canina con turno por WhatsApp, grabado de placas en el acto, envíos a domicilio sin cargo, entrada accesible y pagos con tarjeta o NFC",
+        "services": "Alimentos balanceados premium (Royal Canin, Nutrique, Eukanuba, ProPlan, Vitalcan), arena sanitaria, correas, pretales, juguetes y chapitas identificatorias grabadas en 1 minuto. Peluquería canina con turno por WhatsApp, grabado de placas en el acto, envíos a domicilio sin cargo, entrada accesible y pagos con tarjeta o NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Welcoming, well-stocked pet shop on Avenida 3; ideal for pet-owning tourists needing free food delivery, grooming, or an instant ID tag for the beach.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.994802,
+          -37.28762
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Punto Ferretero",
+        "category": "Locales / Ferretería y Sanitarios",
+        "address": "Paseo 142 y Avenida 3, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–12:30 PM, 3–7:30 PM | Tuesday: 8 AM–12:30 PM, 3–7:30 PM | Wednesday: 8 AM–12:30 PM, 3–7:30 PM | Thursday: 8 AM–12:30 PM, 3–7:30 PM | Friday: 8 AM–12:30 PM, 3–7:30 PM | Saturday: 8 AM–12:30 PM, 3–7:30 PM | Sunday: 9 AM–12:30 PM",
+        "price_range": "",
+        "short_description": "Ferretería de cercanía ubicada sobre Paseo 142 en la Zona Sur, con apertura dominical matutina e insumos para electricidad y plomería. (Calificación Google Maps: 4.4 (27)).",
+        "description": "Ferretería de cercanía ubicada sobre Paseo 142 en la Zona Sur, con apertura dominical matutina e insumos para electricidad y plomería. (Calificación Google Maps: 4.4 (27)).\n\nQué vende / Servicios: Materiales eléctricos, plomería, herramientas, bulonería, adhesivos y repuestos domésticos.\n\nDirección: Paseo 142 y Avenida 3, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Ferretería de cercanía ubicada sobre Paseo 142 en la Zona Sur, con apertura dominical matutina e insumos para electricidad y plomería.",
+        "products_sold": "Materiales eléctricos, plomería, herramientas, bulonería, adhesivos y repuestos domésticos",
+        "what_to_do": "Venta en mostrador, envíos a domicilio en el día, abierto domingos por la mañana, acepta tarjetas de crédito, débito y pagos NFC",
+        "services": "Materiales eléctricos, plomería, herramientas, bulonería, adhesivos y repuestos domésticos. Venta en mostrador, envíos a domicilio en el día, abierto domingos por la mañana, acepta tarjetas de crédito, débito y pagos NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Handy southern-neighborhood hardware store with Sunday morning hours; useful for weekend electrical and plumbing supplies near Paseo 142.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.982693,
+          -37.27254
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Supermercado «Los 3 Hermanos»",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Avenida 3 N° 2329 (entre Paseos 123 y 124), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-3773",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–2 PM, 5–11 PM | Tuesday: 8 AM–2 PM, 5–11 PM | Wednesday: 8 AM–2 PM, 5–11 PM | Thursday: 8 AM–2 PM, 5–11 PM | Friday: 8 AM–2 PM, 5–11 PM | Saturday: 8 AM–2 PM, 5–11 PM | Sunday: 8 AM–2 PM, 5–11 PM",
+        "price_range": "",
+        "short_description": "Histórico supermercado familiar con más de tres décadas de trayectoria sobre Avenida 3, reconocido por su carnicería, fiambrería y elaboración propia de comidas caseras. (Calificación Google Maps: 4.2 (1839)).",
+        "description": "Histórico supermercado familiar con más de tres décadas de trayectoria sobre Avenida 3, reconocido por su carnicería, fiambrería y elaboración propia de comidas caseras. (Calificación Google Maps: 4.2 (1839)).\n\nQué vende / Servicios: Cortes de carne vacuna y cerdo, pollería, pastas, salsas, canelones y matambres caseros, verdulería, fiambrería, almacén completo, bebidas y artículos de limpieza.\n\nDirección: Avenida 3 N° 2329 (entre Paseos 123 y 124), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Histórico supermercado familiar con más de tres décadas de trayectoria sobre Avenida 3, reconocido por su carnicería, fiambrería y elaboración propia de comidas caseras.",
+        "products_sold": "Cortes de carne vacuna y cerdo, pollería, pastas, salsas, canelones y matambres caseros, verdulería, fiambrería, almacén completo, bebidas y artículos de limpieza",
+        "what_to_do": "Supermercado familiar atendido por sus dueños, carnicería y rotisería casera, acceso para sillas de ruedas, abierto hasta las 23:00 hs, acepta tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Cortes de carne vacuna y cerdo, pollería, pastas, salsas, canelones y matambres caseros, verdulería, fiambrería, almacén completo, bebidas y artículos de limpieza. Supermercado familiar atendido por sus dueños, carnicería y rotisería casera, acceso para sillas de ruedas, abierto hasta las 23:00 hs, acepta tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Busy, well-loved family-run supermarket with a standout butcher counter and homemade prepared foods; ideal for vacationers staying around Paseos 120–128 looking for fair prices and late evening hours.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.983409,
+          -37.259173
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Supermercado Disco (Boulevard)",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Boulevard Silvio Gesell y Paseo 112, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 810-777-8888",
+        "website": "https://www.disco.com.ar/",
+        "instagram": "https://www.instagram.com/discoargentina/",
+        "opening_hours": "Monday: 9 AM–9 PM | Tuesday: 9 AM–9 PM | Wednesday: 9 AM–9 PM | Thursday: 9 AM–9 PM | Friday: 9 AM–9 PM | Saturday: 9 AM–9 PM | Sunday: 9 AM–9 PM",
+        "price_range": "",
+        "short_description": "Hipermercado de la cadena Disco ubicado sobre el corredor vehicular de Boulevard Silvio Gesell y Paseo 112, pensado para compras grandes en vehículo con playa de estacionamiento propia. (Calificación Google Maps: 3.8 (3065)).",
+        "description": "Hipermercado de la cadena Disco ubicado sobre el corredor vehicular de Boulevard Silvio Gesell y Paseo 112, pensado para compras grandes en vehículo con playa de estacionamiento propia. (Calificación Google Maps: 3.8 (3065)).\n\nQué vende / Servicios: Comestibles de almacén, carnes vacunas y aves, verdulería, fiambres y quesos, lácteos, panificados, bebidas, electrodomésticos menores, bazar, limpieza e higiene personal.\n\nDirección: Boulevard Silvio Gesell y Paseo 112, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Hipermercado de la cadena Disco ubicado sobre el corredor vehicular de Boulevard Silvio Gesell y Paseo 112, pensado para compras grandes en vehículo con playa de estacionamiento propia.",
+        "products_sold": "Comestibles de almacén, carnes vacunas y aves, verdulería, fiambres y quesos, lácteos, panificados, bebidas, electrodomésticos menores, bazar, limpieza e higiene personal",
+        "what_to_do": "Supermercado con estacionamiento propio accesible, compra en tienda, retiro de pedidos online (pickup), envíos a domicilio, sanitarios y todos los medios de pago electrónicos",
+        "services": "Comestibles de almacén, carnes vacunas y aves, verdulería, fiambres y quesos, lácteos, panificados, bebidas, electrodomésticos menores, bazar, limpieza e higiene personal. Supermercado con estacionamiento propio accesible, compra en tienda, retiro de pedidos online (pickup), envíos a domicilio, sanitarios y todos los medios de pago electrónicos",
+        "data_source": "Google Maps / disco.com.ar (2026)",
+        "vibe": "Spacious, car-friendly chain supermarket along the main boulevard; convenient for visitors arriving by car who want easy parking and a one-stop shop for groceries, beach supplies, and household essentials.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97467,
+          -37.264018
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Supermercado Disco (Centro)",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Avenida 3 N° 1081 (entre Paseos 110 y 111), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 810-777-8888",
+        "website": "https://www.disco.com.ar/",
+        "instagram": "https://www.instagram.com/discoargentina/",
+        "opening_hours": "Monday: 9 AM–9 PM | Tuesday: 9 AM–9 PM | Wednesday: 9 AM–9 PM | Thursday: 9 AM–9 PM | Friday: 9 AM–9 PM | Saturday: 9 AM–9 PM | Sunday: 9 AM–9 PM",
+        "price_range": "",
+        "short_description": "Sucursal céntrica de la cadena de supermercados Disco sobre la Avenida 3, con salón de ventas completo, estacionamiento accesible, retiro en tienda y envíos a domicilio. (Calificación Google Maps: 3.8 (5792)).",
+        "description": "Sucursal céntrica de la cadena de supermercados Disco sobre la Avenida 3, con salón de ventas completo, estacionamiento accesible, retiro en tienda y envíos a domicilio. (Calificación Google Maps: 3.8 (5792)).\n\nQué vende / Servicios: Almacén general, lácteos, bebidas con y sin alcohol, carnes, frutas y verduras frescas con autopesaje, panadería, fiambrería, congelados, artículos de limpieza y perfumería.\n\nDirección: Avenida 3 N° 1081 (entre Paseos 110 y 111), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Sucursal céntrica de la cadena de supermercados Disco sobre la Avenida 3, con salón de ventas completo, estacionamiento accesible, retiro en tienda y envíos a domicilio.",
+        "products_sold": "Almacén general, lácteos, bebidas con y sin alcohol, carnes, frutas y verduras frescas con autopesaje, panadería, fiambrería, congelados, artículos de limpieza y perfumería",
+        "what_to_do": "Supermercado integral, venta de alimentos y bebidas, verdulería, carnicería, panadería, artículos de limpieza, retiro en tienda (pickup), envíos a domicilio, tarjetas de crédito/débito y pagos NFC",
+        "services": "Almacén general, lácteos, bebidas con y sin alcohol, carnes, frutas y verduras frescas con autopesaje, panadería, fiambrería, congelados, artículos de limpieza y perfumería. Supermercado integral, venta de alimentos y bebidas, verdulería, carnicería, panadería, artículos de limpieza, retiro en tienda (pickup), envíos a domicilio, tarjetas de crédito/débito y pagos NFC",
+        "data_source": "Google Maps / disco.com.ar (2026)",
+        "vibe": "Large, modern chain supermarket in the heart of downtown Villa Gesell; ideal for tourists and families doing full weekly grocery runs, stocking up a rental apartment, or using self-weigh produce and card/NFC payments.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.992496,
+          -37.269327
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Supermercado La Farola (Boulevard)",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Boulevard Silvio Gesell N° 2730 (entre Paseos 127 y 128), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "https://www.facebook.com/SupermercadoLaFarola/",
+        "instagram": "https://www.instagram.com/lafarola_supermercado/",
+        "opening_hours": "Monday: 8 AM–1:30 PM, 4:30–9 PM | Tuesday: 8 AM–1:30 PM, 4:30–9 PM | Wednesday: 8 AM–1:30 PM, 4:30–9 PM | Thursday: 8 AM–1:30 PM, 4:30–9 PM | Friday: 8 AM–1:30 PM, 4:30–9 PM | Saturday: 8 AM–1:30 PM, 4:30–9 PM | Sunday: 9 AM–1 PM",
+        "price_range": "",
+        "short_description": "Supermercado tradicional con más de 33 años de trayectoria en Villa Gesell, ubicado sobre Boulevard Silvio Gesell con estacionamiento gratuito y todos los rubros frescos en un mismo local. (Calificación Google Maps: 4.2 (1140)).",
+        "description": "Supermercado tradicional con más de 33 años de trayectoria en Villa Gesell, ubicado sobre Boulevard Silvio Gesell con estacionamiento gratuito y todos los rubros frescos en un mismo local. (Calificación Google Maps: 4.2 (1140)).\n\nQué vende / Servicios: Almacén, verdulería, carnicería, fiambrería, panadería, bebidas, lácteos, congelados y artículos de limpieza.\n\nDirección: Boulevard Silvio Gesell N° 2730 (entre Paseos 127 y 128), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Supermercado tradicional con más de 33 años de trayectoria en Villa Gesell, ubicado sobre Boulevard Silvio Gesell con estacionamiento gratuito y todos los rubros frescos en un mismo local.",
+        "products_sold": "Almacén, verdulería, carnicería, fiambrería, panadería, bebidas, lácteos, congelados y artículos de limpieza",
+        "what_to_do": "Supermercado integral con estacionamiento propio gratuito, envíos a domicilio, atención en mostrador de fiambres y carnes, acceso para sillas de ruedas y pagos con tarjeta o NFC",
+        "services": "Almacén, verdulería, carnicería, fiambrería, panadería, bebidas, lácteos, congelados y artículos de limpieza. Supermercado integral con estacionamiento propio gratuito, envíos a domicilio, atención en mostrador de fiambres y carnes, acceso para sillas de ruedas y pagos con tarjeta o NFC",
+        "data_source": "Google Maps / Instagram @lafarola_supermercado (2026)",
+        "vibe": "Traditional, full-service local supermarket with over 30 years in town; great for families and drivers looking for competitive prices on drinks, produce, and deli items with easy parking.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.994067,
+          -37.285415
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Supermercado Mank",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Paseo 140 y Avenida 3, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–2 PM, 4:30–10 PM | Tuesday: 9 AM–2 PM, 4:30–10 PM | Wednesday: 9 AM–2 PM, 4:30–10 PM | Thursday: 9 AM–2 PM, 4:30–10 PM | Friday: 9 AM–2 PM, 4:30–10 PM | Saturday: 9 AM–2 PM, 4:30–10 PM | Sunday: 9 AM–2 PM, 4:30–10 PM",
+        "price_range": "",
+        "short_description": "Amplio supermercado de la Zona Sur ubicado sobre Paseo 140 frente al Polo Cultural Sur, abierto todos los días con gran variedad de marcas y carnicería propia. (Calificación Google Maps: 3.8 (550)).",
+        "description": "Amplio supermercado de la Zona Sur ubicado sobre Paseo 140 frente al Polo Cultural Sur, abierto todos los días con gran variedad de marcas y carnicería propia. (Calificación Google Maps: 3.8 (550)).\n\nQué vende / Servicios: Almacén general, carnicería, verdulería, fiambrería, panificados, lácteos, bebidas, congelados y artículos de limpieza.\n\nDirección: Paseo 140 y Avenida 3, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Amplio supermercado de la Zona Sur ubicado sobre Paseo 140 frente al Polo Cultural Sur, abierto todos los días con gran variedad de marcas y carnicería propia.",
+        "products_sold": "Almacén general, carnicería, verdulería, fiambrería, panificados, lácteos, bebidas, congelados y artículos de limpieza",
+        "what_to_do": "Supermercado con estacionamiento accesible, envíos a domicilio, cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Almacén general, carnicería, verdulería, fiambrería, panificados, lácteos, bebidas, congelados y artículos de limpieza. Supermercado con estacionamiento accesible, envíos a domicilio, cobro con tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Spacious, everyday supermarket serving the Paseo 140 southern hub; a reliable stop for vacationers in southern Villa Gesell needing full grocery restocks.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.969763,
+          -37.256274
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Supermercado Supermar",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Paseo 105 N° 360 (entre Avenidas 3 y 4), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8:30 AM–8 PM | Tuesday: 8:30 AM–8 PM | Wednesday: 8:30 AM–8 PM | Thursday: 8:30 AM–8 PM | Friday: 8:30 AM–8 PM | Saturday: 8:30 AM–8 PM | Sunday: 8:30 AM–8 PM",
+        "price_range": "",
+        "short_description": "Tradicional supermercado y autoservicio céntrico ubicado sobre Paseo 105 a metros de la peatonal de Avenida 3, con horario corrido todos los días de la semana. (Calificación Google Maps: 3.8 (762)).",
+        "description": "Tradicional supermercado y autoservicio céntrico ubicado sobre Paseo 105 a metros de la peatonal de Avenida 3, con horario corrido todos los días de la semana. (Calificación Google Maps: 3.8 (762)).\n\nQué vende / Servicios: Almacén general, bebidas frías, lácteos, fiambres, frutas y verduras frescas, panificados, snacks e insumos básicos de limpieza y playa.\n\nDirección: Paseo 105 N° 360 (entre Avenidas 3 y 4), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Tradicional supermercado y autoservicio céntrico ubicado sobre Paseo 105 a metros de la peatonal de Avenida 3, con horario corrido todos los días de la semana.",
+        "products_sold": "Almacén general, bebidas frías, lácteos, fiambres, frutas y verduras frescas, panificados, snacks e insumos básicos de limpieza y playa",
+        "what_to_do": "Autoservicio céntrico de horario corrido, entrada accesible para sillas de ruedas, verdulería integrada y cobro con tarjetas de crédito, débito y NFC",
+        "services": "Almacén general, bebidas frías, lácteos, fiambres, frutas y verduras frescas, panificados, snacks e insumos básicos de limpieza y playa. Autoservicio céntrico de horario corrido, entrada accesible para sillas de ruedas, verdulería integrada y cobro con tarjetas de crédito, débito y NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Convenient, centrally located neighborhood supermarket just off the main pedestrian strip; ideal for tourists staying downtown who need quick daily groceries on foot.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.99627,
+          -37.289806
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Supermercado Wallas (Av. 3)",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Avenida 3 N° 4394 (esquina Paseo 144), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-0227",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–2 PM, 5–9:30 PM | Tuesday: 9 AM–2 PM, 5–9:30 PM | Wednesday: 9 AM–2 PM, 5–9:30 PM | Thursday: 9 AM–2 PM, 5–9:30 PM | Friday: 9 AM–2 PM, 5–9:30 PM | Saturday: 9 AM–2 PM, 5–9:30 PM | Sunday: 9 AM–2 PM, 4:30–9 PM",
+        "price_range": "",
+        "short_description": "Supermercado referente del extremo sur de Villa Gesell sobre Avenida 3 y Paseo 144, abierto todos los días con surtido completo de comestibles y productos frescos. (Calificación Google Maps: 4.2 (1233)).",
+        "description": "Supermercado referente del extremo sur de Villa Gesell sobre Avenida 3 y Paseo 144, abierto todos los días con surtido completo de comestibles y productos frescos. (Calificación Google Maps: 4.2 (1233)).\n\nQué vende / Servicios: Comestibles de almacén, frutas y verduras frescas, carnes, fiambres, lácteos, bebidas, artículos de playa, higiene y limpieza.\n\nDirección: Avenida 3 N° 4394 (esquina Paseo 144), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Supermercado referente del extremo sur de Villa Gesell sobre Avenida 3 y Paseo 144, abierto todos los días con surtido completo de comestibles y productos frescos.",
+        "products_sold": "Comestibles de almacén, frutas y verduras frescas, carnes, fiambres, lácteos, bebidas, artículos de playa, higiene y limpieza",
+        "what_to_do": "Compra en salón, acceso para sillas de ruedas, atención los 7 días de la semana, pagos con tarjetas de crédito, débito y NFC",
+        "services": "Comestibles de almacén, frutas y verduras frescas, carnes, fiambres, lácteos, bebidas, artículos de playa, higiene y limpieza. Compra en salón, acceso para sillas de ruedas, atención los 7 días de la semana, pagos con tarjetas de crédito, débito y NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Well-stocked, reliable southern-zone supermarket on Avenida 3; the go-to grocery anchor for families and beachgoers staying between Paseos 140 and 150.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.000118,
+          -37.295493
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Supermercado Wallas (Paseo 149)",
+        "category": "Locales / Supermercado y Autoservicio",
+        "address": "Paseo 149 N° 200–298 (entre Avenidas 2 y 3), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-8290",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 8:30 AM–2 PM, 5–10 PM | Tuesday: 8:30 AM–2 PM, 5–10 PM | Wednesday: 8:30 AM–2 PM, 5–10 PM | Thursday: 8:30 AM–2 PM, 5–10 PM | Friday: 8:30 AM–2 PM, 5–10 PM | Saturday: 8:30 AM–2 PM, 5–10 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Autoservicio de cercanía de la firma Wallas en Paseo 149 a dos cuadras de la playa, ideal para abastecer departamentos y casas de veraneo del extremo sur. (Calificación Google Maps: 4.1 (601)).",
+        "description": "Autoservicio de cercanía de la firma Wallas en Paseo 149 a dos cuadras de la playa, ideal para abastecer departamentos y casas de veraneo del extremo sur. (Calificación Google Maps: 4.1 (601)).\n\nQué vende / Servicios: Almacén, bebidas, lácteos, fiambres, frutas y verduras, panificados e insumos básicos del hogar.\n\nDirección: Paseo 149 N° 200–298 (entre Avenidas 2 y 3), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Autoservicio de cercanía de la firma Wallas en Paseo 149 a dos cuadras de la playa, ideal para abastecer departamentos y casas de veraneo del extremo sur.",
+        "products_sold": "Almacén, bebidas, lácteos, fiambres, frutas y verduras, panificados e insumos básicos del hogar",
+        "what_to_do": "Compra presencial rápida, horario extendido hasta las 22:00 hs de lunes a sábado, acepta tarjetas de crédito, débito y pagos móviles NFC",
+        "services": "Almacén, bebidas, lácteos, fiambres, frutas y verduras, panificados e insumos básicos del hogar. Compra presencial rápida, horario extendido hasta las 22:00 hs de lunes a sábado, acepta tarjetas de crédito, débito y pagos móviles NFC",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Convenient neighborhood grocery store near the southern beaches; handy for quick daily errands without walking back to the central avenue.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.994193,
+          -37.287237
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Veterinaria del Sur",
+        "category": "Locales / Veterinaria, Forrajería y Mascotas",
+        "address": "Avenida 3 N° 4150 (entre Paseos 141 y 142), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-0595",
+        "website": "",
+        "instagram": "",
+        "opening_hours": "Monday: 9 AM–9 PM | Tuesday: 9 AM–9 PM | Wednesday: 9 AM–9 PM | Thursday: 9 AM–9 PM | Friday: 9 AM–9 PM | Saturday: 9 AM–9 PM | Sunday: 10 AM–7 PM",
+        "price_range": "",
+        "short_description": "Clínica veterinaria y farmacia animal en la Zona Sur sobre Avenida 3, con atención en horario corrido todos los días de la semana incluidos domingos. (Calificación Google Maps: 4.3 (48)).",
+        "description": "Clínica veterinaria y farmacia animal en la Zona Sur sobre Avenida 3, con atención en horario corrido todos los días de la semana incluidos domingos. (Calificación Google Maps: 4.3 (48)).\n\nQué vende / Servicios: Medicamentos veterinarios, antiparasitarios, alimentos balanceados y accesorios para perros y gatos.\n\nDirección: Avenida 3 N° 4150 (entre Paseos 141 y 142), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Clínica veterinaria y farmacia animal en la Zona Sur sobre Avenida 3, con atención en horario corrido todos los días de la semana incluidos domingos.",
+        "products_sold": "Medicamentos veterinarios, antiparasitarios, alimentos balanceados y accesorios para perros y gatos",
+        "what_to_do": "Atención clínica veterinaria de lunes a domingo en horario extendido (lun–sáb 9 a 21 hs, dom 10 a 19 hs) y envío de medicación a domicilio",
+        "services": "Medicamentos veterinarios, antiparasitarios, alimentos balanceados y accesorios para perros y gatos. Atención clínica veterinaria de lunes a domingo en horario extendido (lun–sáb 9 a 21 hs, dom 10 a 19 hs) y envío de medicación a domicilio",
+        "data_source": "Google Maps (2026)",
+        "vibe": "Compassionate, seven-day-a-week veterinary clinic in Zona Sur; a crucial address for pet owners needing weekend or evening veterinary care.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.004797,
+          -37.28456
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#1565C0",
+          "layer": "Locales"
+        },
+        "layer": "Locales",
+        "name": "Wamilo Lavandería",
+        "category": "Locales / Lavadero de Ropa y Tintorería",
+        "address": "Boulevard Silvio Gesell N° 4477 y Paseo 145, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 62-9111",
+        "website": "https://wamilolavanderia.com.ar/",
+        "instagram": "",
+        "opening_hours": "Monday: 8 AM–4 PM | Tuesday: 8 AM–4 PM | Wednesday: 8 AM–4 PM | Thursday: Closed | Friday: 8 AM–4 PM | Saturday: 8 AM–4 PM | Sunday: Closed",
+        "price_range": "",
+        "short_description": "Lavandería industrial y ecológica con 50 años de trayectoria ubicada en Boulevard Silvio Gesell y Paseo 145, habilitada ambientalmente por OPDS. (Calificación Google Maps: 4.5 (19)).",
+        "description": "Lavandería industrial y ecológica con 50 años de trayectoria ubicada en Boulevard Silvio Gesell y Paseo 145, habilitada ambientalmente por OPDS. (Calificación Google Maps: 4.5 (19)).\n\nQué vende / Servicios: Lavandería de blanquería, ropa de cama, acolchados, frazadas, mantelería y servicio para cabañas, complejos turísticos y particulares.\n\nDirección: Boulevard Silvio Gesell N° 4477 y Paseo 145, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Lavandería industrial y ecológica con 50 años de trayectoria ubicada en Boulevard Silvio Gesell y Paseo 145, habilitada ambientalmente por OPDS.",
+        "products_sold": "Lavandería de blanquería, ropa de cama, acolchados, frazadas, mantelería y servicio para cabañas, complejos turísticos y particulares",
+        "what_to_do": "Presupuestos online y por WhatsApp, lavado industrial sustentable, atención en planta de 8:00 a 16:00 hs",
+        "services": "Lavandería de blanquería, ropa de cama, acolchados, frazadas, mantelería y servicio para cabañas, complejos turísticos y particulares. Presupuestos online y por WhatsApp, lavado industrial sustentable, atención en planta de 8:00 a 16:00 hs",
+        "data_source": "Google Maps / wamilolavanderia.com.ar (2026)",
+        "vibe": "Professional, eco-certified laundry facility with 50 years of experience; ideal for large loads of bedding, cabin linens, or heavy blankets.",
+        "sponsorship": false
+      }
+    }
+  ]
+}

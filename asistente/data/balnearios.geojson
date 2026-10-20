@@ -1,0 +1,245 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97992144669235,
+          -37.276008187027855
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 123 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Restaurante y snack bar de playa frente al mar.\n\nDirección: Paseo 123 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Balneario Afrika",
+        "opening_hours": "",
+        "phone": "(02255) 46-6332",
+        "price_range": "",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Restaurante y snack bar de playa frente al mar. Ubicado en Paseo 123 y Playa, Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Casual, traditional, and family-friendly beachfront parador with a relaxed daytime atmosphere and kids' play area; ideal for families with children and beachgoers looking for a laid-back seaside lunch or afternoon snack.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.966618879183166,
+          -37.25908466781896
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 110 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Restaurante de playa, mariscos, minutas y cafetería.\n\nDirección: Paseo 110 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Balneario Amy",
+        "opening_hours": "",
+        "phone": "(02255) 46-2218",
+        "price_range": "",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Restaurante de playa, mariscos, minutas y cafetería. Ubicado en Paseo 110 y Playa, Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Casual, lively, and family-oriented central beach club restobar; ideal for families and beachgoers seeking an informal, sunny seaside lunch, seafood, or afternoon coffee right on the sand.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.980446257107594,
+          -37.27678911267973
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 125 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Restaurante de playa con rabas, pescados y minutas.\n\nDirección: Paseo 125 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Balneario Ciento25",
+        "opening_hours": "",
+        "phone": "(02255) 46-4125",
+        "price_range": "",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Restaurante de playa con rabas, pescados y minutas. Ubicado en Paseo 125 y Playa, Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Active, welcoming, and family-friendly beach club restaurant with daytime recreation and a cocktail bar; great for families with kids and groups of friends spending a full day by the ocean.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98124062861585,
+          -37.27745593539943
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 126 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Restaurante sustentable de playa con pescados, mariscos y menú saludable.\n\nDirección: Paseo 126 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Balneario Noctiluca",
+        "opening_hours": "",
+        "phone": "(02255) 46-5889",
+        "price_range": "",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Restaurante sustentable de playa con pescados, mariscos y menú saludable. Ubicado en Paseo 126 y Playa, Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Relaxed, eco-conscious, and tranquil beachfront restaurant with a cozy coastal feel; ideal for families, couples, and health-minded beachgoers looking for a peaceful seaside meal.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.961484574258456,
+          -37.25301013832505
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 105 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Restaurante costero y parador de playa céntrico.\n\nDirección: Paseo 105 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Balneario Ola-Lá",
+        "opening_hours": "",
+        "phone": "(02255) 46-2105",
+        "price_range": "",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Restaurante costero y parador de playa céntrico. Ubicado en Paseo 105 y Playa, Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Stylish, relaxed beachfront wooden deck and restaurant with scenic dune and ocean views; great for couples, groups of friends, and families looking for a laid-back yet trendy daytime seaside meal or sunset drink.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.971438034719014,
+          -37.26610086238073
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. Costanera 1144, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.6 (1643)).\n\nDirección: Av. Costanera 1144, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Balneario Puerto Bonito",
+        "opening_hours": "Friday: 9 AM–7 PM | Saturday: 9 AM–7 PM | Sunday: 9 AM–7 PM | Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed",
+        "phone": "+54 2255 45-4520",
+        "price_range": "ARS 10.000–40.000 por persona",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.6 (1643)).",
+        "website": "https://www.facebook.com/paradorgesell",
+        "vibe": "Spacious, comfortable, and welcoming beachfront dining room with panoramic ocean views; ideal for families, couples, and pet owners seeking a relaxed, unhurried seaside lunch or afternoon coffee year-round.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96415640146055,
+          -37.25674782521769
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "P.º 103 Bis 100, B1704 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.6 (3063)).\n\nDirección: P.º 103 Bis 100, B1704 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "El Faro Club de Mar",
+        "opening_hours": "Friday: 8 AM–8 PM | Saturday: 8 AM–8 PM | Sunday: 8 AM–8 PM | Monday: 8 AM–8 PM | Tuesday: 8 AM–8 PM | Wednesday: 8 AM–8 PM | Thursday: 8 AM–8 PM",
+        "phone": "+54 2255 45-4669",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.6 (3063)).",
+        "website": "http://www.elfarogesell.com/",
+        "vibe": "Cozy, stylish, and romantic beachfront restaurant and sea club with ocean views, signature cocktails, and a climate-controlled lounge; ideal for couples on a seaside date, sunset drinks with friends, or a comfortable family meal.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9781563617207,
+          -37.27418783052402
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 121 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Parador de playa con rabas, cornalitos y minutas.\n\nDirección: Paseo 113 y Playa, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Popeye",
+        "opening_hours": "",
+        "phone": "(02255) 46-2113",
+        "price_range": "",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Parador de playa con rabas, cornalitos y minutas. Ubicado en Paseo 113 y Playa, Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Casual, sunny, and family-focused sustainable beach parador; ideal for families with children and groups of beachgoers wanting quick, informal seaside bites like calamari and cornalitos.",
+        "sponsorship": false
+      }
+    }
+  ]
+}

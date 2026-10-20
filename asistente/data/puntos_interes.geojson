@@ -1,0 +1,725 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9728040747211,
+          -37.248039522010984
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Anfiteatro del Pinar \"Intendente Héctor E. Allo\" (Pinar del Anfiteatro)",
+        "category": "Puntos de interés / Reserva Forestal y Espacio Cultural",
+        "address": "Avenida 10 N° 199–299 y Paseo 102 (e/ Av. 10 y Bv. Silvio Gesell), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "https://www.gesell.tur.ar/experiencia/pinar-del-anfiteatro-int-h-ctor-e-allo-5DE14733D3",
+        "instagram": "",
+        "opening_hours": "Abierto todos los días (espectáculos y ferias según programación de verano e invierno)",
+        "price_range": "Acceso libre y gratuito",
+        "short_description": "Segunda reserva forestal municipal de Villa Gesell que alberga en su depresión central un anfiteatro natural al aire libre rodeado de altos pinos, famoso por su extraordinaria acústica natural y gradas integradas al paisaje del médano.",
+        "description": "Segunda reserva forestal municipal de Villa Gesell que alberga en su depresión central un anfiteatro natural al aire libre rodeado de altos pinos, famoso por su extraordinaria acústica natural y gradas integradas al paisaje del médano.\n\nHistoria y vínculo con Villa Gesell: Inaugurado por iniciativa de Carlos Gesell y sede histórica de los tradicionales Encuentros Corales de Verano desde hace más de cinco décadas. En 2014 fue bautizado con el nombre de 'Intendente Héctor Esteban Allo', primer intendente democrático de la ciudad tras 1983.\n\nQué hacer: Asistir a los Encuentros Corales en verano, disfrutar del famoso festival 'Invierno Medieval' (con combates medievales, arquería, música celta y gastronomía en el bosque), recorrer senderos arbolados a pie o en bici y conectar con el circuito del Paseo de los Pinares.\n\nDirección: Avenida 10 N° 199–299 y Paseo 102 (e/ Av. 10 y Bv. Silvio Gesell), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Segunda reserva forestal municipal de Villa Gesell que alberga en su depresión central un anfiteatro natural al aire libre rodeado de altos pinos, famoso por su extraordinaria acústica natural y gradas integradas al paisaje del médano.",
+        "history_and_gesell_connection": "Inaugurado por iniciativa de Carlos Gesell y sede histórica de los tradicionales Encuentros Corales de Verano desde hace más de cinco décadas. En 2014 fue bautizado con el nombre de 'Intendente Héctor Esteban Allo', primer intendente democrático de la ciudad tras 1983.",
+        "what_to_do": "Asistir a los Encuentros Corales en verano, disfrutar del famoso festival 'Invierno Medieval' (con combates medievales, arquería, música celta y gastronomía en el bosque), recorrer senderos arbolados a pie o en bici y conectar con el circuito del Paseo de los Pinares.",
+        "services": "Asistir a los Encuentros Corales en verano, disfrutar del famoso festival 'Invierno Medieval' (con combates medievales, arquería, música celta y gastronomía en el bosque), recorrer senderos arbolados a pie o en bici y conectar con el circuito del Paseo de los Pinares.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Magical, acoustic woodland amphitheater and pine reserve; ideal for music and culture lovers, families, and fantasy enthusiasts during seasonal choral concerts and the popular Medieval Winter festival.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96355889873782,
+          -37.24960981575758
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Bosque Fundacional",
+        "category": "Puntos de interés / Reserva Natural y Casco Histórico",
+        "address": "Alameda 202 N° 199 y Calle 303, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-8624",
+        "website": "https://www.gesell.tur.ar/experiencia/reserva-pinar-del-norte-375FB4B2E4",
+        "instagram": "https://www.instagram.com/museohistoricovillagesell/",
+        "opening_hours": "Parque abierto todos los días | Museos: Verano 10:00–18:00, Invierno Mar–Sáb 10:00–16:00",
+        "price_range": "Acceso libre y gratuito al bosque (entrada económica a los museos)",
+        "short_description": "Reserva forestal urbana de más de 14 hectáreas (143.725 m²) declarada Bosque Fundacional y Casco Histórico. Reúne cerca de 100 especies arbóreas (pinos, acacias trinervis, eucaliptos, cipreses, robles y sequoias), aves nativas y migratorias, cuatro museos históricos, el Vivero Histórico y el Taller Municipal de Cerámica.",
+        "description": "Reserva forestal urbana de más de 14 hectáreas (143.725 m²) declarada Bosque Fundacional y Casco Histórico. Reúne cerca de 100 especies arbóreas (pinos, acacias trinervis, eucaliptos, cipreses, robles y sequoias), aves nativas y migratorias, cuatro museos históricos, el Vivero Histórico y el Taller Municipal de Cerámica.\n\nHistoria y vínculo con Villa Gesell: Es la cuna misma de Villa Gesell: aquí comenzó en 1931 la epopeya de Don Carlos Idaho Gesell para fijar las dunas marítimas móviles mediante gramíneas, acacias y coníferas, transformando un arenal considerado estéril en un bosque habitable y en el primer Centro Cívico de la ciudad.\n\nQué hacer: Caminar por senderos sombreados entre pinos centenarios, realizar visitas guiadas históricas y botánicas (90 min), recorrer los 4 museos del predio, observar aves, hacer picnic o tomar mate en las áreas de descanso, llevar a los niños a la plaza de juegos y salir caminando hacia la playa norte por pasarelas de madera.\n\nDirección: Alameda 202 N° 199 y Calle 303, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Reserva forestal urbana de más de 14 hectáreas (143.725 m²) declarada Bosque Fundacional y Casco Histórico. Reúne cerca de 100 especies arbóreas (pinos, acacias trinervis, eucaliptos, cipreses, robles y sequoias), aves nativas y migratorias, cuatro museos históricos, el Vivero Histórico y el Taller Municipal de Cerámica.",
+        "history_and_gesell_connection": "Es la cuna misma de Villa Gesell: aquí comenzó en 1931 la epopeya de Don Carlos Idaho Gesell para fijar las dunas marítimas móviles mediante gramíneas, acacias y coníferas, transformando un arenal considerado estéril en un bosque habitable y en el primer Centro Cívico de la ciudad.",
+        "what_to_do": "Caminar por senderos sombreados entre pinos centenarios, realizar visitas guiadas históricas y botánicas (90 min), recorrer los 4 museos del predio, observar aves, hacer picnic o tomar mate en las áreas de descanso, llevar a los niños a la plaza de juegos y salir caminando hacia la playa norte por pasarelas de madera.",
+        "services": "Caminar por senderos sombreados entre pinos centenarios, realizar visitas guiadas históricas y botánicas (90 min), recorrer los 4 museos del predio, observar aves, hacer picnic o tomar mate en las áreas de descanso, llevar a los niños a la plaza de juegos y salir caminando hacia la playa norte por pasarelas de madera.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Peaceful, historic, and nature-filled foundational pine forest; ideal for families, couples, history buffs, birdwatchers, and anyone looking for a quiet morning or afternoon walk, mate picnic, and cultural tour under the trees.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.99376730355512,
+          -37.28671060391983
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Casa de la Cultura y Auditorio Municipal (Casa de la Música)",
+        "category": "Puntos de interés / Auditorio y Espacio Cultural",
+        "address": "Avenida 3 N° 4045 y Paseo 141, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-8027",
+        "website": "https://www.gesell.tur.ar/experiencias/espacios-culturales-C75FB7EA3E",
+        "instagram": "https://www.instagram.com/culturavillagesell/",
+        "opening_hours": "Lunes a Domingos de 09:00 a 20:00 hs (funciones nocturnas según cartelera)",
+        "price_range": "Actividades gratuitas y entradas accesibles según espectáculo",
+        "short_description": "Principal centro cultural y auditorio municipal de la Zona Sur de Villa Gesell, ubicado en Avenida 3 y Paseo 141 junto al Monumento al Tango de Leonardo Castellani.",
+        "description": "Principal centro cultural y auditorio municipal de la Zona Sur de Villa Gesell, ubicado en Avenida 3 y Paseo 141 junto al Monumento al Tango de Leonardo Castellani.\n\nHistoria y vínculo con Villa Gesell: Constituye el corazón de la vida artística permanente de los vecinos durante todo el año (talleres municipales, música, danza y cine-debate) y descentraliza la oferta teatral y musical hacia el sur de la ciudad.\n\nQué hacer: Asistir a obras de teatro, conciertos, proyecciones de cine argentino comentadas por sus protagonistas, muestras artísticas y observar en su exterior el Monumento al Tango.\n\nDirección: Avenida 3 N° 4045 y Paseo 141, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Principal centro cultural y auditorio municipal de la Zona Sur de Villa Gesell, ubicado en Avenida 3 y Paseo 141 junto al Monumento al Tango de Leonardo Castellani.",
+        "history_and_gesell_connection": "Constituye el corazón de la vida artística permanente de los vecinos durante todo el año (talleres municipales, música, danza y cine-debate) y descentraliza la oferta teatral y musical hacia el sur de la ciudad.",
+        "what_to_do": "Asistir a obras de teatro, conciertos, proyecciones de cine argentino comentadas por sus protagonistas, muestras artísticas y observar en su exterior el Monumento al Tango.",
+        "services": "Asistir a obras de teatro, conciertos, proyecciones de cine argentino comentadas por sus protagonistas, muestras artísticas y observar en su exterior el Monumento al Tango.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Welcoming, active neighborhood cultural center and auditorium; ideal for theatergoers, music lovers, and visitors seeking indoor cultural programming year-round.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96129545979851,
+          -37.251902086447046
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Casa Museo y Centro Cultural \"Chalet de Don Carlos\"",
+        "category": "Puntos de interés / Casa Museo y Centro Cultural",
+        "address": "Alameda 201 y Calle 303 (Pinar del Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 45-0530",
+        "website": "https://www.gesell.tur.ar/experiencia/centro-cultural-chalet-de-don-carlos-0176EECB20",
+        "instagram": "https://www.instagram.com/museohistoricovillagesell/",
+        "opening_hours": "Verano: Todos los días 10:00–18:00 | Marzo a Diciembre: Mar–Sáb 10:00–16:00",
+        "price_range": "Entrada económica / Actividades culturales gratuitas",
+        "short_description": "Segunda vivienda familiar de Don Carlos Gesell y doña Emilia Luther, rodeada de jardines y árboles añosos dentro del Pinar del Norte. Hoy funciona como Casa Museo y Centro Cultural municipal con salas de exposición, piano histórico y archivo documental.",
+        "description": "Segunda vivienda familiar de Don Carlos Gesell y doña Emilia Luther, rodeada de jardines y árboles añosos dentro del Pinar del Norte. Hoy funciona como Casa Museo y Centro Cultural municipal con salas de exposición, piano histórico y archivo documental.\n\nHistoria y vínculo con Villa Gesell: Levantado en 1952 cuando el bosque ya estaba consolidado y la villa comenzaba su expansión turística, fue el hogar definitivo del fundador y punto de recepción de visitantes ilustres y primeros veraneantes. También preserva el legado intelectual de su padre, el economista alemán Silvio Gesell.\n\nQué hacer: Visitar muestras fotográficas y de artes plásticas, asistir a conciertos acústicos, encuentros corales, charlas históricas y proyecciones de documentales (como 'Carlos Gesell, mi padre'), y apreciar objetos personales de la familia Gesell.\n\nDirección: Alameda 201 y Calle 303 (Pinar del Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Segunda vivienda familiar de Don Carlos Gesell y doña Emilia Luther, rodeada de jardines y árboles añosos dentro del Pinar del Norte. Hoy funciona como Casa Museo y Centro Cultural municipal con salas de exposición, piano histórico y archivo documental.",
+        "history_and_gesell_connection": "Levantado en 1952 cuando el bosque ya estaba consolidado y la villa comenzaba su expansión turística, fue el hogar definitivo del fundador y punto de recepción de visitantes ilustres y primeros veraneantes. También preserva el legado intelectual de su padre, el economista alemán Silvio Gesell.",
+        "what_to_do": "Visitar muestras fotográficas y de artes plásticas, asistir a conciertos acústicos, encuentros corales, charlas históricas y proyecciones de documentales (como 'Carlos Gesell, mi padre'), y apreciar objetos personales de la familia Gesell.",
+        "services": "Visitar muestras fotográficas y de artes plásticas, asistir a conciertos acústicos, encuentros corales, charlas históricas y proyecciones de documentales (como 'Carlos Gesell, mi padre'), y apreciar objetos personales de la familia Gesell.",
+        "data_source": "Google Maps / Instituto Cultural PBA / Secretaría de Turismo de Villa Gesell",
+        "vibe": "Quiet, cultured, and nostalgic woodland chalet; suited for art and history lovers, couples, and families exploring the Pinar del Norte museum circuit.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96386440540786,
+          -37.25554051612261
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Centro Cultural Pipach",
+        "category": "Puntos de interés / Centro Cultural e Ícono Arquitectónico",
+        "address": "Avenida Buenos Aires y Playa (Av. Costanera), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-5764",
+        "website": "https://www.gesell.tur.ar/mas-info/otrosespacios",
+        "instagram": "https://www.instagram.com/culturavillagesell/",
+        "opening_hours": "Todos los días según agenda cultural (exposiciones, cine y talleres de 10:00 a 20:00 hs)",
+        "price_range": "Entrada libre y gratuita a muestras, cine y talleres municipales",
+        "short_description": "Singular edificio modernista enclavado sobre el médano frente al mar en la intersección de Avenida Buenos Aires y la playa, con grandes ventanales panorámicos hacia el océano Atlántico.",
+        "description": "Singular edificio modernista enclavado sobre el médano frente al mar en la intersección de Avenida Buenos Aires y la playa, con grandes ventanales panorámicos hacia el océano Atlántico.\n\nHistoria y vínculo con Villa Gesell: Diseñado a comienzos de la década de 1960 por el arquitecto húngaro Tomás Semsey como el mítico boliche y parador 'Pipach', fue ícono de la juventud y la vanguardia arquitectónica geselina antes de ser recuperado por el Municipio como Centro Cultural frente al mar.\n\nQué hacer: Asistir a ciclos de cine gratuito, obras de teatro, exposiciones de artes visuales ('Arte Vivo'), talleres culturales abiertos a turistas y residentes, y disfrutar de una de las mejores vistas panorámicas del mar desde sus ventanales.\n\nDirección: Avenida Buenos Aires y Playa (Av. Costanera), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Singular edificio modernista enclavado sobre el médano frente al mar en la intersección de Avenida Buenos Aires y la playa, con grandes ventanales panorámicos hacia el océano Atlántico.",
+        "history_and_gesell_connection": "Diseñado a comienzos de la década de 1960 por el arquitecto húngaro Tomás Semsey como el mítico boliche y parador 'Pipach', fue ícono de la juventud y la vanguardia arquitectónica geselina antes de ser recuperado por el Municipio como Centro Cultural frente al mar.",
+        "what_to_do": "Asistir a ciclos de cine gratuito, obras de teatro, exposiciones de artes visuales ('Arte Vivo'), talleres culturales abiertos a turistas y residentes, y disfrutar de una de las mejores vistas panorámicas del mar desde sus ventanales.",
+        "services": "Asistir a ciclos de cine gratuito, obras de teatro, exposiciones de artes visuales ('Arte Vivo'), talleres culturales abiertos a turistas y residentes, y disfrutar de una de las mejores vistas panorámicas del mar desde sus ventanales.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Inspiring, artistic, and scenic beachfront cultural center with mid-century coastal architecture; ideal for culture lovers, rainy-day outings, and visitors seeking free cinema, art exhibits, and ocean views.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9694106882129,
+          -37.25701744525069
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Cine Teatro y Galería Gesell Plaza",
+        "category": "Puntos de interés / Teatro, Cine y Galería Clásica",
+        "address": "Avenida 3 N° 524 (entre Paseos 105 y 106), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-4490",
+        "website": "https://www.gesell.tur.ar/experiencias/espacios-culturales-C75FB7EA3E",
+        "instagram": "",
+        "opening_hours": "Todos los días de 10:00 a 01:00 hs (en verano hasta la madrugada)",
+        "price_range": "Paseo comercial libre; entradas de cine y teatro en boletería",
+        "short_description": "Tradicional galería comercial y complejo cultural en el corazón de la peatonal de Avenida 3, que alberga el histórico Cine Teatro Gesell Plaza, locales comerciales, patio gastronómico y juegos infantiles.",
+        "description": "Tradicional galería comercial y complejo cultural en el corazón de la peatonal de Avenida 3, que alberga el histórico Cine Teatro Gesell Plaza, locales comerciales, patio gastronómico y juegos infantiles.\n\nHistoria y vínculo con Villa Gesell: Es desde hace décadas el epicentro de la cartelera teatral de verano y del cine en Villa Gesell, donde compañías nacionales presentan comedias, unipersonales y shows musicales cada temporada estival.\n\nQué hacer: Asistir a funciones de teatro nacional en las noches de verano o estrenos de cine, recorrer su pintoresca galería cubierta y refugiarse con actividades bajo techo en días de lluvia o viento.\n\nDirección: Avenida 3 N° 524 (entre Paseos 105 y 106), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Tradicional galería comercial y complejo cultural en el corazón de la peatonal de Avenida 3, que alberga el histórico Cine Teatro Gesell Plaza, locales comerciales, patio gastronómico y juegos infantiles.",
+        "history_and_gesell_connection": "Es desde hace décadas el epicentro de la cartelera teatral de verano y del cine en Villa Gesell, donde compañías nacionales presentan comedias, unipersonales y shows musicales cada temporada estival.",
+        "what_to_do": "Asistir a funciones de teatro nacional en las noches de verano o estrenos de cine, recorrer su pintoresca galería cubierta y refugiarse con actividades bajo techo en días de lluvia o viento.",
+        "services": "Asistir a funciones de teatro nacional en las noches de verano o estrenos de cine, recorrer su pintoresca galería cubierta y refugiarse con actividades bajo techo en días de lluvia o viento.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Lively, classic downtown theater and shopping arcade; a go-to evening or rainy-day destination for families, couples, and theater lovers on the main pedestrian strip.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9671413,
+          -37.2605675
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Escultura al \"Che\" Guevara",
+        "category": "Puntos de interés / Escultura y Circuito Histórico",
+        "address": "Paseo 107 y Avenida Costanera (Playa), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "http://www.gesell.tur.ar/experiencia/monumentos-y-esculturas-6AEC296219",
+        "instagram": "",
+        "opening_hours": "Abierto las 24 horas",
+        "price_range": "Acceso libre y gratuito",
+        "short_description": "Obra escultórica emplazada frente al mar en la bajada de Paseo 107 y Costanera, realizada por el escultor y pintor geselino Leonardo Castellani.",
+        "description": "Obra escultórica emplazada frente al mar en la bajada de Paseo 107 y Costanera, realizada por el escultor y pintor geselino Leonardo Castellani.\n\nHistoria y vínculo con Villa Gesell: Inaugurada el 14 de diciembre de 2012 para conmemorar el paso histórico del joven Ernesto 'Che' Guevara y su amigo Alberto Granado por las playas de Villa Gesell antes de su legendario viaje por América Latina. Forma parte del circuito oficial de Monumentos y Esculturas de la ciudad.\n\nQué hacer: Visitar el mirador costero de Paseo 107 durante una caminata por la Rambla de Madera, tomar fotografías con el mar de fondo y conectar con los demás hitos del circuito escultórico de Leonardo Castellani.\n\nDirección: Paseo 107 y Avenida Costanera (Playa), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Obra escultórica emplazada frente al mar en la bajada de Paseo 107 y Costanera, realizada por el escultor y pintor geselino Leonardo Castellani.",
+        "history_and_gesell_connection": "Inaugurada el 14 de diciembre de 2012 para conmemorar el paso histórico del joven Ernesto 'Che' Guevara y su amigo Alberto Granado por las playas de Villa Gesell antes de su legendario viaje por América Latina. Forma parte del circuito oficial de Monumentos y Esculturas de la ciudad.",
+        "what_to_do": "Visitar el mirador costero de Paseo 107 durante una caminata por la Rambla de Madera, tomar fotografías con el mar de fondo y conectar con los demás hitos del circuito escultórico de Leonardo Castellani.",
+        "services": "Visitar el mirador costero de Paseo 107 durante una caminata por la Rambla de Madera, tomar fotografías con el mar de fondo y conectar con los demás hitos del circuito escultórico de Leonardo Castellani.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Open-air coastal viewpoint and historical sculpture along the beachfront walk; a quick cultural stop for walkers and history buffs exploring the central boardwalk.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.114167,
+          -37.464444
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Faro Querandí",
+        "category": "Puntos de interés / Faro Centenario y Monumento Histórico Nacional",
+        "address": "Interior de la Reserva Natural Faro Querandí (30 km al sur del centro), Partido de Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "https://www.gesell.tur.ar/experiencia/reserva-natural-faro-querand-4DFB7ECA68",
+        "instagram": "https://www.instagram.com/reservanaturalfaroquerandi/",
+        "opening_hours": "Visitable en el predio exterior durante el día (acceso únicamente en 4x4, excursiones habilitadas o trekking costero)",
+        "price_range": "Acceso libre al predio del faro (excursiones en camiones/camionetas 4x4 contratadas aparte)",
+        "short_description": "Imponente torre troncocónica de mampostería de 54 metros de altura con franjas horizontales blancas y negras, rodeada por un oasis forestal de 4 hectáreas de pinos, cipreses y aromos en medio de un desierto de dunas gigantes.",
+        "description": "Imponente torre troncocónica de mampostería de 54 metros de altura con franjas horizontales blancas y negras, rodeada por un oasis forestal de 4 hectáreas de pinos, cipreses y aromos en medio de un desierto de dunas gigantes.\n\nHistoria y vínculo con Villa Gesell: Inaugurado el 27 de octubre de 1922 por el Servicio de Hidrografía Naval —nueve años antes de que Carlos Gesell llegara a la zona—, fue la primera construcción humana en todo el actual territorio del Partido de Villa Gesell y hoy es Monumento Histórico Nacional (Ley 26.650).\n\nQué hacer: Realizar una travesía de aventura en vehículos 4x4 o excursiones guiadas por la playa y los médanos desde Villa Gesell o Mar Azul, visitar la base del faro y su pequeño museo naval, descansar bajo la sombra de su bosquecito y practicar sandboard en las dunas cercanas.\n\nDirección: Interior de la Reserva Natural Faro Querandí (30 km al sur del centro), Partido de Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Imponente torre troncocónica de mampostería de 54 metros de altura con franjas horizontales blancas y negras, rodeada por un oasis forestal de 4 hectáreas de pinos, cipreses y aromos en medio de un desierto de dunas gigantes.",
+        "history_and_gesell_connection": "Inaugurado el 27 de octubre de 1922 por el Servicio de Hidrografía Naval —nueve años antes de que Carlos Gesell llegara a la zona—, fue la primera construcción humana en todo el actual territorio del Partido de Villa Gesell y hoy es Monumento Histórico Nacional (Ley 26.650).",
+        "what_to_do": "Realizar una travesía de aventura en vehículos 4x4 o excursiones guiadas por la playa y los médanos desde Villa Gesell o Mar Azul, visitar la base del faro y su pequeño museo naval, descansar bajo la sombra de su bosquecito y practicar sandboard en las dunas cercanas.",
+        "services": "Realizar una travesía de aventura en vehículos 4x4 o excursiones guiadas por la playa y los médanos desde Villa Gesell o Mar Azul, visitar la base del faro y su pequeño museo naval, descansar bajo la sombra de su bosquecito y practicar sandboard en las dunas cercanas.",
+        "data_source": "Google Maps / Wikipedia / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Remote, adventurous, and awe-inspiring historic lighthouse surrounded by towering sand dunes; a bucket-list day trip for adventure seekers, 4x4 excursionists, photographers, and nature lovers.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.983652172868624,
+          -37.2747436874535
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Juguelandia",
+        "category": "Puntos de interés / Parque Temático Familiar",
+        "address": "Avenida 3 N° 2550 (entre Paseos 125 y 126), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "https://www.plataforma10.com.ar/blog/turismo/que-hacer-en-villa-gesell-12-planes-entre-la-playa-el-bosque-y-el-faro-querandi",
+        "instagram": "",
+        "opening_hours": "Temporada y vacaciones: desde las 18:00 hs (días nublados desde las 16:00 hs)",
+        "price_range": "Entrada libre al predio; tickets individuales o tarjetas por juego",
+        "short_description": "Histórico parque de diversiones infantil de estética medieval distinguido por su fachada de castillo almenado sobre la Avenida 3, con el Laberinto 'Pirata', Gruta Fantástica, Tobogán Cohete, Aldea Medieval, anfiteatro infantil y un carrusel de dos pisos de estilo siglo XVIII.",
+        "description": "Histórico parque de diversiones infantil de estética medieval distinguido por su fachada de castillo almenado sobre la Avenida 3, con el Laberinto 'Pirata', Gruta Fantástica, Tobogán Cohete, Aldea Medieval, anfiteatro infantil y un carrusel de dos pisos de estilo siglo XVIII.\n\nHistoria y vínculo con Villa Gesell: Es un verdadero clásico intergeneracional de las vacaciones familiares en Villa Gesell desde hace décadas: padres y abuelos que jugaron en su laberinto y su castillo durante su infancia hoy llevan a sus hijos y nietos después de la playa.\n\nQué hacer: Subir al carrusel de dos pisos, recorrer el laberinto y la gruta fantástica con los chicos, disfrutar de espectáculos infantiles gratuitos en su anfiteatro nocturno y pasar una tarde divertida en días nublados o después del mar.\n\nDirección: Avenida 3 N° 2550 (entre Paseos 125 y 126), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Histórico parque de diversiones infantil de estética medieval distinguido por su fachada de castillo almenado sobre la Avenida 3, con el Laberinto 'Pirata', Gruta Fantástica, Tobogán Cohete, Aldea Medieval, anfiteatro infantil y un carrusel de dos pisos de estilo siglo XVIII.",
+        "history_and_gesell_connection": "Es un verdadero clásico intergeneracional de las vacaciones familiares en Villa Gesell desde hace décadas: padres y abuelos que jugaron en su laberinto y su castillo durante su infancia hoy llevan a sus hijos y nietos después de la playa.",
+        "what_to_do": "Subir al carrusel de dos pisos, recorrer el laberinto y la gruta fantástica con los chicos, disfrutar de espectáculos infantiles gratuitos en su anfiteatro nocturno y pasar una tarde divertida en días nublados o después del mar.",
+        "services": "Subir al carrusel de dos pisos, recorrer el laberinto y la gruta fantástica con los chicos, disfrutar de espectáculos infantiles gratuitos en su anfiteatro nocturno y pasar una tarde divertida en días nublados o después del mar.",
+        "data_source": "Google Maps / Plataforma 10 Guía Villa Gesell",
+        "vibe": "Nostalgic, playful, and storybook medieval amusement park; tailored specifically for families with young children looking for an affordable, charming evening outing after the beach.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97028813424366,
+          -37.25875074520144
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Monumento \"Don Carlos y su Jeep\"",
+        "category": "Puntos de interés / Escultura y Homenaje Urbano",
+        "address": "Avenida 3 N° 625 y Paseo 106 (Peatonal), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "http://www.gesell.tur.ar/experiencia/monumentos-y-esculturas-6AEC296219",
+        "instagram": "",
+        "opening_hours": "Abierto las 24 horas",
+        "price_range": "Acceso libre y gratuito",
+        "short_description": "Escultura hiperrealista a escala real ubicada en plena vereda céntrica de la Avenida 3 y Paseo 106, obra del reconocido artista Fernando Pugliese y su taller.",
+        "description": "Escultura hiperrealista a escala real ubicada en plena vereda céntrica de la Avenida 3 y Paseo 106, obra del reconocido artista Fernando Pugliese y su taller.\n\nHistoria y vínculo con Villa Gesell: Recuerda la imagen cotidiana más querida por los geselinos de las décadas de 1950 a 1970: Don Carlos Gesell recorriendo las calles de arena y los médanos en su famoso Jeep Willys, acompañado fielmente por su perro ovejero alemán 'Fifí'.\n\nQué hacer: Sentarse en el Jeep junto a la figura de Don Carlos y su perro Fifí para sacarse una de las fotos más tradicionales del paseo nocturno o diurno por la peatonal de Avenida 3.\n\nDirección: Avenida 3 N° 625 y Paseo 106 (Peatonal), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Escultura hiperrealista a escala real ubicada en plena vereda céntrica de la Avenida 3 y Paseo 106, obra del reconocido artista Fernando Pugliese y su taller.",
+        "history_and_gesell_connection": "Recuerda la imagen cotidiana más querida por los geselinos de las décadas de 1950 a 1970: Don Carlos Gesell recorriendo las calles de arena y los médanos en su famoso Jeep Willys, acompañado fielmente por su perro ovejero alemán 'Fifí'.",
+        "what_to_do": "Sentarse en el Jeep junto a la figura de Don Carlos y su perro Fifí para sacarse una de las fotos más tradicionales del paseo nocturno o diurno por la peatonal de Avenida 3.",
+        "services": "Sentarse en el Jeep junto a la figura de Don Carlos y su perro Fifí para sacarse una de las fotos más tradicionales del paseo nocturno o diurno por la peatonal de Avenida 3.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Fun, nostalgic, and family-friendly street-level photo landmark right on the bustling pedestrian avenue; loved by kids, families, and first-time visitors.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98245,
+          -37.280193
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Muelle de Pescadores de Villa Gesell",
+        "category": "Puntos de interés / Postal Costera y Pesca",
+        "address": "Paseo 129 y Playa (Av. Costanera), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-3750",
+        "website": "https://www.gesell.tur.ar/experiencia/muelle-de-pescadores-930ED75794",
+        "instagram": "https://www.instagram.com/cpcynvg/",
+        "opening_hours": "Todos los días de 08:00 a 20:00 hs (sujeto a condiciones climáticas y del mar)",
+        "price_range": "Bono de acceso peatonal o permiso de pesca accesible en boletería",
+        "short_description": "Icónico espigón de hormigón armado de 150 metros de longitud sobre pilotes, de 6 metros de ancho y 8 metros de alto, con un morro principal de 15x5 metros, dos morros laterales, iluminación eléctrica, bancos y administración del Club de Pesca, Caza y Náutica de Villa Gesell.",
+        "description": "Icónico espigón de hormigón armado de 150 metros de longitud sobre pilotes, de 6 metros de ancho y 8 metros de alto, con un morro principal de 15x5 metros, dos morros laterales, iluminación eléctrica, bancos y administración del Club de Pesca, Caza y Náutica de Villa Gesell.\n\nHistoria y vínculo con Villa Gesell: Impulsado en la década de 1960 por Don Carlos Gesell dentro de su plan para desarrollar y valorizar la Zona Sur junto con la antigua Terminal, el muelle lleva más de medio siglo adentrándose en el Atlántico y es una de las postales fotográficas más emblemáticas de la ciudad.\n\nQué hacer: Pescar con caña o mediomundo durante todo el año (corvinas, brótolas, cazones, pejerreyes, rayas y cornalitos), caminar hasta el morro para contemplar toda la bahía de Villa Gesell desde el mar, sacar fotos al amanecer o atardecer y pasear por la pasarela de madera costera contigua.\n\nDirección: Paseo 129 y Playa (Av. Costanera), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Icónico espigón de hormigón armado de 150 metros de longitud sobre pilotes, de 6 metros de ancho y 8 metros de alto, con un morro principal de 15x5 metros, dos morros laterales, iluminación eléctrica, bancos y administración del Club de Pesca, Caza y Náutica de Villa Gesell.",
+        "history_and_gesell_connection": "Impulsado en la década de 1960 por Don Carlos Gesell dentro de su plan para desarrollar y valorizar la Zona Sur junto con la antigua Terminal, el muelle lleva más de medio siglo adentrándose en el Atlántico y es una de las postales fotográficas más emblemáticas de la ciudad.",
+        "what_to_do": "Pescar con caña o mediomundo durante todo el año (corvinas, brótolas, cazones, pejerreyes, rayas y cornalitos), caminar hasta el morro para contemplar toda la bahía de Villa Gesell desde el mar, sacar fotos al amanecer o atardecer y pasear por la pasarela de madera costera contigua.",
+        "services": "Pescar con caña o mediomundo durante todo el año (corvinas, brótolas, cazones, pejerreyes, rayas y cornalitos), caminar hasta el morro para contemplar toda la bahía de Villa Gesell desde el mar, sacar fotos al amanecer o atardecer y pasear por la pasarela de madera costera contigua.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Iconic, breezy, and scenic ocean pier; great for anglers, photographers, couples watching the sunset, and families taking a classic seaside walk above the waves.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9612298,
+          -37.2515577
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Museo del Veterano de Guerra de Malvinas \"Livio Cossiani\"",
+        "category": "Puntos de interés / Museo Histórico y Memoria",
+        "address": "Calle 302 entre Alameda 201 y 202 (Pinar del Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-3942",
+        "website": "https://www.gesell.tur.ar/experiencia/reserva-pinar-del-norte-375FB4B2E4",
+        "instagram": "",
+        "opening_hours": "Verano: Todos los días 10:00–18:00 | Resto del año: Fines de semana y feriados",
+        "price_range": "Entrada libre / Bono contribución voluntario",
+        "short_description": "Espacio de memoria y soberanía ubicado a 50 metros del Chalet de Don Carlos, dentro de la Reserva Pinar del Norte, atendido directamente por excombatientes de Malvinas residentes en Villa Gesell.",
+        "description": "Espacio de memoria y soberanía ubicado a 50 metros del Chalet de Don Carlos, dentro de la Reserva Pinar del Norte, atendido directamente por excombatientes de Malvinas residentes en Villa Gesell.\n\nHistoria y vínculo con Villa Gesell: Reinaugurado el 2 de abril de 2014 en el edificio donde funcionaban originalmente los garajes y talleres de la segunda vivienda de Don Carlos Gesell. Lleva el nombre de Livio Cossiani y custodia el patrimonio donado por los veteranos geselinos.\n\nQué hacer: Observar equipamiento original (cascos, uniformes, balsas, cartas, diarios de 1982, fotografías y medallas) y conversar en primera persona con los propios veteranos de guerra de la ciudad sobre sus vivencias en las islas.\n\nDirección: Calle 302 entre Alameda 201 y 202 (Pinar del Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Espacio de memoria y soberanía ubicado a 50 metros del Chalet de Don Carlos, dentro de la Reserva Pinar del Norte, atendido directamente por excombatientes de Malvinas residentes en Villa Gesell.",
+        "history_and_gesell_connection": "Reinaugurado el 2 de abril de 2014 en el edificio donde funcionaban originalmente los garajes y talleres de la segunda vivienda de Don Carlos Gesell. Lleva el nombre de Livio Cossiani y custodia el patrimonio donado por los veteranos geselinos.",
+        "what_to_do": "Observar equipamiento original (cascos, uniformes, balsas, cartas, diarios de 1982, fotografías y medallas) y conversar en primera persona con los propios veteranos de guerra de la ciudad sobre sus vivencias en las islas.",
+        "services": "Observar equipamiento original (cascos, uniformes, balsas, cartas, diarios de 1982, fotografías y medallas) y conversar en primera persona con los propios veteranos de guerra de la ciudad sobre sus vivencias en las islas.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Moving, respectful, and deeply personal memorial museum; highly recommended for families, students, and visitors seeking a meaningful first-hand historical conversation with local veterans.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9624209,
+          -37.2520393
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Museo y Archivo Histórico Municipal \"Casa de las Cuatro Puertas\" (Casa Fundacional)",
+        "category": "Puntos de interés / Museo y Monumento Histórico",
+        "address": "Alameda 201 y Calle 303 (Pinar del Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-8624",
+        "website": "https://www.gesell.tur.ar/experiencia/reserva-pinar-del-norte-375FB4B2E4",
+        "instagram": "https://www.instagram.com/museohistoricovillagesell/",
+        "opening_hours": "Verano (Ene–Feb): Todos los días 10:00–18:00 | Marzo a Diciembre: Mar–Sáb 10:00–16:00",
+        "price_range": "Entrada general económica (menores de 12 años, jubilados y residentes sin cargo)",
+        "short_description": "Primera vivienda de Don Carlos Idaho Gesell y emblema fundacional de la ciudad, declarada Bien de Interés Histórico Nacional (Decreto 784/2013). Conserva su arquitectura original en madera sobre un médano a metros del mar, con cuatro puertas orientadas hacia los cuatro puntos cardinales.",
+        "description": "Primera vivienda de Don Carlos Idaho Gesell y emblema fundacional de la ciudad, declarada Bien de Interés Histórico Nacional (Decreto 784/2013). Conserva su arquitectura original en madera sobre un médano a metros del mar, con cuatro puertas orientadas hacia los cuatro puntos cardinales.\n\nHistoria y vínculo con Villa Gesell: Construida en 1931 sobre la duna viva, Carlos Gesell la diseñó con cuatro puertas (norte, sur, este y oeste) para poder salir siempre por al menos una de ellas cuando las tormentas de viento y arena bloqueaban las demás. Desde esta casa dirigió los experimentos de forestación que dieron origen a Villa Gesell.\n\nQué hacer: Recorrer las habitaciones originales con mobiliario de época, herramientas de forestación, planos, cartas y fotografías inéditas; participar de la visita guiada histórica y botánica de las 10:30/11:00 hs; y conocer en detalle cómo se domaron los médanos costeros.\n\nDirección: Alameda 201 y Calle 303 (Pinar del Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Primera vivienda de Don Carlos Idaho Gesell y emblema fundacional de la ciudad, declarada Bien de Interés Histórico Nacional (Decreto 784/2013). Conserva su arquitectura original en madera sobre un médano a metros del mar, con cuatro puertas orientadas hacia los cuatro puntos cardinales.",
+        "history_and_gesell_connection": "Construida en 1931 sobre la duna viva, Carlos Gesell la diseñó con cuatro puertas (norte, sur, este y oeste) para poder salir siempre por al menos una de ellas cuando las tormentas de viento y arena bloqueaban las demás. Desde esta casa dirigió los experimentos de forestación que dieron origen a Villa Gesell.",
+        "what_to_do": "Recorrer las habitaciones originales con mobiliario de época, herramientas de forestación, planos, cartas y fotografías inéditas; participar de la visita guiada histórica y botánica de las 10:30/11:00 hs; y conocer en detalle cómo se domaron los médanos costeros.",
+        "services": "Recorrer las habitaciones originales con mobiliario de época, herramientas de forestación, planos, cartas y fotografías inéditas; participar de la visita guiada histórica y botánica de las 10:30/11:00 hs; y conocer en detalle cómo se domaron los médanos costeros.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Intimate, educational, and deeply historic house-museum; ideal for curious travelers, families, and history enthusiasts wanting to understand the origins of Villa Gesell, especially on a morning stroll or cloudy day.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9676811,
+          -37.25548
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Paseo de los Artesanos (Feria Artesanal de la Avenida 3)",
+        "category": "Puntos de interés / Feria Artesanal y Paseo Cultural",
+        "address": "Avenida 3 N° 381 y Paseo 104, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 46-4311",
+        "website": "https://www.gesell.tur.ar/experiencia/paseo-de-los-artesanos-69BFF99EC8",
+        "instagram": "",
+        "opening_hours": "Verano: Todos los días de 17:00 a 01:00 hs | Resto del año: Fines de semana y feriados",
+        "price_range": "Paseo libre y gratuito",
+        "short_description": "Tradicional galería y feria artesanal a cielo abierto construida con puestos de troncos y piedra en pleno corazón céntrico de la Avenida 3, frente a la Plaza Primera Junta.",
+        "description": "Tradicional galería y feria artesanal a cielo abierto construida con puestos de troncos y piedra en pleno corazón céntrico de la Avenida 3, frente a la Plaza Primera Junta.\n\nHistoria y vínculo con Villa Gesell: Nacida del movimiento bohemio, hippie y artístico que adoptó a Villa Gesell en los años 1960 y consolidada en su paseo actual desde 1985, representa la identidad creativa de los artesanos geselinos que trabajan el cuero, la plata, la cerámica, el vidrio y la madera a la vista del público.\n\nQué hacer: Recorrer los puestos de artesanías genuinas y diseño local, conversar con los artesanos mientras elaboran sus piezas, disfrutar de espectáculos callejeros y eventos especiales (como la decoración navideña, noches de disfraces en Carnaval o la búsqueda de huevos de Pascua para niños).\n\nDirección: Avenida 3 N° 381 y Paseo 104, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Tradicional galería y feria artesanal a cielo abierto construida con puestos de troncos y piedra en pleno corazón céntrico de la Avenida 3, frente a la Plaza Primera Junta.",
+        "history_and_gesell_connection": "Nacida del movimiento bohemio, hippie y artístico que adoptó a Villa Gesell en los años 1960 y consolidada en su paseo actual desde 1985, representa la identidad creativa de los artesanos geselinos que trabajan el cuero, la plata, la cerámica, el vidrio y la madera a la vista del público.",
+        "what_to_do": "Recorrer los puestos de artesanías genuinas y diseño local, conversar con los artesanos mientras elaboran sus piezas, disfrutar de espectáculos callejeros y eventos especiales (como la decoración navideña, noches de disfraces en Carnaval o la búsqueda de huevos de Pascua para niños).",
+        "services": "Recorrer los puestos de artesanías genuinas y diseño local, conversar con los artesanos mientras elaboran sus piezas, disfrutar de espectáculos callejeros y eventos especiales (como la decoración navideña, noches de disfraces en Carnaval o la búsqueda de huevos de Pascua para niños).",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Bohemian, lively, and family-friendly open-air artisan market; a classic evening stroll for couples, families, and souvenir hunters in the heart of downtown.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9680337,
+          -37.2557597
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Plaza Primera Junta",
+        "category": "Puntos de interés / Plaza Céntrica y Escenario Cultural",
+        "address": "Avenida 3 y Paseo 104, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 47-8042",
+        "website": "https://www.gesell.tur.ar/",
+        "instagram": "",
+        "opening_hours": "Abierto las 24 horas",
+        "price_range": "Acceso libre y gratuito",
+        "short_description": "Plaza principal del centro de Villa Gesell, ubicada sobre la peatonal de Avenida 3 y Paseo 104. Cuenta con escenario al aire libre, la emblemática escultura 'La Madre' (de Ernesto Murillo y Ramón Castejón) y una oficina de Información Turística.",
+        "description": "Plaza principal del centro de Villa Gesell, ubicada sobre la peatonal de Avenida 3 y Paseo 104. Cuenta con escenario al aire libre, la emblemática escultura 'La Madre' (de Ernesto Murillo y Ramón Castejón) y una oficina de Información Turística.\n\nHistoria y vínculo con Villa Gesell: Es el punto neurálgico de reunión social y cultural del centro histórico comercial de Villa Gesell, donde convergen la peatonal estival, las fiestas populares (como la Fiesta Nacional de la Diversidad Cultural y la Chocogesell) y los espectáculos gratuitos al aire libre.\n\nQué hacer: Disfrutar de recitales gratuitos, teatro callejero y shows infantiles en las noches de verano, sacarse fotos junto al cartel corpóreo de Villa Gesell y la escultura 'La Madre', consultar mapas en la oficina de turismo y descansar durante el paseo por la peatonal.\n\nDirección: Avenida 3 y Paseo 104, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Plaza principal del centro de Villa Gesell, ubicada sobre la peatonal de Avenida 3 y Paseo 104. Cuenta con escenario al aire libre, la emblemática escultura 'La Madre' (de Ernesto Murillo y Ramón Castejón) y una oficina de Información Turística.",
+        "history_and_gesell_connection": "Es el punto neurálgico de reunión social y cultural del centro histórico comercial de Villa Gesell, donde convergen la peatonal estival, las fiestas populares (como la Fiesta Nacional de la Diversidad Cultural y la Chocogesell) y los espectáculos gratuitos al aire libre.",
+        "what_to_do": "Disfrutar de recitales gratuitos, teatro callejero y shows infantiles en las noches de verano, sacarse fotos junto al cartel corpóreo de Villa Gesell y la escultura 'La Madre', consultar mapas en la oficina de turismo y descansar durante el paseo por la peatonal.",
+        "services": "Disfrutar de recitales gratuitos, teatro callejero y shows infantiles en las noches de verano, sacarse fotos junto al cartel corpóreo de Villa Gesell y la escultura 'La Madre', consultar mapas en la oficina de turismo y descansar durante el paseo por la peatonal.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Bustling, vibrant, and social central square; ideal for families with kids, evening strollers, and tourists looking for free open-air street shows and live music.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.994914334242466,
+          -37.28572078580666
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Polo Cultural Sur (Ex Terminal de Ómnibus)",
+        "category": "Puntos de interés / Centro Cultural y Monumento Arquitectónico",
+        "address": "Avenida 3 y Paseo 140 (Calle 140 N° 257), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 45-7255",
+        "website": "https://www.gesell.tur.ar/experiencia/polo-cultural-sur-46EC19926A",
+        "instagram": "https://www.instagram.com/culturavillagesell/",
+        "opening_hours": "Temporada de verano: 19:00 a 01:00 hs | Talleres y oficinas municipales durante el año",
+        "price_range": "Acceso libre y gratuito",
+        "short_description": "Espacio cultural, feria artesanal y paseo gastronómico emplazado en el icónico edificio de la Antigua Terminal de Ómnibus, caracterizado por su pórtico abovedado semicubierto de hormigón armado de 6 metros de vuelo diseñado por el Arq. Carlos Defelice.",
+        "description": "Espacio cultural, feria artesanal y paseo gastronómico emplazado en el icónico edificio de la Antigua Terminal de Ómnibus, caracterizado por su pórtico abovedado semicubierto de hormigón armado de 6 metros de vuelo diseñado por el Arq. Carlos Defelice.\n\nHistoria y vínculo con Villa Gesell: Impulsada por Don Carlos Gesell en 1969 junto al Plan Galopante para poblar y desarrollar comercialmente la Zona Sur, la antigua terminal recibió a generaciones de veraneantes. En 2018 fue declarada Lugar Histórico y Monumento Arquitectónico (Ordenanza 2820) y reconvertida en Polo Cultural.\n\nQué hacer: Disfrutar en verano de espectáculos musicales y circenses en vivo, recorrer su feria de artesanos y emprendedores, comer algo en el patio de food trucks y admirar su arquitectura modernista de fines de los años 60.\n\nDirección: Avenida 3 y Paseo 140 (Calle 140 N° 257), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Espacio cultural, feria artesanal y paseo gastronómico emplazado en el icónico edificio de la Antigua Terminal de Ómnibus, caracterizado por su pórtico abovedado semicubierto de hormigón armado de 6 metros de vuelo diseñado por el Arq. Carlos Defelice.",
+        "history_and_gesell_connection": "Impulsada por Don Carlos Gesell en 1969 junto al Plan Galopante para poblar y desarrollar comercialmente la Zona Sur, la antigua terminal recibió a generaciones de veraneantes. En 2018 fue declarada Lugar Histórico y Monumento Arquitectónico (Ordenanza 2820) y reconvertida en Polo Cultural.",
+        "what_to_do": "Disfrutar en verano de espectáculos musicales y circenses en vivo, recorrer su feria de artesanos y emprendedores, comer algo en el patio de food trucks y admirar su arquitectura modernista de fines de los años 60.",
+        "services": "Disfrutar en verano de espectáculos musicales y circenses en vivo, recorrer su feria de artesanos y emprendedores, comer algo en el patio de food trucks y admirar su arquitectura modernista de fines de los años 60.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Lively, community-focused cultural hub and open-air night market in the southern zone; great for families and groups looking for live summer shows, crafts, and food trucks away from downtown.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.0536653,
+          -37.3853684
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Reserva Natural Municipal Faro Querandí (Acceso Guardaparques)",
+        "category": "Puntos de interés / Reserva Natural y Ecoturismo",
+        "address": "Playa a 5 km al sur de Calle 47 (Mar Azul), Partido de Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 45-7255",
+        "website": "https://www.gesell.tur.ar/experiencia/reserva-natural-faro-querand-4DFB7ECA68",
+        "instagram": "https://www.instagram.com/reservanaturalfaroquerandi/",
+        "opening_hours": "Todos los días (horarios recomendados de senderismo: 08:00–10:00 y 17:00–19:00 hs)",
+        "price_range": "Acceso libre y gratuito (prohibido ingresar con mascotas o cuatriciclos deportivos)",
+        "short_description": "Puesto de Guardaparques y portal de entrada a las más de 5.757 hectáreas de dunas costeras vírgenes, bañados, pastizales y playas agrestes que se extienden a lo largo de 21 km sobre el extremo sur del Partido de Villa Gesell.",
+        "description": "Puesto de Guardaparques y portal de entrada a las más de 5.757 hectáreas de dunas costeras vírgenes, bañados, pastizales y playas agrestes que se extienden a lo largo de 21 km sobre el extremo sur del Partido de Villa Gesell.\n\nHistoria y vínculo con Villa Gesell: Creada para preservar el ecosistema original de médanos vivos exactamente como lucía toda la costa antes de la llegada de Carlos Gesell en 1931, protegiendo especies endémicas en peligro de extinción como la lagartija de las dunas (Monumento Natural Provincial) y la monjita dominica.\n\nQué hacer: Recorrer a pie el sendero ecoturístico autoguiado 'Los Senecios' (40 min, señalizado con postes amarillos), observar el muestrario de huesos de ballena en el puesto de guardaparques, avistar aves playeras y fauna nativa, y participar en caminatas guiadas oficiales.\n\nDirección: Playa a 5 km al sur de Calle 47 (Mar Azul), Partido de Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Puesto de Guardaparques y portal de entrada a las más de 5.757 hectáreas de dunas costeras vírgenes, bañados, pastizales y playas agrestes que se extienden a lo largo de 21 km sobre el extremo sur del Partido de Villa Gesell.",
+        "history_and_gesell_connection": "Creada para preservar el ecosistema original de médanos vivos exactamente como lucía toda la costa antes de la llegada de Carlos Gesell en 1931, protegiendo especies endémicas en peligro de extinción como la lagartija de las dunas (Monumento Natural Provincial) y la monjita dominica.",
+        "what_to_do": "Recorrer a pie el sendero ecoturístico autoguiado 'Los Senecios' (40 min, señalizado con postes amarillos), observar el muestrario de huesos de ballena en el puesto de guardaparques, avistar aves playeras y fauna nativa, y participar en caminatas guiadas oficiales.",
+        "services": "Recorrer a pie el sendero ecoturístico autoguiado 'Los Senecios' (40 min, señalizado con postes amarillos), observar el muestrario de huesos de ballena en el puesto de guardaparques, avistar aves playeras y fauna nativa, y participar en caminatas guiadas oficiales.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Wild, pristine, and untouched coastal dune nature reserve; ideal for eco-tourists, hikers, nature photographers, and families seeking adventure and native wildlife.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98524934588395,
+          -37.27420201134422
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Santuario Santiago Apóstol",
+        "category": "Puntos de interés / Patrimonio Cultural y Religioso",
+        "address": "Paseo 124 N° 457 (Avenida 4 entre Paseos 125 y 126), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "https://sanfransolanobv.com.ar/parroquia/santuario-santiago-apostol/",
+        "instagram": "",
+        "opening_hours": "Abierto según cronograma de misas y celebraciones patronales",
+        "price_range": "Acceso libre y gratuito",
+        "short_description": "Emblemático santuario rodeado de pinares declarado Patrimonio Cultural de Villa Gesell, célebre por poseer una réplica en funcionamiento del famoso Botafumeiro de la Catedral de Santiago de Compostela, la imagen del santo donada por la Xunta de Galicia y esculturas del artista local Leonardo Castellani.",
+        "description": "Emblemático santuario rodeado de pinares declarado Patrimonio Cultural de Villa Gesell, célebre por poseer una réplica en funcionamiento del famoso Botafumeiro de la Catedral de Santiago de Compostela, la imagen del santo donada por la Xunta de Galicia y esculturas del artista local Leonardo Castellani.\n\nHistoria y vínculo con Villa Gesell: Refleja la profunda huella de la inmigración española y gallega en Villa Gesell (Santiago Apóstol es el Santo Patrono de la ciudad, celebrado cada 25 de julio y en las fiestas patronales de verano del 25 de enero con procesiones y gaitas).\n\nQué hacer: Conocer la réplica del Botafumeiro y las tallas artísticas de Leonardo Castellani, participar de las Fiestas Patronales de Santiago Apóstol con procesión y danzas tradicionales, o disfrutar de la paz de su entorno arbolado.\n\nDirección: Paseo 124 N° 457 (Avenida 4 entre Paseos 125 y 126), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Emblemático santuario rodeado de pinares declarado Patrimonio Cultural de Villa Gesell, célebre por poseer una réplica en funcionamiento del famoso Botafumeiro de la Catedral de Santiago de Compostela, la imagen del santo donada por la Xunta de Galicia y esculturas del artista local Leonardo Castellani.",
+        "history_and_gesell_connection": "Refleja la profunda huella de la inmigración española y gallega en Villa Gesell (Santiago Apóstol es el Santo Patrono de la ciudad, celebrado cada 25 de julio y en las fiestas patronales de verano del 25 de enero con procesiones y gaitas).",
+        "what_to_do": "Conocer la réplica del Botafumeiro y las tallas artísticas de Leonardo Castellani, participar de las Fiestas Patronales de Santiago Apóstol con procesión y danzas tradicionales, o disfrutar de la paz de su entorno arbolado.",
+        "services": "Conocer la réplica del Botafumeiro y las tallas artísticas de Leonardo Castellani, participar de las Fiestas Patronales de Santiago Apóstol con procesión y danzas tradicionales, o disfrutar de la paz de su entorno arbolado.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell",
+        "vibe": "Peaceful, spiritually rich sanctuary set among pine trees; a unique cultural and architectural visit for families, heritage travelers, and admirers of Galician-Argentine traditions.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9885134,
+          -37.2375907
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Tótem de Villa Gesell",
+        "category": "Puntos de interés / Monumento Histórico de Bienvenida",
+        "address": "Acceso Norte y Avenida Buenos Aires, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "",
+        "website": "http://www.gesell.tur.ar/experiencia/monumentos-y-esculturas-6AEC296219",
+        "instagram": "",
+        "opening_hours": "Abierto las 24 horas",
+        "price_range": "Acceso libre y gratuito",
+        "short_description": "Monumento escultórico vertical emplazado en la rotonda del Acceso Norte sobre Avenida Buenos Aires, que da la bienvenida a los viajeros que ingresan a la ciudad desde la Ruta Provincial 11.",
+        "description": "Monumento escultórico vertical emplazado en la rotonda del Acceso Norte sobre Avenida Buenos Aires, que da la bienvenida a los viajeros que ingresan a la ciudad desde la Ruta Provincial 11.\n\nHistoria y vínculo con Villa Gesell: Inaugurado en diciembre de 1977 en presencia del propio Don Carlos Idaho Gesell y su esposa Doña Emilia Luther. Fue realizado por el escultor alemán Pablo Hannemann como homenaje en vida al fundador, con la inscripción 'Bienvenidos a Villa Gesell' y el lema del esfuerzo humano que venció al desierto de arena.\n\nQué hacer: Detenerse al ingresar o salir de la ciudad para tomar la clásica fotografía de bienvenida junto al monumento histórico y leer las placas conmemorativas dedicadas a Don Carlos Gesell.\n\nDirección: Acceso Norte y Avenida Buenos Aires, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Monumento escultórico vertical emplazado en la rotonda del Acceso Norte sobre Avenida Buenos Aires, que da la bienvenida a los viajeros que ingresan a la ciudad desde la Ruta Provincial 11.",
+        "history_and_gesell_connection": "Inaugurado en diciembre de 1977 en presencia del propio Don Carlos Idaho Gesell y su esposa Doña Emilia Luther. Fue realizado por el escultor alemán Pablo Hannemann como homenaje en vida al fundador, con la inscripción 'Bienvenidos a Villa Gesell' y el lema del esfuerzo humano que venció al desierto de arena.",
+        "what_to_do": "Detenerse al ingresar o salir de la ciudad para tomar la clásica fotografía de bienvenida junto al monumento histórico y leer las placas conmemorativas dedicadas a Don Carlos Gesell.",
+        "services": "Detenerse al ingresar o salir de la ciudad para tomar la clásica fotografía de bienvenida junto al monumento histórico y leer las placas conmemorativas dedicadas a Don Carlos Gesell.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Symbolic, historic roadside landmark at the northern entrance of town; a quick, meaningful photo stop for arriving travelers and history enthusiasts.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98523,
+          -37.2392336
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "color": "#2E7D32",
+          "layer": "Puntos de interés"
+        },
+        "layer": "Puntos de interés",
+        "name": "Villa Gesell Golf Club",
+        "category": "Puntos de interés / Deporte y Paisaje Forestal",
+        "address": "Camino de los Pioneros N° 2463 (Acceso Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "phone": "+54 2255 45-8249",
+        "website": "https://www.gesell.tur.ar/experiencia/villa-gesell-golf-club-EB669C641D",
+        "instagram": "",
+        "opening_hours": "Todos los días de 08:00 a 19:00 hs",
+        "price_range": "Green fee para jugadores / Acceso libre a la confitería del Club House",
+        "short_description": "Cancha profesional de 18 hoyos (par 72) diseñada sobre las ondulaciones naturales de los antiguos médanos y rodeada de una frondosa forestación de pinos, acacias y eucaliptos, con lagunas artificiales y Club House.",
+        "description": "Cancha profesional de 18 hoyos (par 72) diseñada sobre las ondulaciones naturales de los antiguos médanos y rodeada de una frondosa forestación de pinos, acacias y eucaliptos, con lagunas artificiales y Club House.\n\nHistoria y vínculo con Villa Gesell: Concebida e impulsada por el propio Don Carlos Idaho Gesell e inaugurada en la década de 1960 para dotar a la ciudad de un atractivo deportivo de jerarquía internacional que aprovechara la topografía quebrada de las dunas ya fijadas.\n\nQué hacer: Jugar al golf o participar en los torneos de verano, tomar clases de práctica en el driving range, o disfrutar de un almuerzo o merienda tranquila con vista a los fairways verdes desde el Club House.\n\nDirección: Camino de los Pioneros N° 2463 (Acceso Norte), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "place_description": "Cancha profesional de 18 hoyos (par 72) diseñada sobre las ondulaciones naturales de los antiguos médanos y rodeada de una frondosa forestación de pinos, acacias y eucaliptos, con lagunas artificiales y Club House.",
+        "history_and_gesell_connection": "Concebida e impulsada por el propio Don Carlos Idaho Gesell e inaugurada en la década de 1960 para dotar a la ciudad de un atractivo deportivo de jerarquía internacional que aprovechara la topografía quebrada de las dunas ya fijadas.",
+        "what_to_do": "Jugar al golf o participar en los torneos de verano, tomar clases de práctica en el driving range, o disfrutar de un almuerzo o merienda tranquila con vista a los fairways verdes desde el Club House.",
+        "services": "Jugar al golf o participar en los torneos de verano, tomar clases de práctica en el driving range, o disfrutar de un almuerzo o merienda tranquila con vista a los fairways verdes desde el Club House.",
+        "data_source": "Google Maps / Secretaría de Turismo de Villa Gesell (gesell.tur.ar)",
+        "vibe": "Tranquil, manicured, and scenic forest-and-dune golf course; ideal for golfers, couples, and adults looking for quiet green surroundings away from the beach bustle.",
+        "sponsorship": false
+      }
+    }
+  ]
+}

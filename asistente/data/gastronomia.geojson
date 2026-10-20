@@ -1,0 +1,1851 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.969798847736016,
+          -37.25600062178089
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "P.º 105 350, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pastas / Cocina Italiana",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.8 (35)).\n\nDirección: P.º 105 350, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "\"LA PASTERA\" fábrica de pastas",
+        "opening_hours": "Friday: 10 AM–2:30 PM, 6–11 PM | Saturday: 10 AM–2:30 PM, 6–11 PM | Sunday: 10 AM–2:30 PM, 6–11 PM | Monday: 10 AM–2:30 PM, 6–11 PM | Tuesday: 10 AM–2:30 PM, 6–11 PM | Wednesday: 10 AM–2:30 PM, 6–11 PM | Thursday: 10 AM–2:30 PM, 6–11 PM",
+        "phone": "+54 2255 47-7775",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Pastas frescas caseras, salsas, cocina italiana, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.8 (35)).",
+        "website": "",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97302660131838,
+          -37.262708502120375
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 1005, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pizzería / Empanadas",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.6 (93)).\n\nDirección: Av. 3 1005, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "3° Avenida : Pizzería Artesanal",
+        "opening_hours": "",
+        "phone": "",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Pizzas al molde y a la piedra, empanadas, fainá, consumo en el local y delivery",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.6 (93)).",
+        "website": "",
+        "vibe": "Warm, casual, and cozy neighborhood pizzeria with a pleasant outdoor patio and owner-operated charm; great for families, couples, and small groups looking for relaxed, homemade pizza and craft beer.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97123797837143,
+          -37.26037839211167
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1792412129/ICON-AMALFI.webp"
+        },
+        "address": "Av. 3 807, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Chocolatería / Alfajores",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Leche Chocolatada, Adicional Crema. (Calificación Google Maps: 4.2 (3778)).\n\nDirección: Av. 3 807, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Alfajores Amalfi",
+        "opening_hours": "Friday: 8 AM–9 PM | Saturday: 8 AM–9 PM | Sunday: 8 AM–9 PM | Monday: 8 AM–8 PM | Tuesday: 8 AM–8 PM | Wednesday: 8 AM–8 PM | Thursday: 8 AM–8 PM",
+        "phone": "+54 2255 47-5528",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Alfajores artesanales, chocolates, bombones, dulces regionales, regalos",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Leche Chocolatada, Adicional Crema. (Calificación Google Maps: 4.2 (3778)).",
+        "website": "http://www.amalfi.com.ar/",
+        "vibe": "Casual, traditional downtown café and sweet shop; suitable for families, tourists, and solo visitors stopping for a relaxed breakfast, afternoon chocolate milk, toasted sandwiches, or coffee.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.966234646507715,
+          -37.259024527693846
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "P.º 105 1-99, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.5 (241)).\n\nDirección: P.º 105 1-99, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Antigua Costanera",
+        "opening_hours": "Friday: 10 AM–1 AM | Saturday: 10 AM–1 AM | Sunday: 10 AM–1 AM | Monday: 10 AM–1 AM | Tuesday: 10 AM–1 AM | Wednesday: 10 AM–1 AM | Thursday: 10 AM–1 AM",
+        "phone": "+54 2255 46-3400",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.5 (241)).",
+        "website": "http://www.facebook.com/antiguacostanera",
+        "vibe": "Cozy, relaxed coastal restaurant and bar steps from the central beach; well-suited for families, couples, and groups looking for a calm seafood lunch, dinner, or late-evening drinks.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9838338239605,
+          -37.238215446033095
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. Buenos Aires 2345, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parrilla / Restaurante",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Pork ribs.. (Calificación Google Maps: 4.3 (1591)).\n\nDirección: Av. Buenos Aires 2345, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Asador Criollo El Encuentro",
+        "opening_hours": "Friday: 12:30–3 PM, 8:30 PM–12 AM | Saturday: 12:30–3 PM, 8:30 PM–12 AM | Sunday: 12:30–3 PM, 8:30 PM–12 AM | Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed",
+        "phone": "+54 2255 41-0099",
+        "price_range": "ARS 20.000–40.000 por persona",
+        "services": "Carnes a las brasas, asado, achuras, pastas, ensaladas, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Pork ribs.. (Calificación Google Maps: 4.3 (1591)).",
+        "website": "",
+        "vibe": "Traditional, warm, and unpretentious Argentine steakhouse (asador criollo) with a rustic, welcoming feel; ideal for families, meat lovers, and groups seeking an authentic, hearty barbecue lunch or dinner.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97011986231376,
+          -37.258770786787494
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3, P.º 106 &, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Restaurante / Bodegón",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.1 (4072)).\n\nDirección: Av. 3, P.º 106 &, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Bacará Resto - Bar",
+        "opening_hours": "Friday: 7:30 AM–12 AM | Saturday: 7:30 AM–12 AM | Sunday: 7:30 AM–12 AM | Monday: 7:30 AM–12 AM | Tuesday: 7:30 AM–12 AM | Wednesday: 7:30 AM–12 AM | Thursday: 7:30 AM–12 AM",
+        "phone": "+54 2255 46-2002",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Cafetería, postres, platos caseros, carnes, pastas, minutas, almuerzo y cena en salón",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.1 (4072)).",
+        "website": "https://bacararestobar.shop/",
+        "vibe": "Classic, bustling, and family-friendly downtown restobar and bodegón; a versatile all-day spot ideal for families, tourists, and groups of friends looking for hearty homemade meals, breakfast, or coffee right on the main avenue.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96777822636524,
+          -37.255401125724184
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "P.º 104 276, B7165XAA Villa Gesell, Provincia de Buenos Aires",
+        "category": "Hamburguesería / Comida Rápida",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.3 (795)).\n\nDirección: P.º 104 276, B7165XAA Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "https://www.instagram.com/bokata_restaurante?igsh=MTd6M3dpNjAwbnJ2bA==",
+        "name": "Bokata",
+        "opening_hours": "Friday: 9 AM–11:30 PM | Saturday: 9 AM–11:30 PM | Sunday: 9 AM–11:30 PM | Monday: Closed | Tuesday: Closed | Wednesday: 9 AM–11:30 PM | Thursday: 9 AM–11:30 PM",
+        "phone": "+54 9 11 6098-2633",
+        "price_range": "ARS 20.000–50.000 por persona",
+        "services": "Hamburguesas, sándwiches, papas fritas, panqueques, para llevar y salón",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.3 (795)).",
+        "website": "https://www.instagram.com/bokata_restaurante?igsh=MTd6M3dpNjAwbnJ2bA==",
+        "vibe": "Modern, casual, and pet-friendly specialty café and burger restaurant; great for young crowds, couples, and families looking for a relaxed brunch, specialty coffee, or gourmet burgers near downtown.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.971367,
+          -37.260172
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "showLabel": null,
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1791980097/ICON.png"
+        },
+        "name": "Cachavacha",
+        "description": "{{https://res.cloudinary.com/onhvia4m/image/upload/v1791907288/cacha_local.png|300}}\n{{https://res.cloudinary.com/onhvia4m/image/upload/v1791980302/cacha_cafe.jpg|146}}\n{{https://res.cloudinary.com/onhvia4m/image/upload/v1791980433/cacha_carne.jpg|146}}\nCafé-bar clásico en la zona céntrica de Villa Gesell. Una opción versátil para desayunar o merendar, hacer una pausa con café y pastelería, o sentarse a comer algo y tomar una bebida. La ubicación, en Avenida 3 y Paseo 108, queda a mano durante un paseo por el centro.\n\nDirección: Paseo 108 Nº 309, esquina Avenida 3, Villa Gesell",
+        "category": "Cafetería y resto-bar",
+        "address": "Paseo 108 Nº 309, esquina Avenida 3, Villa Gesell",
+        "phone": "+54 2255 46-2787",
+        "website": "",
+        "instagram": "",
+        "short_description": "Café-bar céntrico para desayunos, meriendas, comidas informales y algo para tomar.",
+        "services": "Consumo en el local; cafetería; comidas; bar",
+        "opening_hours": "",
+        "price_range": "",
+        "data_source": "Información pública consultada; verificar datos variables antes de publicar",
+        "vibe": "Lively, classic downtown café-bar on a busy corner of Avenida 3; ideal for casual breakfasts, afternoon coffee breaks, solo visitors, and informal group dinners or late-night drinks.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9838319987181,
+          -37.27576945329032
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. Buenos Aires 455, B7165 Villa Gesell",
+        "category": "Pastas / Cocina Italiana",
+        "data_source": "Google Maps (2026)",
+        "description": "Cantina y bodegón familiar con pastas caseras, mariscos, milanesas gigantes y platos abundantes. (Calificación Google Maps: 4.5 (1205)).\n\nDirección: Av. Buenos Aires 455, B7165 Villa Gesell",
+        "instagram": "https://www.instagram.com/cantina_arturito",
+        "name": "Cantina Arturito",
+        "opening_hours": "Mon-Tue: Closed | Wed-Sun: 12:00-3:30 PM, 8:00-11:30 PM",
+        "phone": "+54 2255 46-8306",
+        "price_range": "",
+        "services": "Pastas frescas caseras, salsas, cocina italiana, almuerzo y cena",
+        "short_description": "Cantina y bodegón familiar con pastas caseras, mariscos, milanesas gigantes y platos abundantes. (Calificación Google Maps: 4.5 (1205)).",
+        "website": "https://www.instagram.com/cantina_arturito",
+        "vibe": "Warm, nostalgic, and bustling historic Italian cantina and family bodegón; ideal for families, large groups, and couples who enjoy a lively, traditional atmosphere with vintage local decor and generous shared pasta dishes.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97158434010049,
+          -37.260364953233
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 N° 751 (e/ Paseos 107 y 108), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Hamburguesería / Comida Rápida",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Clásico de panqueques dulces y salados, hamburguesas y minutas.\n\nDirección: Av. 3 N° 751 (e/ Paseos 107 y 108), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Carlitos",
+        "opening_hours": "",
+        "phone": "(02255) 46-2452",
+        "price_range": "",
+        "services": "Hamburguesas, sándwiches, papas fritas, panqueques, para llevar y salón",
+        "short_description": "Clásico de panqueques dulces y salados, hamburguesas y minutas. Ubicado en Av. 3 N° 751 (e/ Paseos 107 y 108), Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Nostalgic, casual, and family-friendly classic diner famous for sweet and savory pancakes; ideal for families with kids, teenagers, and groups of friends looking for an informal, budget-friendly meal.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.966203010049696,
+          -37.25304129190513
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3, Av. Buenos Aires y, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Cervecería / Bar",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Galvez. (Calificación Google Maps: 4.5 (1360)).\n\nDirección: Av. 3, Av. Buenos Aires y, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "https://www.instagram.com/carrerabeach/",
+        "name": "Carrera Beach",
+        "opening_hours": "Friday: 11 AM–3 AM | Saturday: 11 AM–3 AM | Sunday: 11 AM–3 AM | Monday: 11 AM–3 AM | Tuesday: 11 AM–3 AM | Wednesday: 11 AM–3 AM | Thursday: 11 AM–3 AM",
+        "phone": "",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Cerveza artesanal tirada, hamburguesas, picadas, tapeo, tragos, consumo en el lugar",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Galvez. (Calificación Google Maps: 4.5 (1360)).",
+        "website": "https://www.instagram.com/carrerabeach/",
+        "vibe": "Trendy, energetic craft beer and gin bar with music, art, and bar games; ideal for young crowds, couples, and groups of friends looking for a lively happy hour, casual burger dinner, or nightlife.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.99133114497387,
+          -37.282905622972834
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 y 136, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Cervecería / Bar",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Juan Manuel. (Calificación Google Maps: 4.3 (568)).\n\nDirección: Av. 3 y 136, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Carrera Beer",
+        "opening_hours": "Friday: 5:30 PM–2 AM | Saturday: 5:30 PM–2 AM | Sunday: 6:30 PM–12 AM | Monday: 12–6 AM | Tuesday: 5:20 PM–4 AM | Wednesday: 5:17 PM–1:17 AM | Thursday: 5:30 PM–12 AM",
+        "phone": "",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Cerveza artesanal tirada, hamburguesas, picadas, tapeo, tragos, consumo en el lugar",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Juan Manuel. (Calificación Google Maps: 4.3 (568)).",
+        "website": "",
+        "vibe": "Laid-back, trendy craft beer and gin bar in the southern zone; geared toward young adults, groups of friends, and casual date nights with craft brews, cocktails, and pub food.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.968069196454266,
+          -37.25564396259283
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 485, B7165 Villa Gesell",
+        "category": "Cervecería / Bar",
+        "data_source": "Google Maps (2026)",
+        "description": "Bar de cerveza artesanal tirada con hamburguesas gourmet, papas tuneadas, rabas y tragos. (Calificación Google Maps: 4.4 (1620)).\n\nDirección: Av. 3 485, B7165 Villa Gesell",
+        "instagram": "",
+        "name": "Cervecería Baum Villa Gesell",
+        "opening_hours": "Mon-Sun: 6:00 PM-2:00 AM",
+        "phone": "+54 2255 52-4410",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Cerveza artesanal tirada, hamburguesas, picadas, tapeo, tragos, consumo en el lugar",
+        "short_description": "Bar de cerveza artesanal tirada con hamburguesas gourmet, papas tuneadas, rabas y tragos. (Calificación Google Maps: 4.4 (1620)).",
+        "website": "https://www.cervezabaum.com/",
+        "vibe": "Casual, upbeat craft brewery and pub on the main avenue; ideal for groups of friends, young adults, and beer lovers looking for an informal evening of craft pints, gourmet burgers, and shared platters.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96744922280592,
+          -37.25417732592731
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 N° 620 (e/ Paseos 102 y 104), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Chocolatería / Alfajores",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Chocolates artesanales, tabletas y alfajores.\n\nDirección: Av. 3 N° 620 (e/ Paseos 106 y 107), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Chocolates La Pinocha",
+        "opening_hours": "",
+        "phone": "(02255) 46-3620",
+        "price_range": "",
+        "services": "Alfajores artesanales, chocolates, bombones, dulces regionales, regalos",
+        "short_description": "Chocolates artesanales, tabletas y alfajores. Ubicado en Av. 3 N° 620 (e/ Paseos 106 y 107), Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.966578639801995,
+          -37.25236578086468
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. Buenos Aires 350, B7165 Villa Gesell",
+        "category": "Marisquería / Pescados",
+        "data_source": "Google Maps (2026)",
+        "description": "Restaurante tradicional de cocina española, mariscos, cazuelas, paella, tortilla y pescados. (Calificación Google Maps: 4.1 (895)).\n\nDirección: Av. Buenos Aires 350, B7165 Villa Gesell",
+        "instagram": "",
+        "name": "Club Español",
+        "opening_hours": "Mon-Tue: Closed | Wed-Sat: 12:00-3:30 PM, 8:30-11:30 PM | Sun: 12:00-3:30 PM",
+        "phone": "+54 2255 46-2454",
+        "price_range": "",
+        "services": "Pescados frescos, mariscos, rabas, paellas, cazuelas, almuerzo y cena",
+        "short_description": "Restaurante tradicional de cocina española, mariscos, cazuelas, paella, tortilla y pescados. (Calificación Google Maps: 4.1 (895)).",
+        "website": "",
+        "vibe": "Traditional, welcoming, and family-oriented Spanish club dining room; ideal for families, older crowds, and groups seeking a classic, unhurried sit-down lunch or dinner of paella and abundant seafood.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.968122603931526,
+          -37.25528999797941
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Avenida 3, P.º 104 Y, Villa Gesell",
+        "category": "Heladería / Cafetería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Paleta Colonial Crema Bañado, Chocolate Sin Tacc, Sin trigo, avena, cebada, centeno pote x 240 gr. (Calificación Google Maps: 4.2 (1081)).\n\nDirección: Avenida 3, P.º 104 Y, Villa Gesell",
+        "instagram": "",
+        "name": "Colonial Ice Cream & Coffee Villa Gesell",
+        "opening_hours": "Friday: 10 AM–2 AM | Saturday: 10 AM–2 AM | Sunday: 10 AM–2 AM | Monday: 10 AM–2 AM | Tuesday: 10 AM–2 AM | Wednesday: 10 AM–2 AM | Thursday: 10 AM–2 AM",
+        "phone": "+54 2255 45-8449",
+        "price_range": "",
+        "services": "Helados artesanales, postres helados, cafetería, venta en mostrador y para llevar",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Paleta Colonial Crema Bañado, Chocolate Sin Tacc, Sin trigo, avena, cebada, centeno pote x 240 gr. (Calificación Google Maps: 4.2 (1081)).",
+        "website": "http://colonialweb.com.ar/",
+        "vibe": "Casual, bright downtown ice cream parlor and café; great for families with kids, strollers along Avenida 3, and groups stopping for a quick coffee or late-night ice cream.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.970086881977174,
+          -37.25910759747487
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "107 (e/ av. 3 y av. 2), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pizzería / Empanadas",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Pizzería, empanadas y rotisería.\n\nDirección: Av. 3 N° 2110 (e/ Paseos 121 y 122), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Don Alfredo",
+        "opening_hours": "",
+        "phone": "(02255) 46-5110",
+        "price_range": "",
+        "services": "Pizzas al molde y a la piedra, empanadas, fainá, consumo en el local y delivery",
+        "short_description": "Pizzería, empanadas y rotisería. Ubicado en Av. 3 N° 2110 (e/ Paseos 121 y 122), Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Casual, cozy, and unpretentious neighborhood restaurant and pizzeria with attentive owner-run service; ideal for families and small groups looking for a quiet, homemade pasta or pizza meal.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.981016,
+          -37.270897
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "P.º 120 300-398, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Restaurante / Bodegón",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Verdura, Jamón Y Muzzarella, Caprese. (Calificación Google Maps: 4.5 (1517)).\n\nDirección: P.º 120 300-398, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "https://www.instagram.com/pastashaydee/",
+        "name": "Doña Haydeé",
+        "opening_hours": "Friday: 9 AM–1 PM, 5–9 PM | Saturday: 9 AM–1 PM, 5–9 PM | Sunday: 9 AM–2 PM | Monday: Closed | Tuesday: 9 AM–1 PM, 5–9 PM | Wednesday: 9 AM–1 PM, 5–9 PM | Thursday: 9 AM–1 PM, 5–9 PM",
+        "phone": "+54 2255 46-2139",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Platos caseros, carnes, pastas, minutas, almuerzo y cena en salón",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Verdura, Jamón Y Muzzarella, Caprese. (Calificación Google Maps: 4.5 (1517)).",
+        "website": "https://www.instagram.com/pastashaydee/",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.967126824911105,
+          -37.25346759794335
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 181, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parrilla / Restaurante",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Milapizzas, Fiorentina, Muzzarella, rodajas de tomate y longaniza, Mix De Parrilla. (Calificación Google Maps: 4.4 (2271)).\n\nDirección: Av. 3 181, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Donna Filippa",
+        "opening_hours": "Friday: 7 PM–12 AM | Saturday: 7 PM–12 AM | Sunday: 7 PM–12 AM | Monday: 7 PM–12 AM | Tuesday: 7 PM–12 AM | Wednesday: 7 PM–12 AM | Thursday: 7 PM–12 AM",
+        "phone": "+54 2255 46-6195",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Carnes a las brasas, asado, achuras, pastas, ensaladas, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Milapizzas, Fiorentina, Muzzarella, rodajas de tomate y longaniza, Mix De Parrilla. (Calificación Google Maps: 4.4 (2271)).",
+        "website": "",
+        "vibe": "Warm, casual, and family-friendly restaurant and grill with a comfortable dining room; great for families, couples, and groups looking for hearty Argentine meats, homemade pasta, and milapizzas.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.975004247123735,
+          -37.26457661515832
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 1100, B1200 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pizzería / Empanadas",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Matambre A La Pizza C/Papas Fritas, Comen 2 personas, Milanesas De Berenjena Napo C/Guarn, Fugazzeta, Pollo Deshuesado Grillado C/Guarnicion. (Calificación Google Maps: 4.1 (312)).\n\nDirección: Av. 3 1100, B1200 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "El Buen Sabor",
+        "opening_hours": "Friday: 11 AM–2:30 PM, 8–11:30 PM | Saturday: 11 AM–2:30 PM, 8–11:30 PM | Sunday: 11 AM–2:30 PM, 8–11:30 PM | Monday: 11 AM–2:30 PM, 8–11:30 PM | Tuesday: 11 AM–2:30 PM, 8–11:30 PM | Wednesday: 11 AM–2:30 PM, 8–11:30 PM | Thursday: 11 AM–2:30 PM, 8–11:30 PM",
+        "phone": "+54 2255 47-6995",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Pizzas al molde y a la piedra, empanadas, fainá, consumo en el local y delivery",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Matambre A La Pizza C/Papas Fritas, Comen 2 personas, Milanesas De Berenjena Napo C/Guarn, Fugazzeta, Pollo Deshuesado Grillado C/Guarnicion. (Calificación Google Maps: 4.1 (312)).",
+        "website": "",
+        "vibe": "Simple, casual, and budget-friendly neighborhood comedor and pizzeria; suited for families and groups looking for generous, no-frills shareable plates and everyday comfort food.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97251727714694,
+          -37.261567288364425
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 109, Av. 3 y, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parrilla / Restaurante",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Matambre Vacuno A La Pizza O A La Mostaza Con Papas Fritas. (Calificación Google Maps: 4.2 (5940)).\n\nDirección: Paseo 109, Av. 3 y, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "https://www.instagram.com/elestribogesell/",
+        "name": "El Estribo",
+        "opening_hours": "Friday: 12–3 PM, 8–11 PM | Saturday: 12–3 PM, 8–11 PM | Sunday: 12–3 PM, 8–11 PM | Monday: 12–3 PM, 8–11 PM | Tuesday: 12–3 PM, 8–11 PM | Wednesday: 12–3 PM, 8–11 PM | Thursday: 12–3 PM, 8–11 PM",
+        "phone": "+54 2255 46-0234",
+        "price_range": "ARS 20.000–40.000 por persona",
+        "services": "Carnes a las brasas, asado, achuras, pastas, ensaladas, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Matambre Vacuno A La Pizza O A La Mostaza Con Papas Fritas. (Calificación Google Maps: 4.2 (5940)).",
+        "website": "https://www.instagram.com/elestribogesell/",
+        "vibe": "Bustling, traditional, and unfussy Argentine steakhouse in the heart of downtown; ideal for families, large groups, and tourists seeking a classic, lively parrillada lunch or dinner.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.982785783528854,
+          -37.27262099769928
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Avenida 3, P.º 123 Bis y, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Churrería / Panadería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Capuchino, Té Con Leche. (Calificación Google Maps: 4 (778)).\n\nDirección: Avenida 3, P.º 123 Bis y, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "El Rey de la Medialuna",
+        "opening_hours": "Friday: 7 AM–10 PM | Saturday: 7 AM–10 PM | Sunday: 7 AM–10 PM | Monday: 7 AM–10 PM | Tuesday: 7 AM–10 PM | Wednesday: 7 AM–10 PM | Thursday: 7 AM–10 PM",
+        "phone": "+54 2255 46-4680",
+        "price_range": "ARS 1–10.000 por persona",
+        "services": "Churros artesanales, facturas, chipá, bolas de fraile, para llevar",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Capuchino, Té Con Leche. (Calificación Google Maps: 4 (778)).",
+        "website": "",
+        "vibe": "Casual, sunny neighborhood bakery and café on a quiet corner; great for families, morning risers, and solo visitors looking for an affordable breakfast or afternoon merienda with fresh medialunas.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96264237311939,
+          -37.25104794404958
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "C. 302 200-298, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Restaurante / Bodegón",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.3 (564)).\n\nDirección: C. 302 200-298, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "El Tinglado",
+        "opening_hours": "Friday: 9 AM–8 PM | Saturday: 9 AM–8 PM | Sunday: 9 AM–8 PM | Monday: 9 AM–8 PM | Tuesday: 9 AM–8 PM | Wednesday: 9 AM–8 PM | Thursday: 9 AM–8 PM",
+        "phone": "+54 2255 45-0799",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Platos caseros, carnes, pastas, minutas, almuerzo y cena en salón",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.3 (564)).",
+        "website": "",
+        "vibe": "Quiet, cozy, and intimate rustic café and bodegón tucked in the peaceful northern forest neighborhood; ideal for couples, solo diners, and families seeking a calm, unhurried homemade lunch or afternoon tea.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.972938,
+          -37.26237
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/f_auto,q_auto/el_topo",
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "popupShape": "Default",
+          "showLabel": null,
+          "labelInteractive": false
+        },
+        "name": "EL TOPO",
+        "description": "{{https://res.cloudinary.com/onhvia4m/image/upload/v1791906796/8a32f57a-0c18-4298-b191-1391518bea43.png|300}}\n{{https://res.cloudinary.com/onhvia4m/image/upload/v1791646183/0b475bf0-5d65-4758-b39a-e42b07fb7dbb.png|146}}\n{{https://res.cloudinary.com/onhvia4m/image/upload/v1791673292/churros3.png|146}}\nUna de las churrerías históricas de Villa Gesell: abrió en la ciudad en 1968. Es conocida por sus churros recién hechos, con rellenos clásicos como dulce de leche y pastelera, además de variedades saladas y otras facturas. Ideal para llevar a la playa, acompañar el mate o resolver una merienda.\n\nDirección: Avenida 3 Nº 972, esquina Paseo 110, Villa Gesell",
+        "category": "Churrería y cafetería",
+        "address": "Avenida 3 Nº 972, esquina Paseo 110, Villa Gesell",
+        "phone": "+54 2255 46-2022",
+        "website": "https://churroseltopo.com/",
+        "instagram": "",
+        "short_description": "Churrería emblemática de Gesell, conocida por sus churros dulces y salados.",
+        "services": "Para llevar; churros dulces y salados; cafetería y facturas",
+        "opening_hours": "",
+        "price_range": "",
+        "data_source": "Información pública consultada; verificar datos variables antes de publicar",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.980076,
+          -37.261048
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1792003629/hobbit_icon.png",
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "name": "El Viejo Hobbit",
+        "description": "Una experiencia gastronómica con ambientación de taberna fantástica, madera y piedra. Desde 1996 combina quesos artesanales y tablas de fiambres con fondues de queso o chocolate, tortas y cerveza artesanal propia. Está sobre Avenida 8, entre Paseos 111 y 112; conviene consultar horarios y reservas, que cambian según la temporada.\n\nDirección: Avenida 8 Nº 1165, entre Paseos 111 y 112, Villa Gesell",
+        "category": "Cervecería / Restaurante Temático",
+        "address": "Avenida 8 Nº 1165, entre Paseos 111 y 112, Villa Gesell",
+        "phone": "+54 2255 46-5482",
+        "website": "https://elviejohobbit.com/",
+        "instagram": "https://www.instagram.com/elviejohobbit/",
+        "short_description": "Taberna y casa de té ambientada en la Comarca de Tolkien; elabora cerveza artesanal propia, picadas ahumadas, fondue de queso, carnes, pastas y repostería.",
+        "services": "Cena en salón y deck, cerveza artesanal tirada, cafetería y repostería, opciones vegetarianas, reservas",
+        "opening_hours": "Jue a Lun: 18:00–01:00 | Mar y Mié: Cerrado",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "data_source": "Google Maps / elviejohobbit.com (Verificado 2026)",
+        "vibe": "Enchanting, cozy, and romantic Tolkien-inspired fantasy tavern made of rustic wood and stone with a warm fireplace; ideal for couples seeking an intimate, magical dinner (like cheese or chocolate fondue), as well as families and groups looking for a unique thematic experience.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.99296715872967,
+          -37.2853246227239
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3, esquina 140, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Heladería / Cafetería",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Heladería en Zona Sur.\n\nDirección: Av. 3 N° 2690 (esq. Paseo 127), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Grido Helado Sur",
+        "opening_hours": "",
+        "phone": "(02255) 47-2690",
+        "price_range": "",
+        "services": "Helados artesanales, postres helados, cafetería, venta en mostrador y para llevar",
+        "short_description": "Heladería en Zona Sur. Ubicado en Av. 3 N° 2690 (esq. Paseo 127), Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.971312,
+          -37.259885
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1792078324/ICON_HAVAN.webp"
+        },
+        "name": "HAVANNA",
+        "category": "Cafetería, pastelería y chocolatería",
+        "address": "Avenida 3 Nº 427, Villa Gesell",
+        "phone": "+54 2255 46-3109",
+        "website": "https://havanna.com.ar/",
+        "instagram": "",
+        "short_description": "Cafetería para desayunos y meriendas, con alfajores, chocolates, tortas y opciones saladas.",
+        "services": "Cafetería; desayunos y meriendas; pastelería; alfajores y chocolates; opciones para llevar",
+        "opening_hours": "",
+        "price_range": "",
+        "data_source": "Información pública consultada; verificar datos variables antes de publicar",
+        "description": "Parada clásica para tomar un café, desayunar o merendar con productos de Havanna. Además de cafetería y pastelería, es una opción para comprar alfajores, chocolates y otros dulces para llevar o regalar. Dirección publicada para esta sucursal: Avenida 3 Nº 427.\n\nDirección: Avenida 3 Nº 427, Villa Gesell",
+        "vibe": "Familiar, comfortable, and modern chain café in the downtown area; well-suited for remote workers on laptops, families, and tourists taking a reliable coffee and alfajor break.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96832043231111,
+          -37.25604736588034
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 N° 215 (entre paseo 105 y 104), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Chocolatería / Alfajores",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Cafetería y alfajores en Av. 3 y Paseo 102.\n\nDirección: Av. 3 N° 215 (esq. Paseo 102), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Havanna Norte",
+        "opening_hours": "",
+        "phone": "(02255) 45-4215",
+        "price_range": "",
+        "services": "Alfajores artesanales, chocolates, bombones, dulces regionales, regalos",
+        "short_description": "Cafetería y alfajores en Av. 3 y Paseo 102. Ubicado en Av. 3 N° 215 (esq. Paseo 102), Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98360307090281,
+          -37.27544583560583
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 2517, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Heladería / Cafetería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Chocolate Con Almendras, Dulce De Leche, Café Irlandes. (Calificación Google Maps: 4.4 (1301)).\n\nDirección: Av. 3 2517, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Heladería Aconcagua",
+        "opening_hours": "Friday: 9:30 AM–2 AM | Saturday: 9:30 AM–2 AM | Sunday: 9:30 AM–2 AM | Monday: 9:30 AM–1 AM | Tuesday: 9:30 AM–1 AM | Wednesday: 9:30 AM–1 AM | Thursday: 9:30 AM–1 AM",
+        "phone": "+54 2255 47-8448",
+        "price_range": "",
+        "services": "Helados artesanales, postres helados, cafetería, venta en mostrador y para llevar",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Chocolate Con Almendras, Dulce De Leche, Café Irlandes. (Calificación Google Maps: 4.4 (1301)).",
+        "website": "",
+        "vibe": "Casual, welcoming, and family-friendly neighborhood ice cream parlor and café; great for families with kids, pet owners, and groups enjoying an evening ice cream or Irish coffee in the southern zone.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98140682671381,
+          -37.27190881281202
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 121, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Heladería / Cafetería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Vainilla, Crema Del Cielo. (Calificación Google Maps: 4.3 (1300)).\n\nDirección: Av. 3 121, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Heladería Dulche Cream",
+        "opening_hours": "Friday: 8 AM–2 AM | Saturday: 9 AM–2 AM | Sunday: 9 AM–2 AM | Monday: 8 AM–2 AM | Tuesday: 8 AM–2 AM | Wednesday: 8 AM–2 AM | Thursday: 8 AM–2 AM",
+        "phone": "+54 2255 45-2862",
+        "price_range": "",
+        "services": "Helados artesanales, postres helados, cafetería, venta en mostrador y para llevar",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Vainilla, Crema Del Cielo. (Calificación Google Maps: 4.3 (1300)).",
+        "website": "https://pedidodirecto.app/yo",
+        "vibe": "Relaxed, family-friendly ice cream parlor and café with table service on northern Avenida 3; a comfortable, quiet stop for families and couples after dinner or the beach.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.983682417048016,
+          -37.27433179950538
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 y 126, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Hamburguesería / Comida Rápida",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Hamburger., Craft beer.. (Calificación Google Maps: 4.4 (121)).\n\nDirección: Av. 1 1932, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Idaho",
+        "opening_hours": "",
+        "phone": "+54 11 2240-5314",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Hamburguesas, sándwiches, papas fritas, panqueques, para llevar y salón",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Hamburger., Craft beer.. (Calificación Google Maps: 4.4 (121)).",
+        "website": "",
+        "vibe": "Casual, friendly, and laid-back neighborhood restobar; great for small groups of friends, couples, and solo diners looking for homemade burgers, craft beer, and warm service away from the crowded center.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98544725528798,
+          -37.27747107568128
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "P.º. 128 298-244, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pastas / Cocina Italiana",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Fugazzeta, (Muzzarella, cebolla, aceitunas negras, orégano), Sorrentinos De Cordero. (Calificación Google Maps: 4.6 (2665)).\n\nDirección: P.º. 128 298-244, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Il Bambino Pasta",
+        "opening_hours": "Friday: 7:30–11:30 PM | Saturday: 7:30–11:30 PM | Sunday: 7:30–11:30 PM | Monday: 7:30–11:30 PM | Tuesday: Closed | Wednesday: 7:30–11:30 PM | Thursday: 7:30–11:30 PM",
+        "phone": "+54 2255 45-3500",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Pastas frescas caseras, salsas, cocina italiana, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Fugazzeta, (Muzzarella, cebolla, aceitunas negras, orégano), Sorrentinos De Cordero. (Calificación Google Maps: 4.6 (2665)).",
+        "website": "https://m.facebook.com/iLBambinopasta/",
+        "vibe": "Warm, cozy, and inviting owner-operated Italian and Mediterranean restaurant in a quieter southern area; ideal for couples seeking a relaxed, intimate pasta dinner as well as families appreciating attentive service and homemade dishes.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96684043848245,
+          -37.253953033351095
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "AV. 3, C. 102 Y, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Hamburguesería / Comida Rápida",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Hamburger., Craft beer.. (Calificación Google Maps: 4.5 (335)).\n\nDirección: AV. 3, C. 102 Y, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "JetSet",
+        "opening_hours": "Friday: Open 24 hours | Saturday: Open 24 hours | Sunday: Open 24 hours | Monday: Open 24 hours | Tuesday: Open 24 hours | Wednesday: Open 24 hours | Thursday: Open 24 hours",
+        "phone": "+54 2255 45-6768",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Hamburguesas, sándwiches, papas fritas, panqueques, para llevar y salón",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Hamburger., Craft beer.. (Calificación Google Maps: 4.5 (335)).",
+        "website": "https://m.facebook.com/jetsetvideomusic/",
+        "vibe": "Lively, round-the-clock casual bar and diner with music and drinks; ideal for night owls, groups of friends, and young crowds looking for late-night burgers, craft beer, or a casual bite at any hour.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97033023826982,
+          -37.24295122905668
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "y, Calle 303 & Blvd. Nte., Villa Gesell, Provincia de Buenos Aires",
+        "category": "Cafetería / Casa de Té / Pastelería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Veal milanese.. (Calificación Google Maps: 4.6 (1340)).\n\nDirección: y, Calle 303 & Blvd. Nte., Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "La Casa de Antonia",
+        "opening_hours": "Friday: 12–3 PM, 5–11 PM | Saturday: 12–3 PM, 5–11 PM | Sunday: Closed | Monday: 12–3 PM | Tuesday: 12–3 PM | Wednesday: 12–3 PM | Thursday: 12–3 PM, 5–11 PM",
+        "phone": "+54 2255 45-8666",
+        "price_range": "ARS 20.000–50.000 por persona",
+        "services": "Café de especialidad, desayunos, meriendas, tortas artesanales, repostería",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Veal milanese.. (Calificación Google Maps: 4.6 (1340)).",
+        "website": "http://www.voyagesell.com.ar/lacasadeantonia",
+        "vibe": "Charming, romantic, and intimate house-style restaurant and tea room nestled in the quiet northern forest; ideal for couples on a cozy date, peaceful gourmet dinners, and relaxed afternoon tea with artisanal pastries.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.977195449484114,
+          -37.25455575871062
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 N° 1120 (e/ Paseos 111 y 112), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pastas / Cocina Italiana",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Pastas caseras y cocina italiana.\n\nDirección: C. 107, 986 (e/ Paseos 111 y 112), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "La Nonna",
+        "opening_hours": "",
+        "phone": "(02255) 46-3122",
+        "price_range": "",
+        "services": "Pastas frescas caseras, salsas, cocina italiana, almuerzo y cena",
+        "short_description": "Pastas caseras y cocina italiana. Ubicado en Av. 3 N° 1120 (e/ Paseos 111 y 112), Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -57.003132,
+          -37.298291
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 152, Av. 3, B7165 Villa Gesell",
+        "category": "Parrilla / Restaurante",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Pork ribs.. (Calificación Google Maps: 3.6 (296)).\n\nDirección: Paseo 152, Av. 3, B7165 Villa Gesell",
+        "instagram": "",
+        "name": "La Parrilla de Diego",
+        "opening_hours": "Friday: 11 AM–3 PM, 8 PM–12 AM | Saturday: 11 AM–3 PM, 8 PM–12 AM | Sunday: 12 AM–3 PM, 8 PM–12 AM | Monday: 11 AM–3 PM, 8 PM–12 AM | Tuesday: 11 AM–3 PM, 8 PM–12 AM | Wednesday: 11 AM–3 PM, 8 PM–12 AM | Thursday: 11 AM–3 PM, 8 PM–12 AM",
+        "phone": "+54 2255 47-4055",
+        "price_range": "ARS 30.000–40.000 por persona",
+        "services": "Carnes a las brasas, asado, achuras, pastas, ensaladas, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Pork ribs.. (Calificación Google Maps: 3.6 (296)).",
+        "website": "",
+        "vibe": "Unpretentious, quiet, and traditional neighborhood steakhouse at the southern end of town; suited for families and travelers looking for a simple, casual roadside-style parrillada away from the center.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96744689240942,
+          -37.254367131148975
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1792079648/ICON_JIRAFA.webp"
+        },
+        "name": "La Vieja Jirafa",
+        "category": "Restaurante / Cervecería",
+        "address": "Avenida 3 Nº 276, Villa Gesell",
+        "phone": "+54 2255 46-2411",
+        "website": "https://menudigital.bhsoftware.com.ar/carta?JyVIix7qGJ0flKzswj5U=MenuDigital",
+        "instagram": "https://www.instagram.com/laviejajirafaoficial/",
+        "short_description": "Histórico restaurante y bar céntrico de Villa Gesell famoso por sus picadas calientes y frías, rabas, milanesas, pastas, pizzas y cerveza tirada.",
+        "services": "Almuerzo, cena, picadas, cerveza tirada, salón familiar, para llevar",
+        "opening_hours": "",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "data_source": "Google Maps / Carta Digital (Verificado 2026)",
+        "description": "Un clásico resto-bar de Villa Gesell, sobre la Avenida 3. Su propuesta combina comidas informales y platos para compartir —como picadas, rabas y papas— con cerveza y coctelería. Funciona tanto para una comida como para una salida con amigos; los horarios pueden variar según la temporada.\n\nDirección: Avenida 3 Nº 276, Villa Gesell",
+        "vibe": "Historic, lively, and social downtown tavern and restobar with music and outdoor seating; ideal for groups of friends, young adults, and families sharing large platters (picadas), craft beer, and cocktails.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97480560036824,
+          -37.24130633789153
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. Buenos Aires 1520, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Restaurante / Bodegón",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.4 (3353)).\n\nDirección: Av. Buenos Aires 1520, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "https://www.instagram.com/las_cortaderas/?hl=es",
+        "name": "Las Cortaderas",
+        "opening_hours": "Friday: 8 AM–12 AM | Saturday: 8 AM–12 AM | Sunday: 8 AM–8:30 PM | Monday: 8 AM–8:30 PM | Tuesday: 8 AM–8:30 PM | Wednesday: 8 AM–8:30 PM | Thursday: 8 AM–8:30 PM",
+        "phone": "+54 2255 47-8689",
+        "price_range": "ARS 10.000–30.000 por persona",
+        "services": "Platos caseros, carnes, pastas, minutas, almuerzo y cena en salón",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.4 (3353)).",
+        "website": "https://www.instagram.com/las_cortaderas/?hl=es",
+        "vibe": "Warm, cozy, and romantic forest-side restaurant and artisanal pastry house with a fireplace and garden feel; ideal for couples seeking an intimate meal or afternoon tea, as well as families looking for a refined yet welcoming dining experience.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96605195937729,
+          -37.252369315130544
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Unidad Funcional 7, Av. Buenos Aires 210, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Heladería / Cafetería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.1 (649)).\n\nDirección: Unidad Funcional 7, Av. Buenos Aires 210, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Lucciano's Villa Gesell",
+        "opening_hours": "Friday: 8:30 AM–11 PM | Saturday: 8:30 AM–11 PM | Sunday: 8:30 AM–11 PM | Monday: 8:30 AM–10 PM | Tuesday: 8:30 AM–10 PM | Wednesday: 8:30 AM–10 PM | Thursday: 8:30 AM–10 PM",
+        "phone": "+54 2255 47-6651",
+        "price_range": "",
+        "services": "Helados artesanales, postres helados, cafetería, venta en mostrador y para llevar",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.1 (649)).",
+        "website": "http://www.luccianos.net/",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97300680913226,
+          -37.25781757391801
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 107 entre 4 y 5, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pastas / Cocina Italiana",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Ravioli.. (Calificación Google Maps: 4.7 (135)).\n\nDirección: Paseo 107 entre 4 y 5, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Mattarello Fabrica de Pastas",
+        "opening_hours": "Friday: 10 AM–2:30 PM, 6–10:30 PM | Saturday: 10 AM–2:30 PM, 6:30–10:30 PM | Sunday: 10 AM–2:30 PM, 6:30–10:30 PM | Monday: 10 AM–2:30 PM, 6–10:30 PM | Tuesday: 10 AM–2:30 PM, 6–10:30 PM | Wednesday: 10 AM–2:30 PM, 6–10:30 PM | Thursday: 10 AM–2:30 PM, 6–10:30 PM",
+        "phone": "+54 2255 47-2985",
+        "price_range": "ARS 1–10.000 por persona",
+        "services": "Pastas frescas caseras, salsas, cocina italiana, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Ravioli.. (Calificación Google Maps: 4.7 (135)).",
+        "website": "https://www.facebook.com/profile.php?id=100085398963695",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.968977,
+          -37.256344
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "popupTemplate": "Default",
+          "popupShape": "Default",
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1791988441/5ac2e7c5-ac4a-44df-9ed6-baf0dd12a658.png"
+        },
+        "name": "McDonald's",
+        "description": "{{https://res.cloudinary.com/onhvia4m/image/upload/v1791980897/mac_local.jpg|300}}\n{{https://res.cloudinary.com/onhvia4m/image/upload/v1791981308/mac_helado.jpg|146}}\n{{https://res.cloudinary.com/onhvia4m/image/upload/v1791646597/MAC2.png|146}}\nSucursal céntrica de McDonald’s en Avenida 3. Ofrece el menú habitual de la cadena: hamburguesas, papas, bebidas, postres y opciones de desayuno o café según disponibilidad. Consultá los canales oficiales para confirmar horarios, promociones y servicios vigentes.\n\nDirección: Avenida 3 Nº 472, Villa Gesell",
+        "category": "Comida rápida",
+        "address": "Avenida 3 Nº 472, Villa Gesell",
+        "phone": "+54 2255 47-7064",
+        "website": "https://www.mcdonalds.com.ar/",
+        "instagram": "https://www.instagram.com/mcdonalds_ar/",
+        "short_description": "Local de comida rápida con hamburguesas, papas, bebidas, postres y café.",
+        "services": "Comida rápida; hamburguesas; papas; bebidas y postres; consultar servicios vigentes",
+        "opening_hours": "",
+        "price_range": "",
+        "data_source": "Información pública consultada; verificar datos variables antes de publicar",
+        "vibe": "Bustling, fast-paced, and kid-friendly fast-food chain restaurant on the main pedestrian avenue with a children's play area; geared toward families with young kids, teenagers, and visitors wanting a quick, familiar meal.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96818,
+          -37.255513
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1792078737/ICON_MUNCHIS.webp"
+        },
+        "name": "MUNCHI'S",
+        "category": "Heladería / Cafetería",
+        "address": "Avenida 3 y Paseo 104, Villa Gesell",
+        "phone": "+54 2255 45-4200",
+        "website": "https://munchis.com.ar/",
+        "instagram": "https://www.instagram.com/heladosmunchis/",
+        "short_description": "Heladería artesanal elaborada con leche de vaca Jersey y cafetería ubicada en Av. 3 y Paseo 104.",
+        "services": "Heladería, cafetería, postres helados, mesas en salón y exterior, para llevar",
+        "opening_hours": "",
+        "price_range": "",
+        "data_source": "Google Maps / munchis.com.ar (Verificado 2026)",
+        "description": "Heladería de la marca Munchi’s, ubicada sobre Avenida 3 y Paseo 104. Una parada para elegir helados y postres durante un paseo por el centro. Los horarios y la disponibilidad pueden variar según la temporada; revisá los canales oficiales antes de ir.\n\nDirección: Avenida 3 y Paseo 104, Villa Gesell",
+        "vibe": "Bright, casual, and family-friendly downtown ice cream parlor and café with indoor and sidewalk seating; great for families with children and strollers taking a sweet break on Avenida 3.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.973190346571926,
+          -37.262257997056345
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 110 334, B7165CGF Villa Gesell, Provincia de Buenos Aires",
+        "category": "Cafetería / Casa de Té / Pastelería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Vióles Cordero Y Parmesano, Manteca. (Calificación Google Maps: 4.7 (738)).\n\nDirección: Paseo 110 334, B7165CGF Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "OLIVIA CAFÉ y RESTÓ",
+        "opening_hours": "Friday: 4–11 PM | Saturday: 4–11 PM | Sunday: 4–7 PM | Monday: 4–11 PM | Tuesday: Closed | Wednesday: 4–7:30 PM | Thursday: 4–11 PM",
+        "phone": "+54 2255 63-1260",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Café de especialidad, desayunos, meriendas, tortas artesanales, repostería",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Vióles Cordero Y Parmesano, Manteca. (Calificación Google Maps: 4.7 (738)).",
+        "website": "http://www.facebook.com/oliviaengesell",
+        "vibe": "Intimate, romantic, and warmly decorated boutique bistro and café with soft music, low noise, and a curated wine list; top choice for couples seeking a quiet, romantic dinner or a peaceful, charming afternoon tea.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.969240930541126,
+          -37.25698797822535
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 N° 635 (e/ Paseos 106 y 107), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Hamburguesería / Comida Rápida",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Panchos gigantes con salsas, hamburguesas y papas fritas.\n\nDirección: Av. 3 N° 635 (e/ Paseos 106 y 107), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Panchería El Marroquí",
+        "opening_hours": "",
+        "phone": "(02255) 46-2635",
+        "price_range": "",
+        "services": "Hamburguesas, sándwiches, papas fritas, panqueques, para llevar y salón",
+        "short_description": "Panchos gigantes con salsas, hamburguesas y papas fritas. Ubicado en Av. 3 N° 635 (e/ Paseos 106 y 107), Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Casual, fast-moving, and nostalgic downtown hot dog and burger diner; ideal for families with kids, youth groups, and late-night crowds looking for a quick, budget-friendly, no-frills bite.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.99549761889924,
+          -37.27741699021837
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Paseo 133 y Blvd., B7165 Villa Gesell",
+        "category": "Parrilla / Restaurante",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.2 (904)).\n\nDirección: Paseo 133 y Av. 3, B7165 Villa Gesell",
+        "instagram": "",
+        "name": "Parrilla Las 33",
+        "opening_hours": "Friday: 12–3 PM, 8–11 PM | Saturday: 12–3 PM, 8–11 PM | Sunday: 12–3 PM, 8–11 PM | Monday: 12–3 PM | Tuesday: Closed | Wednesday: 12–3 PM, 8–11 PM | Thursday: 12–3 PM, 8–11 PM",
+        "phone": "+54 2255 45-2479",
+        "price_range": "ARS 10.000–40.000 por persona",
+        "services": "Carnes a las brasas, asado, achuras, pastas, ensaladas, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.2 (904)).",
+        "website": "",
+        "vibe": "Quiet, casual, and family-friendly neighborhood steakhouse open year-round away from the downtown crowds; ideal for families and locals seeking a relaxed, traditional Argentine grill and homemade pasta meal.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.99489079501475,
+          -37.28523740964398
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 y 140, B7165 Villa Gesell",
+        "category": "Parrilla / Restaurante",
+        "data_source": "Google Maps (2026)",
+        "description": "Parrilla y comedor tradicional sobre Av. 3 con parrillada, pastas caseras y minutas. (Calificación Google Maps: 4.1 (1446)).\n\nDirección: Av. 3 1606, B7165 Villa Gesell",
+        "instagram": "",
+        "name": "Parrilla Las 40",
+        "opening_hours": "Mon-Sun: 12:00-3:30 PM, 8:00-11:30 PM",
+        "phone": "+54 2255 46-3521",
+        "price_range": "",
+        "services": "Carnes a las brasas, asado, achuras, pastas, ensaladas, almuerzo y cena",
+        "short_description": "Parrilla y comedor tradicional sobre Av. 3 con parrillada, pastas caseras y minutas. (Calificación Google Maps: 4.1 (1446)).",
+        "website": "",
+        "vibe": "Popular, bustling, and family-oriented traditional steakhouse and comedor in the southern zone; ideal for families and groups looking for hearty grilled meats and generous portions in a classic, lively dining hall.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97882061319621,
+          -37.26924611829955
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 1752, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pizzería / Empanadas",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Pizza capricciosa., Pizza.. (Calificación Google Maps: 4.9 (260)).\n\nDirección: Av. 3 1752, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Pizza Bis",
+        "opening_hours": "Friday: 11:30 AM–4:30 PM, 6 PM–1 AM | Saturday: 11:30 AM–4:30 PM, 6 PM–1 AM | Sunday: 11:30 AM–4:30 PM, 6 PM–1 AM | Monday: 11:30 AM–4:30 PM, 6 PM–1 AM | Tuesday: 11:30 AM–4:30 PM, 6 PM–1 AM | Wednesday: 11:30 AM–4:30 PM, 6 PM–1 AM | Thursday: 11:30 AM–4:30 PM, 6 PM–1 AM",
+        "phone": "+54 2255 43-8922",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Pizzas al molde y a la piedra, empanadas, fainá, consumo en el local y delivery",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Pizza capricciosa., Pizza.. (Calificación Google Maps: 4.9 (260)).",
+        "website": "https://monline.com.ar/PizzaBis",
+        "vibe": "Casual, cozy, and laid-back neighborhood pizzeria; great for families, couples, and groups of friends looking for an informal, top-rated artisanal pizza night.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.981602627976976,
+          -37.27158864872122
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "2084, Av. 3 2000, Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pizzería / Empanadas",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: De Ternera Caprece, Mozzarella, Tomate Natural Y Albahaca., Carne A La Salsa De Barbacoa. (Calificación Google Maps: 4.3 (2135)).\n\nDirección: 2084, Av. 3 2000, Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Pizza gesell",
+        "opening_hours": "Friday: 7:30 PM–12 AM | Saturday: 7:30 PM–12 AM | Sunday: 7:30 PM–12 AM | Monday: 7:30 PM–12 AM | Tuesday: 7:30 PM–12 AM | Wednesday: Closed | Thursday: 7:30 PM–12 AM",
+        "phone": "+54 2255 45-2500",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Pizzas al molde y a la piedra, empanadas, fainá, consumo en el local y delivery",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: De Ternera Caprece, Mozzarella, Tomate Natural Y Albahaca., Carne A La Salsa De Barbacoa. (Calificación Google Maps: 4.3 (2135)).",
+        "website": "",
+        "vibe": "Classic, casual, and family-friendly traditional pizzeria on Avenida 3; suited for families with children and groups looking for a straightforward, informal pizza and empanada dinner.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96938725893448,
+          -37.25777045077544
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 N° 618 (e/ Paseos 106 y 107), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Pizzería / Empanadas",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Tenis libre de pizzas y empanadas.\n\nDirección: Av. 3 N° 543 (e/ Paseos 105 y 106), B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Pizza Libre Gesell",
+        "opening_hours": "",
+        "phone": "(02255) 46-2618",
+        "price_range": "",
+        "services": "Pizzas al molde y a la piedra, empanadas, fainá, consumo en el local y delivery",
+        "short_description": "Tenis libre de pizzas y empanadas. Ubicado en Av. 3 N° 618 (e/ Paseos 106 y 107), Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Lively, informal, and budget-friendly all-you-can-eat pizzeria; ideal for large groups of friends, youth crowds, and hungry families prioritizing variety and value over a quiet setting.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.9666670142913,
+          -37.25363949094592
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 n189, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Cafetería / Casa de Té / Pastelería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.7 (368)).\n\nDirección: Av. 3 n189, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "https://www.instagram.com/posatticafe/",
+        "name": "Posatti Cafetería",
+        "opening_hours": "Friday: 8 AM–8:30 PM | Saturday: 8 AM–8:30 PM | Sunday: 8 AM–8:30 PM | Monday: 8 AM–8:30 PM | Tuesday: 8 AM–8:30 PM | Wednesday: 8 AM–8:30 PM | Thursday: 8 AM–8:30 PM",
+        "phone": "",
+        "price_range": "ARS 10.000–20.000 por persona",
+        "services": "Café de especialidad, desayunos, meriendas, tortas artesanales, repostería",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.7 (368)).",
+        "website": "https://www.instagram.com/posatticafe/",
+        "vibe": "Cozy, quiet, and welcoming café and artisanal bakery on northern Avenida 3; ideal for couples, solo visitors, and laptop workers enjoying a peaceful breakfast or generous afternoon tea and cakes.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.971963,
+          -37.261417
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1792077991/ICON_rancho.webp"
+        },
+        "name": "RANCHO HAMBRE",
+        "category": "Pizzería y casa de empanadas",
+        "address": "Avenida 3 Nº 871, entre Paseos 108 y 109, Villa Gesell",
+        "phone": "+54 2255 47-3131",
+        "website": "https://www.ranchohambre.com/",
+        "instagram": "",
+        "short_description": "Casa de pizzas y empanadas con variedades tradicionales, opciones vegetarianas y envíos.",
+        "services": "Pizzas; empanadas; opciones vegetarianas; opciones bajas en sodio; delivery",
+        "opening_hours": "",
+        "price_range": "",
+        "data_source": "Información pública consultada; verificar datos variables antes de publicar",
+        "description": "Casa de pizzas y empanadas de tradición familiar, abierta en Villa Gesell en 2003. Su propuesta incluye pizzas a la piedra, alrededor de 30 variedades de empanadas y otras comidas caseras, con opciones vegetarianas y bajas en sodio según su sitio oficial. Informan servicio de envío a domicilio. Dirección: Avenida 3 Nº 871, entre Paseos 108 y 109.\n\nDirección: Avenida 3 Nº 871, entre Paseos 108 y 109, Villa Gesell",
+        "vibe": "Casual, welcoming, and family-oriented downtown pizzeria and empanada house; great for families, tourists, and groups looking for a relaxed, everyday sit-down meal with vegetarian and low-sodium options.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96290534201504,
+          -37.25535771611726
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. Costanera S/N, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.5 (4205)).\n\nDirección: Av. Costanera S/N, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Restaurant el Náutico",
+        "opening_hours": "Friday: 8 AM–11:30 PM | Saturday: 8 AM–11:30 PM | Sunday: 8 AM–11:30 PM | Monday: 8 AM–11:30 PM | Tuesday: 8 AM–11:30 PM | Wednesday: 8 AM–11:30 PM | Thursday: 8 AM–11:30 PM",
+        "phone": "+54 2255 46-1806",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.5 (4205)).",
+        "website": "https://www.facebook.com/elnauticoplayabar/",
+        "vibe": "Cozy, scenic beachfront restaurant with sweeping ocean views and a relaxed coastal ambiance; great for couples seeking a romantic seaside lunch or dinner as well as families enjoying fresh seafood by the water.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96738700794642,
+          -37.25568436566006
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "P.º 104 190, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Restaurante / Bodegón",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.3 (5463)).\n\nDirección: P.º 104 190, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Restaurante La Delfina",
+        "opening_hours": "Friday: 12–3 PM, 8 PM–12 AM | Saturday: 12–3 PM, 8 PM–12 AM | Sunday: 12–3 PM, 8 PM–12 AM | Monday: 12–3 PM, 8 PM–12 AM | Tuesday: 12–3 PM, 8 PM–12 AM | Wednesday: 12–3 PM, 8 PM–12 AM | Thursday: 12–3 PM, 8 PM–12 AM",
+        "phone": "+54 2255 53-0235",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Platos caseros, carnes, pastas, minutas, almuerzo y cena en salón",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.3 (5463)).",
+        "website": "https://www.ladelfinagesell.com.ar/",
+        "vibe": "Classic, bustling, and family-friendly Argentine bodegón and wood-fired steakhouse near the central beach; ideal for families and groups seeking a traditional, hearty sit-down lunch or dinner.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98892217971714,
+          -37.27988758648132
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "entre, Paseo 132, Av. 12 y 13, Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parrilla / Restaurante",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Parrilla, Pastas Calientes. (Calificación Google Maps: 4.5 (51)).\n\nDirección: entre, Paseo 132, Av. 12 y 13, Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Rotiseria donata",
+        "opening_hours": "Friday: 10 AM–3 PM, 7–11 PM | Saturday: 10 AM–3 PM, 7–11 PM | Sunday: 10 AM–3 PM, 7–11 PM | Monday: 10 AM–3 PM, 7–11 PM | Tuesday: 10 AM–3 PM, 7–11 PM | Wednesday: 10 AM–3 PM, 7–11 PM | Thursday: 10 AM–3 PM, 7–11 PM",
+        "phone": "+54 2255 50-6074",
+        "price_range": "ARS 1–30.000 por persona",
+        "services": "Carnes a las brasas, asado, achuras, pastas, ensaladas, almuerzo y cena",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Parrilla, Pastas Calientes. (Calificación Google Maps: 4.5 (51)).",
+        "website": "",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96658634877537,
+          -37.25300842876368
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "av3 y buenos aires 140, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Cervecería / Bar",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.7 (502)).\n\nDirección: av3 y buenos aires 140, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Sector B",
+        "opening_hours": "Friday: 12 PM–12 AM | Saturday: 12 PM–12 AM | Sunday: 12 PM–12 AM | Monday: 12 PM–12 AM | Tuesday: 12 PM–12 AM | Wednesday: 12 PM–12 AM | Thursday: 12 PM–1:30 AM",
+        "phone": "+54 2255 62-8886",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "services": "Cerveza artesanal tirada, hamburguesas, picadas, tapeo, tragos, consumo en el lugar",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.7 (502)).",
+        "website": "https://www.yamenu.online/sectorb",
+        "vibe": "Trendy, modern urban smash-burger spot with good music, board games, and a relaxed vibe; ideal for young crowds, couples on a casual date, and groups of friends.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.95825024233941,
+          -37.24975253683591
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Calle 306 y, Av. Costanera, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Parador de Playa / Restaurante Costero",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.5 (309)).\n\nDirección: Calle 306 y, Av. Costanera, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "SUDESTADA",
+        "opening_hours": "Friday: 9 AM–7 PM | Saturday: 9 AM–7 PM | Sunday: 9 AM–7 PM | Monday: 9 AM–7 PM | Tuesday: 9 AM–7 PM | Wednesday: 9 AM–7 PM | Thursday: 9 AM–7 PM",
+        "phone": "+54 2255 46-8450",
+        "price_range": "",
+        "services": "Gastronomía frente al mar, rabas, pescados, mariscos, minutas, licuados y cafetería",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.5 (309)).",
+        "website": "https://m.facebook.com/RestoTerral/?locale2=es_LA",
+        "vibe": "Relaxed, scenic northern-beach parador and restaurant (Resto-Terral) away from the central crowds; great for families, couples, and beachgoers seeking a calm seaside lunch or sourdough pizza by the ocean.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96794268252816,
+          -37.25738151490874
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "P.º 105 212, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Cafetería / Casa de Té / Pastelería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.5 (4652)).\n\nDirección: P.º 105 212, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Sutton 212",
+        "opening_hours": "Friday: 7 PM–5 AM | Saturday: 7 PM–5 AM | Sunday: Closed | Monday: Closed | Tuesday: Closed | Wednesday: Closed | Thursday: Closed",
+        "phone": "+54 2255 46-0674",
+        "price_range": "ARS 30.000–60.000 por persona",
+        "services": "Café de especialidad, desayunos, meriendas, tortas artesanales, repostería",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.5 (4652)).",
+        "website": "",
+        "vibe": "Classic, stylish, and versatile downtown restobar that blends a warm, cozy, and romantic dining atmosphere with lively late-night cocktails and music; great for both couples on a date night and groups of friends.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.97395027838414,
+          -37.26281124046192
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 1040, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Heladería / Cafetería",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. Especialidades: Dulce de leche., Cookies and cream ice cream.. (Calificación Google Maps: 4.5 (98)).\n\nDirección: Av. 3 1040, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Trescevehelados Villa Gesell",
+        "opening_hours": "Friday: 11 AM–12 AM | Saturday: 11 AM–12 AM | Sunday: 11 AM–12 AM | Monday: Closed | Tuesday: 11 AM–12 AM | Wednesday: 11 AM–12 AM | Thursday: 11 AM–12 AM",
+        "phone": "+54 2255 43-8268",
+        "price_range": "",
+        "services": "Helados artesanales, postres helados, cafetería, venta en mostrador y para llevar",
+        "short_description": "Local gastronómico verificado en Google Maps. Especialidades: Dulce de leche., Cookies and cream ice cream.. (Calificación Google Maps: 4.5 (98)).",
+        "website": "",
+        "vibe": "",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96768664014017,
+          -37.25472746353985
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Av. 3 310, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Cervecería / Bar",
+        "data_source": "Google Maps (2026)",
+        "description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.1 (206)).\n\nDirección: Av. 3 310, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Viejo Skill Villa Gesell",
+        "opening_hours": "Friday: 11:30 AM–4 AM | Saturday: 11:30 AM–4 AM | Sunday: 11:30 AM–4 AM | Monday: 11:30 AM–4 AM | Tuesday: 11:30 AM–4 AM | Wednesday: 11:30 AM–4 AM | Thursday: 11:30 AM–4 AM",
+        "phone": "+54 2255 50-7121",
+        "price_range": "",
+        "services": "Cerveza artesanal tirada, hamburguesas, picadas, tapeo, tragos, consumo en el lugar",
+        "short_description": "Local gastronómico verificado en Google Maps. (Calificación Google Maps: 4.1 (206)).",
+        "website": "https://menu.fu.do/viejoskillvillagesell/qr-menu",
+        "vibe": "Casual, lively late-night craft beer bar with upbeat music; geared toward young adults and groups of friends looking for an informal night out with pints and pub food.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.98526074798461,
+          -37.23919871218656
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36
+        },
+        "address": "Camino de los Pioneros N° 2463, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "category": "Panadería / Confitería",
+        "data_source": "Secretaría de Turismo de Villa Gesell (gesell.tur.ar/gourmet)",
+        "description": "Restaurante y confitería del Golf Club con vista a la cancha.\n\nDirección: Camino de los Pioneros N° 2463, B7165 Villa Gesell, Provincia de Buenos Aires",
+        "instagram": "",
+        "name": "Villa Gesell Golf Club Resto",
+        "opening_hours": "",
+        "phone": "(02255) 45-8249",
+        "price_range": "",
+        "services": "Panificados, facturas, medialunas, tortas, sándwiches de miga, para llevar",
+        "short_description": "Restaurante y confitería del Golf Club con vista a la cancha. Ubicado en Camino de los Pioneros N° 2463, Villa Gesell.",
+        "website": "https://www.gesell.tur.ar/gourmet",
+        "vibe": "Peaceful, green, and relaxed clubhouse restaurant and café overlooking the golf course fairways; ideal for golfers, couples, and adults seeking a quiet, scenic daytime lunch or coffee away from the beach crowds.",
+        "sponsorship": false
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -56.96648147587389,
+          -37.25252921691757
+        ]
+      },
+      "properties": {
+        "_umap_options": {
+          "iconClass": "LargeCircle",
+          "iconSize": 36,
+          "iconUrl": "https://res.cloudinary.com/onhvia4m/image/upload/v1792079225/ICON_ZODIACO.webp"
+        },
+        "name": "Zodiaco Burgers",
+        "category": "Hamburguesería / Smash Burgers",
+        "address": "Avenida Buenos Aires y Avenida 3, Villa Gesell",
+        "phone": "+54 2255 50-4491",
+        "website": "https://www.instagram.com/zodiaco.burgers/",
+        "instagram": "https://www.instagram.com/zodiaco.burgers/",
+        "short_description": "Hamburguesería especializada en smash burgers artesanales en pan de papa con medallones doble/triple, cheddar, panceta crocante y papas fritas.",
+        "services": "Cena, consumo en el local, take-away y delivery",
+        "opening_hours": "Lun a Jue: 19:00–23:30 | Vie a Dom: 19:00–00:00",
+        "price_range": "ARS 20.000–30.000 por persona",
+        "data_source": "Google Maps / Instagram (Verificado 2026)",
+        "description": "Hamburguesería ubicada en la esquina de Avenida Buenos Aires y Avenida 3. Su propuesta se centra en hamburguesas y comida rápida, con opciones para consumir en el lugar o pedir para llevar; algunos directorios también mencionan alternativas vegetarianas. Confirmá horarios y servicios en sus redes antes de ir.\n\nDirección: Avenida Buenos Aires y Avenida 3, Villa Gesell",
+        "vibe": "Fun, trendy, and upbeat astrology-themed smash-burger joint; ideal for young crowds, families, and groups of friends looking for a casual, energetic burger dinner.",
+        "sponsorship": false
+      }
+    }
+  ]
+}
