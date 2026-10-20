@@ -110,6 +110,67 @@
     }
   }
 
+  function safeDescriptionImageUrl(value) {
+    if (typeof value !== "string" || !value.trim()) return null;
+    const raw = value.trim();
+    try {
+      const url = new URL(raw);
+      if (url.protocol !== "https:" || !url.hostname || url.username || url.password) return null;
+      // Keep the original Cloudinary path, transformation options, and query string intact.
+      return raw;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  function renderDescription(value, title) {
+    const lines = String(value == null ? "" : value).split(/\r?\n/);
+    const blocks = [];
+    let textLines = [];
+    let images = [];
+
+    function flushText() {
+      const text = textLines.join("\n").trim();
+      if (text) {
+        blocks.push('<p class="map-popup-description-text">' + escapeHtml(text) + '</p>');
+      }
+      textLines = [];
+    }
+
+    function flushImages() {
+      if (!images.length) return;
+      const imageHtml = images.map((image, index) =>
+        '<img class="map-popup-image" src="' + escapeHtml(image.url) +
+        '" width="' + image.width + '" alt="' + escapeHtml("Foto " + (index + 1) + " de " + title) +
+        '" loading="lazy" decoding="async">'
+      ).join("");
+      blocks.push('<div class="map-popup-images">' + imageHtml + '</div>');
+      images = [];
+    }
+
+    // uMap's description syntax stores images as {{https://...|width}}.
+    // Parse only that exact pattern; all surrounding text remains escaped.
+    const imageDirective = /^\s*\{\{\s*(https:\/\/[^|{}\s]+)\s*\|\s*(\d{1,4})\s*\}\}\s*$/i;
+    lines.forEach((line) => {
+      const match = line.match(imageDirective);
+      if (match) {
+        const url = safeDescriptionImageUrl(match[1]);
+        const width = Number(match[2]);
+        if (url && Number.isInteger(width) && width > 0 && width <= 1200) {
+          flushText();
+          images.push({url, width});
+          return;
+        }
+      }
+      flushImages();
+      textLines.push(line);
+    });
+    flushText();
+    flushImages();
+
+    return '<div class="map-popup-description">' + blocks.join("") + '</div>';
+  }
+
   function popupHtml(feature, config) {
     const p = feature && feature.properties ? feature.properties : {};
     const title = p.name || p.title || config.label;
@@ -125,7 +186,7 @@
       parts.push('<p class="map-popup-category">' + escapeHtml(category) + '</p>');
     }
     if (description) {
-      parts.push('<p class="map-popup-description">' + escapeHtml(description) + '</p>');
+      parts.push(renderDescription(description, title));
     }
 
     const details = [];

@@ -631,7 +631,11 @@ html.is-returning.return-controls-visible .assistant-toggle { opacity:1; pointer
 .map-popup-kicker { margin:0 0 5px;color:#777;font:700 10px/1.3 var(--font-body);letter-spacing:.07em;text-transform:uppercase; }
 .map-popup h3 { margin:0 22px 8px 0;color:#151515;font:900 17px/1.25 var(--font);letter-spacing:-.025em; }
 .map-popup-category { margin:0 0 9px;color:#6a6a6a;font:400 12px/1.45 var(--font-body); }
-.map-popup-description { margin:0 0 10px;color:#282828;font:400 14px/1.52 var(--font-body);white-space:pre-line; }
+.map-popup-description { margin:0 0 10px;color:#282828;font:400 14px/1.52 var(--font-body); }
+.map-popup-description-text { margin:0 0 8px;white-space:pre-line; }
+.map-popup-description-text:last-child { margin-bottom:0; }
+.map-popup-images { display:flex;flex-wrap:wrap;align-items:flex-start;gap:6px;margin:0 0 10px; }
+.map-popup-image { display:block;max-width:100%;height:auto;object-fit:contain;border-radius:4px; }
 .map-popup-details { display:grid;gap:8px;margin:10px 0 0;padding-top:9px;border-top:1px solid #e8e8e8; }
 .map-popup-details div { display:grid;gap:2px; }
 .map-popup-details dt { color:#777;font:700 10px/1.3 var(--font-body);text-transform:uppercase;letter-spacing:.06em; }
