@@ -82,6 +82,12 @@
       tap: true
     }).setView([-37.265, -56.97], 13);
 
+    // Keep required OpenStreetMap attribution visible above the bottom dock.
+    if (mapInstance.attributionControl) {
+      mapInstance.attributionControl.setPosition("topright");
+      mapInstance.attributionControl.setPrefix(false);
+    }
+
     window.L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
       maxZoom: 19,
       attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener noreferrer">OpenStreetMap</a> contributors'
