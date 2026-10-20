@@ -9,8 +9,6 @@
   const mapCanvas = document.getElementById("mapCanvas");
   const mapPicker = document.getElementById("mapPicker");
   const mapDock = document.getElementById("mapDock");
-  const mapActive = document.getElementById("mapActive");
-  const mapActiveTitle = document.getElementById("mapActiveTitle");
   const mapStatus = document.getElementById("mapStatus");
   const mapStatusText = document.getElementById("mapStatusText");
   const mapRetry = document.getElementById("mapRetry");
@@ -41,12 +39,6 @@
 
   function getConfig(id) {
     return MAPS.find((item) => item.id === id) || null;
-  }
-
-  function getIconSvg(id) {
-    const button = optionById.get(id);
-    const svg = button && button.querySelector(".map-option-symbol svg");
-    return svg ? svg.outerHTML : "";
   }
 
   function setStatus(message, mode) {
@@ -122,25 +114,30 @@
     const p = feature && feature.properties ? feature.properties : {};
     const title = p.name || p.title || config.label;
     const category = p.category || "";
-    const description = p.short_description || p.description || p.place_description || "";
+    const description = p.description || p.short_description || p.place_description || "";
     const parts = [
-      '<article class="map-popup" style="--popup-accent:' + config.accent + '">',
+      '<article class="map-popup">',
       '<p class="map-popup-kicker">' + escapeHtml(config.label) + '</p>',
       '<h3>' + escapeHtml(title) + '</h3>'
     ];
+
     if (category && category !== title) {
       parts.push('<p class="map-popup-category">' + escapeHtml(category) + '</p>');
     }
-    if (description) parts.push('<p class="map-popup-description">' + escapeHtml(description) + '</p>');
+    if (description) {
+      parts.push('<p class="map-popup-description">' + escapeHtml(description) + '</p>');
+    }
 
     const details = [];
-    if (p.address) details.push("Dirección: " + p.address);
-    if (p.opening_hours) details.push("Horarios: " + p.opening_hours);
-    if (p.price_range) details.push("Precios: " + p.price_range);
+    if (p.address) details.push(["Dirección", p.address]);
+    if (p.opening_hours) details.push(["Horarios", p.opening_hours]);
+    if (p.price_range) details.push(["Precios", p.price_range]);
     if (details.length) {
-      parts.push('<ul class="map-popup-details">');
-      details.forEach((detail) => parts.push("<li>" + escapeHtml(detail) + "</li>"));
-      parts.push("</ul>");
+      parts.push('<dl class="map-popup-details">');
+      details.forEach(([label, value]) => {
+        parts.push('<div><dt>' + escapeHtml(label) + '</dt><dd>' + escapeHtml(value) + '</dd></div>');
+      });
+      parts.push('</dl>');
     }
 
     const links = [];
@@ -148,8 +145,8 @@
     const instagram = safeExternalUrl(p.instagram);
     if (website) links.push('<a href="' + escapeHtml(website) + '" target="_blank" rel="noopener noreferrer">Sitio web</a>');
     if (instagram) links.push('<a href="' + escapeHtml(instagram) + '" target="_blank" rel="noopener noreferrer">Instagram</a>');
-    if (links.length) parts.push('<div class="map-popup-links">' + links.join("") + "</div>");
-    parts.push("</article>");
+    if (links.length) parts.push('<div class="map-popup-links">' + links.join("") + '</div>');
+    parts.push('</article>');
     return parts.join("");
   }
 
@@ -179,19 +176,42 @@
   }
 
   function markerFor(feature, latlng, config) {
-    const svg = getIconSvg(config.id);
-    const html = '<span class="geo-pin geo-pin--' + config.id + '" aria-hidden="true">' + svg + "</span>";
-    const label = feature && feature.properties && (feature.properties.name || feature.properties.title);
+    const properties = feature && feature.properties ? feature.properties : {};
+    const options = properties._umap_options && typeof properties._umap_options === "object"
+      ? properties._umap_options : {};
+    const assignedColor = typeof options.color === "string" && /^#[0-9a-f]{3,8}$/i.test(options.color)
+      ? options.color : config.accent;
+    const rawIconUrl = typeof options.iconUrl === "string" ? options.iconUrl.trim() : "";
+    let iconUrl = null;
+
+    if (rawIconUrl) {
+      try {
+        const candidate = new URL(rawIconUrl, window.location.href);
+        if (candidate.protocol === "https:" && candidate.hostname === "res.cloudinary.com") {
+          iconUrl = candidate.href;
+        }
+      } catch (_) {}
+    }
+
+    // Keep the round LargeCircle marker style from the GeoJSON. Brand-specific
+    // iconUrl assignments remain circular images; ordinary points stay round dots.
+    const inside = iconUrl
+      ? '<img class="geo-pin-image" src="' + escapeHtml(iconUrl) + '" alt="" loading="lazy" decoding="async">'
+      : '<span class="geo-pin-dot" aria-hidden="true"></span>';
+    const html = '<span class="geo-pin" style="--pin-accent:' + assignedColor + '" aria-hidden="true">' + inside + '</span>';
+    const label = properties.name || properties.title || config.label;
+    const size = Number.isFinite(Number(options.iconSize)) ? Math.max(26, Math.min(40, Number(options.iconSize))) : 36;
+
     return window.L.marker(latlng, {
       icon: window.L.divIcon({
         className: "geo-marker-host",
         html: html,
-        iconSize: [29, 29],
-        iconAnchor: [14, 25],
-        popupAnchor: [0, -22]
+        iconSize: [size, size],
+        iconAnchor: [size / 2, size / 2],
+        popupAnchor: [0, -size / 2 + 1]
       }),
-      title: label ? String(label) : config.label,
-      alt: label ? String(label) : config.label,
+      title: String(label),
+      alt: String(label),
       keyboard: true
     });
   }
@@ -207,6 +227,9 @@
       button.setAttribute("aria-pressed", String(active));
       button.classList.toggle("is-active", active);
     });
+    const activeIndex = MAPS.findIndex((item) => item.id === id);
+    mapDock.style.setProperty("--active-index", String(Math.max(0, activeIndex)));
+    mapDock.style.setProperty("--active-accent", (getConfig(id) || MAPS[0]).accent);
   }
 
   async function selectMap(id, options) {
@@ -227,8 +250,6 @@
     mapDock.removeAttribute("inert");
     mapDock.setAttribute("aria-hidden", "false");
     mapCanvas.setAttribute("aria-hidden", "false");
-    mapActive.setAttribute("aria-hidden", "false");
-    document.getElementById("mapActiveTitle").textContent = config.label;
 
     if (activeGeoLayer) {
       activeGeoLayer.remove();
@@ -246,7 +267,13 @@
       const nextLayer = window.L.geoJSON(collection, {
         pointToLayer: (feature, latlng) => markerFor(feature, latlng, config),
         onEachFeature: (feature, layer) => {
-          layer.bindPopup(popupHtml(feature, config), { maxWidth: 320, minWidth: 190, autoPanPadding: [28, 30] });
+          layer.bindPopup(popupHtml(feature, config), {
+            maxWidth: Math.min(340, Math.max(230, window.innerWidth - 40)),
+            minWidth: Math.min(230, Math.max(190, window.innerWidth - 56)),
+            maxHeight: Math.max(180, Math.min(360, window.innerHeight - 150)),
+            autoPanPadding: [24, 24],
+            closeButton: true
+          });
         }
       });
       if (!nextLayer.getLayers().length) throw new Error("No hay puntos para mostrar");

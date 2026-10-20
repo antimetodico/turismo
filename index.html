@@ -13,7 +13,7 @@
   <script src="js/orientation-compat.js"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
-  <link rel="stylesheet" href="css/styles.css?v=maps-1">
+  <link rel="stylesheet" href="css/styles.css?v=maps-2">
   <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js" defer></script>
   <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js" defer></script>
 </head>
@@ -40,11 +40,6 @@
     <section class="map" id="map" aria-label="Mapas turísticos de Villa Gesell" role="dialog" aria-modal="true" aria-hidden="true" inert>
       <div class="map-canvas" id="mapCanvas" aria-label="Mapa interactivo de Villa Gesell" aria-hidden="true"></div>
 
-      <header class="map-active" id="mapActive" aria-hidden="true">
-        <span class="map-active-kicker">MAPA ACTIVO</span>
-        <h2 id="mapActiveTitle">Gastronomía</h2>
-      </header>
-
       <div class="map-status" id="mapStatus" role="status" aria-live="polite" hidden>
         <span id="mapStatusText"></span>
         <button id="mapRetry" type="button" hidden>Reintentar</button>
@@ -52,9 +47,7 @@
 
       <div class="map-picker" id="mapPicker" aria-labelledby="mapPickerTitle">
         <div class="map-picker-inner">
-          <p class="map-picker-kicker">VILLA GESELL <span aria-hidden="true">/</span> EXPLORÁ</p>
-          <h2 id="mapPickerTitle">¿Qué querés encontrar?</h2>
-          <p class="map-picker-description">Elegí un mapa para arrancar.</p>
+          <h2 id="mapPickerTitle">¿A dónde vamos?</h2>
 
           <div class="map-options" role="group" aria-label="Elegir un mapa">
             <button class="map-option" type="button" data-map-id="gastronomia" aria-pressed="false">
@@ -65,24 +58,21 @@
               </span>
               <span class="map-option-copy">
                 <span class="map-option-title">Gastronomía</span>
-                <span class="map-option-description">Restaurantes, bares y cafés</span>
-              </span>
-              <svg class="map-option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 6l6 6-6 6"/></svg>
+                </span>
             </button>
 
             <button class="map-option" type="button" data-map-id="locales" aria-pressed="false">
               <span class="map-option-symbol" aria-hidden="true">
                 <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">
-                  <path d="M3 10h18l-1.4-6H4.4L3 10Z"/>
-                  <path d="M4.5 10v10h15V10M8 20v-6h5v6"/>
-                  <path d="M3 10a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0"/>
+                  <path d="M4 10.5V20h16v-9.5"/>
+                  <path d="M3 10.5 4.6 4h14.8l1.6 6.5"/>
+                  <path d="M3 10.5a2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 0 3 0"/>
+                  <path d="M9 20v-5h6v5"/>
                 </svg>
               </span>
               <span class="map-option-copy">
                 <span class="map-option-title">Locales y servicios</span>
-                <span class="map-option-description">Comercios y cosas útiles</span>
-              </span>
-              <svg class="map-option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 6l6 6-6 6"/></svg>
+                </span>
             </button>
 
             <button class="map-option" type="button" data-map-id="puntos_interes" aria-pressed="false">
@@ -94,9 +84,7 @@
               </span>
               <span class="map-option-copy">
                 <span class="map-option-title">Puntos de interés</span>
-                <span class="map-option-description">Naturaleza, paseos y cultura</span>
-              </span>
-              <svg class="map-option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 6l6 6-6 6"/></svg>
+                </span>
             </button>
 
             <button class="map-option" type="button" data-map-id="balnearios" aria-pressed="false">
@@ -109,38 +97,33 @@
               </span>
               <span class="map-option-copy">
                 <span class="map-option-title">Balnearios</span>
-                <span class="map-option-description">Paradores y playa</span>
-              </span>
-              <svg class="map-option-arrow" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h13M12 6l6 6-6 6"/></svg>
+                </span>
             </button>
           </div>
         </div>
       </div>
 
-      <nav class="map-dock" id="mapDock" aria-label="Cambiar de mapa" aria-hidden="true" inert>
+      <nav class="map-dock" id="mapDock" aria-label="Cambiar de mapa" aria-hidden="true" inert style="--active-index:0">
+        <span class="map-dock-indicator" aria-hidden="true"></span>
         <button class="map-dock-button" type="button" data-map-id="gastronomia" aria-label="Cambiar al mapa de Gastronomía" aria-pressed="false">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M7 3v6M4.5 3v4.5a2.5 2.5 0 0 0 5 0V3M7 9.5V21M16 3v18M16 3c-2.4 2.2-3 5-3 8h3"/>
           </svg>
-          <span class="map-dock-label">Comer</span>
         </button>
         <button class="map-dock-button" type="button" data-map-id="locales" aria-label="Cambiar al mapa de Locales y servicios" aria-pressed="false">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <path d="M3 10h18l-1.4-6H4.4L3 10Z"/><path d="M4.5 10v10h15V10M8 20v-6h5v6"/><path d="M3 10a2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0 2 2 0 0 0 4 0"/>
+            <path d="M4 10.5V20h16v-9.5"/><path d="M3 10.5 4.6 4h14.8l1.6 6.5"/><path d="M3 10.5a2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 0 5 0 2.5 2.5 0 0 0 3 0"/><path d="M9 20v-5h6v5"/>
           </svg>
-          <span class="map-dock-label">Locales</span>
         </button>
         <button class="map-dock-button" type="button" data-map-id="puntos_interes" aria-label="Cambiar al mapa de Puntos de interés" aria-pressed="false">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M3 10h18L12 4 3 10Z"/><path d="M5 20h14M7 10v7m5-7v7m5-7v7M4 21h16"/>
           </svg>
-          <span class="map-dock-label">Interés</span>
         </button>
         <button class="map-dock-button" type="button" data-map-id="balnearios" aria-label="Cambiar al mapa de Balnearios" aria-pressed="false">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M3 12a9 9 0 0 1 18 0H3Z"/><path d="M12 3v13m0 0a2 2 0 1 0 4 2"/><path d="M4 19c1.4-1 2.8-1 4.2 0s2.8 1 4.2 0 2.8-1 4.2 0 2.8 1 4.2 0"/>
           </svg>
-          <span class="map-dock-label">Playa</span>
         </button>
       </nav>
 
@@ -156,6 +139,6 @@
 
   <noscript><p class="noscript">Activá JavaScript para ver la foto 360° y el mapa interactivo.</p></noscript>
   <script src="js/app.js?v=maps-1" defer></script>
-  <script src="js/maps.js?v=maps-1" defer></script>
+  <script src="js/maps.js?v=maps-2" defer></script>
 </body>
 </html>
