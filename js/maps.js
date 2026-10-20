@@ -179,36 +179,51 @@
     const properties = feature && feature.properties ? feature.properties : {};
     const options = properties._umap_options && typeof properties._umap_options === "object"
       ? properties._umap_options : {};
-    const assignedColor = typeof options.color === "string" && /^#[0-9a-f]{3,8}$/i.test(options.color)
-      ? options.color : config.accent;
     const rawIconUrl = typeof options.iconUrl === "string" ? options.iconUrl.trim() : "";
-    let iconUrl = null;
+    const sizeValue = Number(options.iconSize);
+    const size = Number.isFinite(sizeValue) ? Math.max(24, Math.min(48, sizeValue)) : 36;
+    const label = properties.name || properties.title || config.label;
+    const color = typeof options.color === "string" && /^#[0-9a-f]{3,8}$/i.test(options.color)
+      ? options.color : config.accent;
 
+    // uMap iconUrl is a real image override, not decoration inside a generic
+    // marker. Render the assigned asset directly with Leaflet's image icon so
+    // its original artwork, transparency, and proportions are preserved.
     if (rawIconUrl) {
       try {
         const candidate = new URL(rawIconUrl, window.location.href);
-        if (candidate.protocol === "https:" && candidate.hostname === "res.cloudinary.com") {
-          iconUrl = candidate.href;
+        if ((candidate.protocol === "https:" || candidate.protocol === "http:") &&
+            candidate.hostname === "res.cloudinary.com") {
+          return window.L.marker(latlng, {
+            icon: window.L.icon({
+              iconUrl: candidate.href,
+              iconSize: [size, size],
+              iconAnchor: [size / 2, size / 2],
+              popupAnchor: [0, -size / 2],
+              className: "geo-custom-marker"
+            }),
+            title: String(label),
+            alt: String(label),
+            keyboard: true
+          });
         }
-      } catch (_) {}
+      } catch (_) {
+        // A malformed custom URL falls back to the map's normal round marker.
+      }
     }
 
-    // Keep the round LargeCircle marker style from the GeoJSON. Brand-specific
-    // iconUrl assignments remain circular images; ordinary points stay round dots.
-    const inside = iconUrl
-      ? '<img class="geo-pin-image" src="' + escapeHtml(iconUrl) + '" alt="" loading="lazy" decoding="async">'
-      : '<span class="geo-pin-dot" aria-hidden="true"></span>';
-    const html = '<span class="geo-pin" style="--pin-accent:' + assignedColor + '" aria-hidden="true">' + inside + '</span>';
-    const label = properties.name || properties.title || config.label;
-    const size = Number.isFinite(Number(options.iconSize)) ? Math.max(26, Math.min(40, Number(options.iconSize))) : 36;
-
+    // Standard LargeCircle entries stay round and use the original per-feature
+    // color when present. They no longer inherit the selector's SVG symbols.
+    const html = '<span class="geo-round-marker" style="--marker-color:' +
+      escapeHtml(color) + '" aria-hidden="true"></span>';
     return window.L.marker(latlng, {
       icon: window.L.divIcon({
         className: "geo-marker-host",
         html: html,
         iconSize: [size, size],
         iconAnchor: [size / 2, size / 2],
-        popupAnchor: [0, -size / 2 + 1]
+        popupAnchor: [0, -size / 2],
+        bgPos: null
       }),
       title: String(label),
       alt: String(label),

@@ -590,30 +590,25 @@ html.is-returning.return-controls-visible .assistant-toggle { opacity:1; pointer
 }
 @keyframes map-loader { to { transform:rotate(360deg); } }
 
-/* Keep map point symbols round and respect any brand icon URL already stored
-   in the GeoJSON; selector SVGs are never used as establishment markers. */
+/* Normal round pins for standard GeoJSON features. Custom iconUrl markers
+   are rendered as native Leaflet image icons, without circular cropping. */
 .geo-marker-host { background:transparent;border:0; }
-.geo-pin {
-  display:grid;
-  place-items:center;
+.geo-round-marker {
+  display:block;
   width:100%;
   height:100%;
-  overflow:hidden;
   border:2px solid rgba(255,255,255,.96);
   border-radius:50%;
-  background:var(--pin-accent,#a6e873);
+  background:var(--marker-color,#a6e873);
   box-shadow:0 2px 8px rgba(0,0,0,.34),0 0 0 1px rgba(0,0,0,.14);
 }
-.geo-pin-image { display:block;width:100%;height:100%;object-fit:cover;border-radius:50%; }
-.geo-pin-dot {
-  display:block;
-  width:9px;
-  height:9px;
-  border:1.5px solid rgba(255,255,255,.95);
-  border-radius:50%;
-  background:rgba(255,255,255,.28);
+.geo-custom-marker {
+  background:transparent !important;
+  border:0 !important;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  object-fit:contain;
 }
-
 /* Light, legible Leaflet popup styling close to a conventional map popup. */
 .map-canvas .leaflet-popup-content-wrapper {
   border:1px solid rgba(0,0,0,.08);
