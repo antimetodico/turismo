@@ -1,5 +1,12 @@
 /* GESELL landing page: interactive 360° hero with animated map overlay. */
 @font-face {
+  font-family: 'Gotham Book';
+  src: url('../fonts/GOTHAMBOOK.TTF') format('truetype');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
   font-family: 'Gotham Black';
   src: url('../fonts/GOTHAM-BLACK.OTF') format('opentype');
   font-style: normal;
@@ -8,6 +15,7 @@
 }
 :root {
   --font: 'Gotham Black', 'Arial Black', system-ui, sans-serif;
+  --font-body: 'Gotham Book', Arial, sans-serif;
   --ease: cubic-bezier(.2, .7, .2, 1);
 }
 
