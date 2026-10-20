@@ -228,3 +228,72 @@ window.addEventListener("pageshow", event => {
   document.documentElement.classList.remove("is-exiting");
   if (backHomeLink) delete backHomeLink.dataset.exiting;
 });
+
+/* Cycling example prompts: the composer placeholder types and erases sample
+   questions. It pauses while the visitor is typing or the tab is hidden, and stays
+   on a single static example for visitors who prefer reduced motion. */
+const PLACEHOLDER_EXAMPLES = [
+  "¿dónde puedo picar algo?",
+  "¿qué hago si llueve?",
+  "busco una farmacia",
+  "¿dónde tomo un buen café?",
+  "where can I eat empanadas?",
+  "playas tranquilas para ir",
+  "melhor lugar pra jantar?",
+  "¿qué hay cerca de mí?",
+  "pizza cerca de acá",
+  "¿hay buena parrilla?"
+];
+const TYPE_MS = 58, ERASE_MS = 26, HOLD_MS = 2000, GAP_MS = 450;
+let placeholderIndex = 0, placeholderChars = 0, placeholderErasing = false, placeholderTimer = null;
+
+// Skip examples that would wrap onto a second line in the one-line field (narrow phones).
+const measureCanvas = document.createElement("canvas").getContext("2d");
+function placeholderFits(phrase) {
+  const style = window.getComputedStyle(input);
+  measureCanvas.font = style.fontWeight + " " + style.fontSize + " " + style.fontFamily;
+  const available = input.clientWidth - parseFloat(style.paddingLeft) - parseFloat(style.paddingRight);
+  return available <= 0 || measureCanvas.measureText(phrase).width <= available - 4;
+}
+
+function placeholderStep() {
+  window.clearTimeout(placeholderTimer);
+  if (document.hidden || input.disabled || input.value) {
+    // Nothing visible to animate right now; check again shortly.
+    placeholderTimer = window.setTimeout(placeholderStep, 500);
+    return;
+  }
+  let phrase = PLACEHOLDER_EXAMPLES[placeholderIndex];
+  if (!placeholderErasing && placeholderChars === 0) {
+    for (let tries = 0; tries < PLACEHOLDER_EXAMPLES.length && !placeholderFits(phrase); tries++) {
+      placeholderIndex = (placeholderIndex + 1) % PLACEHOLDER_EXAMPLES.length;
+      phrase = PLACEHOLDER_EXAMPLES[placeholderIndex];
+    }
+  }
+  let delay;
+  if (!placeholderErasing) {
+    placeholderChars = Math.min(placeholderChars + 1, phrase.length);
+    delay = placeholderChars === phrase.length ? HOLD_MS : TYPE_MS + Math.random() * 40;
+    if (placeholderChars === phrase.length) placeholderErasing = true;
+  } else {
+    placeholderChars = Math.max(placeholderChars - 1, 0);
+    if (placeholderChars === 0) {
+      placeholderErasing = false;
+      placeholderIndex = (placeholderIndex + 1) % PLACEHOLDER_EXAMPLES.length;
+      delay = GAP_MS;
+    } else {
+      delay = ERASE_MS;
+    }
+  }
+  input.placeholder = phrase.slice(0, placeholderChars);
+  placeholderTimer = window.setTimeout(placeholderStep, delay);
+}
+
+if (!reduceMotion) {
+  input.placeholder = "";
+  placeholderStep();
+  // When the field is emptied again (sent message or cleared text), start a fresh phrase.
+  input.addEventListener("input", () => {
+    if (!input.value) { placeholderChars = 0; placeholderErasing = false; }
+  });
+}

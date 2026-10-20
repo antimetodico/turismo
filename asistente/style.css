@@ -251,3 +251,35 @@ html.is-exiting .page { transform:translateY(3px) scale(.995); }
   .exit-transition { transition-duration:.01ms !important; }
   html.is-exiting .page,html.is-exiting .brand-mark,html.is-exiting .back-home { filter:none !important; }
 }
+
+/* Ambient pastel light: four soft, blurred glows breathe in and out along both
+   screen edges. Colours are pastel variations of the GO green (#a6e873). The layer
+   sits behind all content, never receives input and stays well below text contrast. */
+.ambient {
+  position:fixed; inset:0; z-index:0; overflow:hidden; pointer-events:none;
+  opacity:1; transition:opacity 1.4s ease;
+}
+.glow {
+  --size:clamp(260px,48vw,540px);
+  position:absolute; width:var(--size); height:var(--size); border-radius:50%;
+  filter:blur(58px); opacity:0; will-change:opacity,transform;
+  animation:glow-breathe var(--dur,14s) ease-in-out var(--delay,0s) infinite;
+}
+.glow-a { left:calc(var(--size) * -.4); top:6%;  --dur:15s; --delay:-3s;  --dx:9vw;  --dy:7vh;
+  background:radial-gradient(circle, rgba(166,232,115,.78) 0%, rgba(166,232,115,.30) 42%, rgba(166,232,115,0) 70%); }
+.glow-b { left:calc(var(--size) * -.36);  bottom:2%; --dur:19s; --delay:-11s; --dx:7vw;  --dy:-8vh;
+  background:radial-gradient(circle, rgba(168,240,205,.70) 0%, rgba(168,240,205,.26) 42%, rgba(168,240,205,0) 70%); }
+.glow-c { right:calc(var(--size) * -.4); top:20%; --dur:17s; --delay:-8s;  --dx:-9vw; --dy:6vh;
+  background:radial-gradient(circle, rgba(212,244,152,.72) 0%, rgba(212,244,152,.27) 42%, rgba(212,244,152,0) 70%); }
+.glow-d { right:calc(var(--size) * -.36);  bottom:-4%; --dur:21s; --delay:-15s; --dx:-7vw; --dy:-7vh;
+  background:radial-gradient(circle, rgba(150,236,196,.68) 0%, rgba(150,236,196,.25) 42%, rgba(150,236,196,0) 70%); }
+@keyframes glow-breathe {
+  0%, 100% { opacity:0;   transform:translate3d(0,0,0) scale(.9); }
+  50%      { opacity:.42; transform:translate3d(var(--dx),var(--dy),0) scale(1.1); }
+}
+html.intro-active .ambient { opacity:0; }
+html.intro-active.page-ready .ambient { opacity:1; }
+html.is-exiting .ambient { opacity:0; transition-duration:.34s; }
+@media (prefers-reduced-motion:reduce) {
+  .glow { animation:none !important; opacity:.14; }
+}
