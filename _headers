@@ -1,0 +1,29 @@
+# Cloudflare Pages reads this file automatically (must sit in the publish folder root).
+# Security headers + a Content Security Policy that only allows what the page uses:
+# its own files, the Pannellum CDN, and the uMap iframe. Add a host here if you add more.
+
+/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  Permissions-Policy: camera=(), microphone=(), geolocation=(self), payment=(), accelerometer=(self), gyroscope=(self)
+  X-Frame-Options: SAMEORIGIN
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src 'self'; img-src 'self' data: blob:; frame-src https://umap.openstreetmap.fr; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'
+
+# Images and fonts rarely change: cache for a week (CDN + browser)
+/images/*
+  Cache-Control: public, max-age=604800
+
+/fonts/*
+  Cache-Control: public, max-age=604800
+
+# CSS/JS change while you tinker: short cache so edits show up quickly
+/css/*
+  Cache-Control: public, max-age=300
+
+/js/*
+  Cache-Control: public, max-age=300
+
+
+# GesellGO page and data: short cache so edits show up quickly
+/asistente/*
+  Cache-Control: public, max-age=300

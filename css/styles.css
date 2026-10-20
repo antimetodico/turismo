@@ -1,0 +1,361 @@
+/* GESELL landing page: interactive 360° hero with animated map overlay. */
+@font-face {
+  font-family: 'Gotham Black';
+  src: url('../fonts/GOTHAM-BLACK.OTF') format('opentype');
+  font-style: normal;
+  font-weight: 900;
+  font-display: swap;
+}
+:root {
+  --font: 'Gotham Black', 'Arial Black', system-ui, sans-serif;
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  min-height: 100%;
+  margin: 0;
+  background: #000;
+  color: #fff;
+  font-family: var(--font);
+}
+
+body { overflow: hidden; }
+
+.hero {
+  position: relative;
+  isolation: isolate;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  overflow: hidden;
+  background: #000;
+  text-align: center;
+}
+
+.panorama-stage {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  background: #000;
+  opacity: 1;
+  transition: opacity .88s cubic-bezier(.2,.7,.2,1);
+  will-change: opacity;
+  touch-action: pan-y pinch-zoom;
+}
+
+.panorama-stage .pnlm-container {
+  width: 100%;
+  height: 100%;
+  background: #000;
+  font-family: var(--font);
+}
+
+.panorama-stage.panorama-unavailable {
+  display: grid;
+  place-items: center;
+  background: #000 url('../images/bg-1.webp') center / cover no-repeat;
+}
+
+/* The real homepage wordmark in the same Gotham Black style as GesellGO. */
+.hero-brand {
+  /* This element lives inside a Pannellum hotspot at the panorama's focal point,
+     so it stays anchored to the scene instead of the phone screen. */
+  position:absolute; inset:auto; z-index:2;
+  display:flex; flex-direction:column; align-items:center; justify-content:center;
+  width:max-content; max-width:96vw;
+  gap:clamp(.2rem,1vw,.65rem); padding:1rem; text-align:center;
+  transform:translate(-50%,-50%);
+  pointer-events:none; user-select:none;
+}
+/* No-Pannellum fallback: centre the wordmark over the static photo. */
+.hero-brand.is-static { left:50%; top:50%; }
+.panorama-stage .panorama-brand-hotspot {
+  width:0 !important; height:0 !important;
+  background:transparent !important; border:0 !important;
+  pointer-events:none !important;
+}
+.hero-brand .title {
+  max-width:96vw; margin:0; color:#fff; font-family:var(--font);
+  font-size:clamp(48px,14vw,132px); font-weight:900; letter-spacing:-.055em;
+  line-height:.95; text-shadow:0 2px 26px rgba(0,0,0,.22);
+  opacity:1; filter:blur(0); transform:translateY(0) scale(1);
+  transition:opacity .48s cubic-bezier(.2,.7,.2,1),filter .48s ease,transform .58s cubic-bezier(.2,.7,.2,1);
+}
+.hero-brand .subtitle {
+  display:flex; align-items:center; justify-content:center; min-height:1.25em; margin:0;
+  color:#fff; font-family:var(--font); font-size:clamp(1rem,4.4vw,3.4rem);
+  font-weight:900; letter-spacing:.01em; line-height:1.1;
+  text-shadow:0 2px 14px rgba(0,0,0,.55); opacity:1;
+  transform:translate3d(0,0,0); filter:blur(0);
+  transition:opacity .42s cubic-bezier(.2,.7,.2,1),transform .42s cubic-bezier(.2,.7,.2,1),filter .42s ease;
+}
+.hero-brand .subtitle.is-changing { opacity:0; transform:translate3d(0,.4em,0); filter:blur(8px); }
+
+/* Shared style for the two top navigation controls. */
+.orientation-toggle,
+.map-toggle {
+  position: absolute;
+  z-index: 3;
+  top: max(1rem, env(safe-area-inset-top));
+  max-width: calc(50% - 1.5rem);
+  padding: .7rem .9rem;
+  border: 1px solid rgba(255, 255, 255, .65);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, .48);
+  color: #fff;
+  font: 900 .68rem/1 var(--font);
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  backdrop-filter: blur(8px);
+  transition: background .2s ease, border-color .2s ease, transform .2s ease;
+}
+
+.orientation-toggle { right: max(1rem, env(safe-area-inset-right)); }
+.map-toggle { left: max(1rem, env(safe-area-inset-left)); }
+
+.orientation-toggle:hover,
+.orientation-toggle[aria-pressed="true"],
+.map-toggle:hover {
+  background: rgba(255, 255, 255, .2);
+  border-color: #fff;
+}
+
+.orientation-toggle:focus-visible,
+.map-toggle:focus-visible,
+.panorama-toggle:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+
+/* Full-screen map layer: enters with a soft scale-and-rise transition. */
+.map {
+  position: fixed;
+  z-index: 10;
+  inset: 0;
+  width: 100%;
+  height: 100vh;
+  height: 100svh;
+  background: #000;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translate3d(0, 2.5%, 0) scale(.985);
+  transform-origin: center;
+  transition:
+    opacity .42s ease,
+    transform .58s var(--ease),
+    visibility 0s linear .58s;
+  will-change: opacity, transform;
+}
+
+.map.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: translate3d(0, 0, 0) scale(1);
+  transition:
+    opacity .42s ease,
+    transform .58s var(--ease),
+    visibility 0s;
+}
+
+.map-frame {
+  position: absolute;
+  inset: 0;
+  background: #000;
+}
+
+.map-frame iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.panorama-toggle {
+  position: absolute;
+  z-index: 12;
+  left: max(1rem, env(safe-area-inset-left));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  display: grid;
+  place-items: center;
+  width: 3rem;
+  height: 3rem;
+  padding: .7rem;
+  border: 1px solid rgba(255, 255, 255, .72);
+  border-radius: 50%;
+  background: rgba(0, 0, 0, .72);
+  color: #fff;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, .3);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background .2s ease, transform .2s ease;
+}
+
+.panorama-toggle:hover {
+  background: rgba(255, 255, 255, .2);
+  transform: scale(1.06);
+}
+
+.panorama-toggle svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.map-link {
+  position: absolute;
+  z-index: 12;
+  right: max(1rem, env(safe-area-inset-right));
+  bottom: max(1rem, env(safe-area-inset-bottom));
+  padding: .7rem .9rem;
+  border: 1px solid rgba(255, 255, 255, .5);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, .68);
+  color: #fff;
+  font-size: .72rem;
+  text-decoration: none;
+  backdrop-filter: blur(8px);
+}
+
+.noscript { position: relative; padding: 2rem; text-align: center; }
+
+@media (max-width: 420px) {
+  .hero-brand .title { font-size: clamp(48px, 14vw, 72px); }
+  .hero-brand .subtitle { font-size: clamp(.9rem, 4.2vw, 1.2rem); letter-spacing: 0; }
+  .panorama-toggle { width: 2.8rem; height: 2.8rem; }
+  .map-link { font-size: .62rem; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .map,
+  .orientation-toggle,
+  .map-toggle,
+  .panorama-toggle { transition-duration: .01ms !important; filter: none !important; }
+}
+
+
+/* Discreet route to the dedicated GESELL assistant page. */
+.assistant-toggle {
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  bottom: max(1.2rem, env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: .8rem 1.1rem;
+  border: 1px solid rgba(255, 255, 255, .72);
+  border-radius: 999px;
+  background: rgba(0, 0, 0, .48);
+  color: #fff;
+  font: 900 .68rem/1 var(--font);
+  letter-spacing: .1em;
+  appearance: none;
+  cursor: pointer;
+  opacity: 1;
+  text-decoration: none;
+  text-shadow: 0 1px 5px rgba(0, 0, 0, .5);
+  backdrop-filter: blur(8px);
+  -webkit-tap-highlight-color: transparent;
+}
+.assistant-toggle:hover { background: rgba(255, 255, 255, .2); border-color: #fff; }
+.assistant-toggle:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 4px;
+}
+
+@media (max-width: 420px) {
+  .orientation-toggle,
+  .map-toggle {
+    padding: .65rem .72rem;
+    font-size: .61rem;
+  }
+}
+
+/* GesellGO entrance sequence from the 360° landing page. */
+.assistant-toggle { transition: color .24s ease, background-color .24s ease, border-color .24s ease, transform .24s ease, box-shadow .24s ease; }
+.assistant-toggle.is-activating { color:#050505; background:#fff; border-color:#fff; text-shadow:none; transform:translateX(-50%) scale(.97); box-shadow:0 0 22px rgba(255,255,255,.16); }
+.assistant-transition { position:fixed; z-index:9999; inset:0; display:grid; place-items:center; overflow:hidden; background:#000; opacity:0; pointer-events:none; transition:opacity .42s ease; }
+.assistant-transition.is-active { opacity:1; pointer-events:auto; }
+.transition-mark { display:flex; align-items:baseline; justify-content:center; gap:.075em; max-width:96vw; color:#fff; font-family:var(--font); font-size:clamp(3.3rem,11vw,6.2rem); font-weight:900; letter-spacing:-.085em; line-height:.94; white-space:nowrap; opacity:0; transform:translateY(8px) scale(.97); }
+.assistant-transition.is-active .transition-mark { animation:transition-mark-enter .42s cubic-bezier(.2,.75,.2,1) .18s both; }
+/* Soft radial light rather than visible rectangular shine bars. */
+.transition-gesell,.transition-go { position:relative; display:inline-block; isolation:isolate; opacity:0; filter:blur(7px); }
+.transition-gesell { animation:transition-word-enter .38s ease .27s both; }
+.transition-go { color:#a6e873; animation:transition-word-enter .36s ease .54s both; }
+.transition-gesell::before,.transition-go::before {
+  content:""; position:absolute; z-index:-1; inset:-.55em -.35em; border-radius:50%;
+  background:radial-gradient(ellipse at center,rgba(255,255,255,.30) 0%,rgba(255,255,255,.15) 27%,rgba(255,255,255,.055) 48%,transparent 72%);
+  filter:blur(16px); opacity:0; transform:translateX(-85%) scale(.78); pointer-events:none;
+}
+.transition-gesell::before { animation:transition-glow-sweep .78s cubic-bezier(.2,.65,.2,1) .30s both; }
+.transition-go::before {
+  background:radial-gradient(ellipse at center,rgba(166,232,115,.38) 0%,rgba(166,232,115,.18) 28%,rgba(166,232,115,.055) 48%,transparent 72%);
+  animation:transition-glow-sweep .72s cubic-bezier(.2,.65,.2,1) .56s both;
+}
+.transition-gesell::after,.transition-go::after {
+  content:""; position:absolute; z-index:1; inset:-.08em -.1em;
+  background:linear-gradient(105deg,transparent 12%,rgba(255,255,255,.025) 32%,rgba(255,255,255,.34) 49%,rgba(255,255,255,.075) 57%,transparent 82%);
+  mix-blend-mode:screen; filter:blur(4px);
+  -webkit-mask-image:radial-gradient(ellipse at center,#000 0%,rgba(0,0,0,.76) 36%,rgba(0,0,0,.22) 62%,transparent 82%);
+  mask-image:radial-gradient(ellipse at center,#000 0%,rgba(0,0,0,.76) 36%,rgba(0,0,0,.22) 62%,transparent 82%);
+  transform:translateX(-120%) skewX(-15deg); pointer-events:none;
+}
+.transition-gesell::after { animation:transition-shine .62s ease .36s both; }
+.transition-go::after {
+  background:linear-gradient(105deg,transparent 12%,rgba(235,255,222,.025) 32%,rgba(235,255,222,.28) 49%,rgba(166,232,115,.075) 57%,transparent 82%);
+  animation:transition-shine .56s ease .61s both;
+}
+@keyframes transition-mark-enter { to { opacity:1; transform:translateY(0) scale(1); } }
+@keyframes transition-word-enter { to { opacity:1; filter:blur(0); } }
+@keyframes transition-glow-sweep {
+  0% { opacity:0; transform:translateX(-85%) scale(.78); }
+  35% { opacity:.76; }
+  100% { opacity:0; transform:translateX(85%) scale(1.08); }
+}
+@keyframes transition-shine {
+  0% { transform:translateX(-120%) skewX(-15deg); opacity:0; }
+  22% { opacity:.45; }
+  100% { transform:translateX(120%) skewX(-15deg); opacity:0; }
+}
+
+/* Return sequence: the actual homepage title/subtitle reveal over black, then the scene. */
+html.is-returning .hero-brand .title { opacity:0; filter:blur(10px); transform:translateY(7px) scale(.985); }
+html.is-returning.return-title-visible .hero-brand .title { opacity:1; filter:blur(0); transform:translateY(0) scale(1); }
+html.is-returning .hero-brand .subtitle { opacity:0; filter:blur(8px); transform:translateY(.35em); }
+html.is-returning.return-subtitle-visible .hero-brand .subtitle { opacity:1; filter:blur(0); transform:translateY(0); }
+html.is-returning .panorama-stage { opacity:0; pointer-events:none; }
+html.is-returning.return-scene-visible .panorama-stage { opacity:1; pointer-events:auto; }
+html.is-returning .orientation-toggle,html.is-returning .map-toggle,html.is-returning .assistant-toggle {
+  opacity:0; pointer-events:none;
+  transition:opacity .42s ease,transform .48s cubic-bezier(.2,.7,.2,1),background .2s ease,border-color .2s ease;
+}
+html.is-returning .orientation-toggle,html.is-returning .map-toggle { transform:translateY(5px); }
+html.is-returning .assistant-toggle { transform:translate(-50%,5px); }
+html.is-returning.return-controls-visible .orientation-toggle,html.is-returning.return-controls-visible .map-toggle {
+  opacity:1; pointer-events:auto; transform:translateY(0);
+}
+html.is-returning.return-controls-visible .assistant-toggle { opacity:1; pointer-events:auto; transform:translateX(-50%); }
+@media (prefers-reduced-motion:reduce) {
+  .hero-brand .title,.hero-brand .subtitle,.panorama-stage,.orientation-toggle,.map-toggle,.assistant-toggle {
+    transition-duration:.01ms !important; filter:none !important;
+  }
+}
+
+/* Do not show a motion control when the device/browser cannot use it. */
+.orientation-toggle[hidden] { display: none !important; }

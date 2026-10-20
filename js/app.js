@@ -1,0 +1,299 @@
+/* GESELL landing page behavior: panorama title, motion control, and animated map overlay. */
+const SUBTITLES = ['es querer volver', 'es otra cosa', 'es para vos'];
+const ROTATION_MS = 2500;
+const SUBTITLE_FADE_MS = 220;
+const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+let currentSubtitleIndex = 0;
+let subtitleTimer = null;
+let panoramaViewer = null;
+let orientationActionId = 0;
+let panoramaReady = false;
+let brandHotspotAdded = false;
+const panoramaElement = document.getElementById('panorama');
+const orientationToggle = document.getElementById('orientationToggle');
+const mapToggle = document.getElementById('mapToggle');
+const panoramaToggle = document.getElementById('panoramaToggle');
+const mapSection = document.getElementById('map');
+const mapFrame = mapSection?.querySelector('iframe');
+
+if (window.pannellum && panoramaElement) {
+  panoramaViewer = window.pannellum.viewer('panorama', {
+    type: 'equirectangular',
+    panorama: 'images/gesell-360.jpg',
+    autoLoad: true,
+    showControls: false,
+    showZoomCtrl: false,
+    mouseZoom: true,
+    doubleClickZoom: false,
+    compass: false,
+    pitch: 0,
+    yaw: 0,
+    hfov: 100,
+    minHfov: 45,
+    maxHfov: 120,
+    draggable: true,
+    friction: 0.15,
+    orientationOnByDefault: false,
+  });
+} else if (panoramaElement) {
+  panoramaElement.classList.add('panorama-unavailable');
+  // The brand normally rides inside a Pannellum hotspot; without it, centre it on the static photo.
+  document.getElementById('heroBrand')?.classList.add('is-static');
+}
+function setOrientationButton(active, message) {
+  if (!orientationToggle) return;
+  orientationToggle.disabled = false;
+  orientationToggle.setAttribute('aria-pressed', String(active));
+  orientationToggle.textContent = message || (active ? 'Desactivar movimiento' : 'Activar movimiento');
+}
+
+function hideOrientationButton() {
+  if (!orientationToggle) return;
+  orientationToggle.hidden = true;
+  orientationToggle.disabled = true;
+}
+
+if (orientationToggle) {
+  // Hide the control on browsers/devices that do not expose orientation support.
+  if (!panoramaViewer || typeof panoramaViewer.isOrientationSupported !== 'function' ||
+      !panoramaViewer.isOrientationSupported()) {
+    hideOrientationButton();
+  }
+  orientationToggle.addEventListener('click', () => {
+    const actionId = ++orientationActionId;
+    if (!panoramaViewer) {
+      setOrientationButton(false, 'Arrastrá para mirar');
+      return;
+    }
+
+    if (panoramaViewer.isOrientationActive()) {
+      panoramaViewer.stopOrientation();
+      setOrientationButton(false, 'Activar movimiento');
+      return;
+    }
+
+    if (!panoramaViewer.isOrientationSupported()) {
+      hideOrientationButton();
+      return;
+    }
+
+    orientationToggle.disabled = true;
+    orientationToggle.textContent = 'Solicitando permiso…';
+    try {
+      panoramaViewer.startOrientation();
+    } catch (error) {
+      console.warn('No se pudo activar la orientación del dispositivo.', error);
+    }
+
+    window.setTimeout(() => {
+      if (actionId !== orientationActionId) return;
+      const active = panoramaViewer.isOrientationActive();
+      setOrientationButton(active);
+      if (!active) {
+        // Some older phones expose the browser API but have no usable motion sensor.
+        hideOrientationButton();
+      } else {
+        orientationToggle.removeAttribute('title');
+      }
+    }, 1200);
+  });
+}
+
+/* Cycle the subtitle only when the visitor has not requested reduced motion. */
+function showSubtitle(nextIndex) {
+  const subtitle = document.getElementById('subtitle');
+  if (!subtitle) return;
+  window.clearTimeout(subtitleTimer);
+
+  subtitle.classList.add('is-changing');
+  subtitleTimer = window.setTimeout(() => {
+    subtitle.textContent = SUBTITLES[nextIndex];
+    subtitle.classList.remove('is-changing');
+  }, SUBTITLE_FADE_MS);
+  currentSubtitleIndex = nextIndex;
+}
+
+if (!reduceMotion) {
+  window.setInterval(() => {
+    if (document.hidden) return;
+    showSubtitle((currentSubtitleIndex + 1) % SUBTITLES.length);
+  }, ROTATION_MS);
+}
+
+/* Load uMap only when first opened, with a cache-busting query parameter. */
+function loadMapIfNeeded() {
+  if (!mapFrame || mapFrame.hasAttribute('src')) return;
+  const freshMapUrl = new URL(mapFrame.dataset.src, window.location.href);
+  freshMapUrl.searchParams.set('_refresh', Date.now().toString());
+  mapFrame.src = freshMapUrl.toString();
+}
+
+function openMap() {
+  if (!mapSection || !mapToggle) return;
+  loadMapIfNeeded();
+  mapSection.inert = false;
+  mapSection.setAttribute('aria-hidden', 'false');
+  mapSection.classList.add('is-open');
+  mapToggle.setAttribute('aria-expanded', 'true');
+  if (panoramaToggle) panoramaToggle.focus({ preventScroll: true });
+}
+
+function closeMap() {
+  if (!mapSection || !mapToggle) return;
+  mapSection.classList.remove('is-open');
+  mapSection.inert = true;
+  mapSection.setAttribute('aria-hidden', 'true');
+  mapToggle.setAttribute('aria-expanded', 'false');
+  mapToggle.focus({ preventScroll: true });
+}
+
+mapToggle?.addEventListener('click', openMap);
+panoramaToggle?.addEventListener('click', closeMap);
+
+document.addEventListener('keydown', event => {
+  if (event.key === 'Escape' && mapSection?.classList.contains('is-open')) {
+    closeMap();
+  }
+});
+
+/* Animate the ASISTENTE hand-off before opening GesellGO. */
+const assistantLink = document.querySelector(".assistant-toggle");
+assistantLink?.addEventListener("click", (event) => {
+  if (reduceMotion || (event.button !== 0 && event.button !== undefined) || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  if (assistantLink.dataset.opening === "true") { event.preventDefault(); return; }
+  event.preventDefault();
+  assistantLink.dataset.opening = "true";
+  assistantLink.classList.add("is-activating");
+  const transition = document.createElement("div");
+  transition.className = "assistant-transition";
+  transition.setAttribute("aria-hidden", "true");
+  transition.innerHTML = '<div class="transition-mark"><span class="transition-gesell">Gesell</span><span class="transition-go">GO</span></div>';
+  document.body.append(transition);
+  window.setTimeout(() => transition.classList.add("is-active"), 140);
+  const destination = new URL(assistantLink.href, window.location.href);
+  destination.searchParams.set("intro", "1");
+  window.setTimeout(() => window.location.assign(destination.toString()), 1380);
+});
+
+/* Return animation uses the homepage's real DOM title; no duplicate title card. */
+const returningFromGesellGO = new URLSearchParams(window.location.search).get("fromGesellGO") === "1";
+
+function startHomepageReturnSequence(force = false) {
+  if (!returningFromGesellGO && !force) return;
+  if (returningFromGesellGO) {
+    window.history.replaceState(null, "", window.location.pathname + window.location.hash);
+  }
+  const root = document.documentElement;
+  const startedAt = performance.now();
+  root.classList.add("is-returning", "return-title-visible");
+  window.setTimeout(() => root.classList.add("return-subtitle-visible"), 400);
+
+  const revealSceneWhenReady = () => {
+    const elapsed = performance.now() - startedAt;
+    if (!panoramaReady && elapsed < 1450) {
+      window.setTimeout(revealSceneWhenReady, 45);
+      return;
+    }
+    root.classList.add("return-scene-visible");
+    window.setTimeout(() => root.classList.add("return-controls-visible"), 520);
+    window.setTimeout(() => root.classList.remove("is-returning"), 1050);
+  };
+  window.setTimeout(revealSceneWhenReady, 900);
+}
+
+function attachBrandToPanorama() {
+  if (!panoramaViewer || brandHotspotAdded) return;
+  const brand = document.getElementById('heroBrand');
+  if (!brand || typeof panoramaViewer.addHotSpot !== 'function') return;
+
+  brandHotspotAdded = true;
+  panoramaViewer.addHotSpot({
+    pitch: 0,
+    yaw: 0,
+    type: 'info',
+    cssClass: 'panorama-brand-hotspot',
+    createTooltipFunc: (hotSpotDiv) => {
+      hotSpotDiv.classList.add('panorama-brand-hotspot');
+      hotSpotDiv.appendChild(brand);
+    }
+  });
+}
+
+if (panoramaViewer && typeof panoramaViewer.on === "function") {
+  try { panoramaReady = Boolean(panoramaViewer.isLoaded?.()); } catch {}
+  panoramaViewer.on("load", () => {
+    panoramaReady = true;
+    attachBrandToPanorama();
+  });
+  if (panoramaReady) attachBrandToPanorama();
+} else {
+  panoramaReady = true;
+}
+startHomepageReturnSequence();
+
+/* Browsers may restore the homepage from the back-forward cache with the
+   outgoing transition still covering the screen. Clean it up and replay the
+   return reveal so the native phone Back gesture works just like the UI button. */
+window.addEventListener('pageshow', event => {
+  if (!event.persisted) return;
+  document.querySelector('.assistant-transition')?.remove();
+  if (assistantLink) {
+    delete assistantLink.dataset.opening;
+    assistantLink.classList.remove('is-activating');
+  }
+  startHomepageReturnSequence(true);
+});
+
+
+/* Recalibrate device-orientation tracking after switching between portrait and
+   landscape. Pannellum's sensor transform is based on screen orientation; the
+   yaw reference can otherwise remain anchored to the previous screen angle. */
+let orientationChangeTimer = null;
+function handleScreenOrientationChange() {
+  if (!panoramaViewer || !orientationToggle ||
+      typeof panoramaViewer.isOrientationActive !== 'function' ||
+      !panoramaViewer.isOrientationActive()) return;
+
+  window.clearTimeout(orientationChangeTimer);
+
+  // iOS requires sensor activation to happen in a user gesture. Stop cleanly
+  // and let the visitor tap the control again rather than making a rejected
+  // permission request from this event handler.
+  const needsUserGesture = typeof DeviceMotionEvent !== 'undefined' &&
+    typeof DeviceMotionEvent.requestPermission === 'function';
+
+  if (needsUserGesture) {
+    panoramaViewer.stopOrientation();
+    setOrientationButton(false, 'Activar movimiento');
+    orientationToggle.title = 'Tocá para reactivar el movimiento después de girar la pantalla.';
+    return;
+  }
+
+  orientationToggle.disabled = true;
+  orientationToggle.textContent = 'Reajustando movimiento…';
+  orientationChangeTimer = window.setTimeout(() => {
+    if (!panoramaViewer) return;
+    if (panoramaViewer.isOrientationActive()) panoramaViewer.stopOrientation();
+    window.setTimeout(() => {
+      if (!panoramaViewer || !panoramaViewer.isOrientationSupported()) {
+        hideOrientationButton();
+        return;
+      }
+      try {
+        panoramaViewer.startOrientation();
+        setOrientationButton(true, 'Desactivar movimiento');
+        orientationToggle.removeAttribute('title');
+      } catch (error) {
+        console.warn('No se pudo reajustar la orientación del dispositivo.', error);
+        setOrientationButton(false, 'Activar movimiento');
+      }
+    }, 120);
+  }, 250);
+}
+
+window.addEventListener('orientationchange', handleScreenOrientationChange);
+if (window.screen && window.screen.orientation &&
+    typeof window.screen.orientation.addEventListener === 'function') {
+  window.screen.orientation.addEventListener('change', handleScreenOrientationChange);
+}

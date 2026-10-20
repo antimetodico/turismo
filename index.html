@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="GESELL: guía turística de Villa Gesell con mapa interactivo.">
+  <title>GESELL · Villa Gesell</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E🌊%3C/text%3E%3C/svg%3E">
+  <link rel="preload" href="fonts/GOTHAM-BLACK.OTF" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="images/gesell-360.jpg" as="fetch" crossorigin fetchpriority="high">
+  <script src="js/return-intro.js"></script>
+  <script src="js/orientation-compat.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.css">
+  <link rel="stylesheet" href="css/styles.css?v=gesellgo-4">
+  <script src="https://cdn.jsdelivr.net/npm/pannellum@2.5.7/build/pannellum.js" defer></script>
+</head>
+<body>
+  <main>
+    <section class="hero" aria-label="Panorama interactivo de Villa Gesell">
+      <div class="panorama-stage" id="panorama"></div>
+      <div class="hero-brand" id="heroBrand">
+        <h1 class="title" id="page-title">Gesell</h1>
+        <p class="subtitle" id="subtitle" aria-live="off">es querer volver</p>
+      </div>
+
+      <button class="orientation-toggle" id="orientationToggle" type="button" aria-pressed="false">
+        Activar movimiento
+      </button>
+
+      <button class="map-toggle" id="mapToggle" type="button" aria-controls="map" aria-expanded="false">
+        MAPA
+      </button>
+
+      <a class="assistant-toggle" href="/asistente/" aria-label="Abrir GesellGO">ASISTENTE</a>
+    </section>
+
+    <section class="map" id="map" aria-label="Mapa turístico de Villa Gesell" aria-hidden="true" inert>
+      <div class="map-frame">
+        <iframe
+          data-src="https://umap.openstreetmap.fr/en/map/gesell-turismo_1474380"
+          title="Mapa interactivo de Villa Gesell"
+          allow="fullscreen"></iframe>
+      </div>
+      <button class="panorama-toggle" id="panoramaToggle" type="button" aria-label="Volver al panorama 360°" title="Volver al panorama 360°">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="12" cy="12" r="9"></circle>
+          <ellipse cx="12" cy="12" rx="4" ry="9"></ellipse>
+          <path d="M3.8 8.5h16.4M3.8 15.5h16.4M5.7 5.7c3.7 2.5 9 2.5 12.6 0M5.7 18.3c3.7-2.5 9-2.5 12.6 0"></path>
+        </svg>
+      </button>
+      <a class="map-link"
+         href="https://umap.openstreetmap.fr/en/map/gesell-turismo_1474380"
+         target="_blank" rel="noopener noreferrer">Abrir el mapa en pantalla completa</a>
+    </section>
+  </main>
+
+  <noscript><p class="noscript">Activá JavaScript para ver la foto 360° y el mapa interactivo.</p></noscript>
+  <script src="js/app.js?v=gesellgo-7" defer></script>
+</body>
+</html>

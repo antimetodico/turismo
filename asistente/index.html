@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#000000">
+  <meta name="description" content="GesellGO, tu asistente para descubrir Villa Gesell. Encontrá comida, servicios y lugares cerca tuyo.">
+  <title>GesellGO · Villa Gesell</title>
+  <link rel="preload" href="/fonts/GOTHAM-BLACK.OTF" as="font" type="font/otf" crossorigin>
+  <link rel="preload" href="/fonts/GOTHAMBOOK.TTF" as="font" type="font/ttf" crossorigin>
+  <link rel="preload" href="/fonts/GOTHAMBOLD.TTF" as="font" type="font/ttf" crossorigin>
+  <script src="/asistente/intro.js"></script>
+  <link rel="stylesheet" href="/asistente/style.css?v=gesellgo-5">
+  <script src="/asistente/app.js?v=gesellgo-5" defer></script>
+</head>
+<body>
+  <a class="back-home" id="backHomeLink" href="/" aria-label="Volver a la página principal" title="Volver a la página principal">
+    <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M15 18l-6-6 6-6M9 12h11"></path></svg>
+    <span>VOLVER</span>
+  </a>
+  <div class="brand-mark" id="brandMark" aria-label="GesellGO">
+    <span class="brand-gesell">Gesell</span><span class="brand-go">GO</span>
+  </div>
+  <main class="page">
+    <section class="chat" aria-label="Chat con GesellGO">
+      <div class="chat-topline">
+        <p>¿QUÉ ANDÁS BUSCANDO?</p>
+        <button id="clearButton" class="clear-button" type="button">Nuevo chat</button>
+      </div>
+      <div class="suggestions" id="suggestions" aria-label="Consultas sugeridas">
+        <button type="button" class="suggestion" data-prompt="¿Dónde puedo comer rico?">Dónde puedo comer</button>
+        <button type="button" class="suggestion" data-prompt="¿Qué hay cerca de mí?">Qué hay cerca</button>
+        <button type="button" class="suggestion" data-prompt="Busco un supermercado o almacén.">Supermercados</button>
+        <button type="button" class="suggestion" data-prompt="¿Qué lugares vale la pena conocer?">Lugares para conocer</button>
+      </div>
+      <div id="messages" class="messages" aria-live="polite" aria-relevant="additions text">
+        <article class="message assistant-message">
+          <div class="message-content">
+            <p>Buenas, ¿qué andás buscando en Villa Gesell? Podés escribirme en español, português o English.</p>
+          </div>
+        </article>
+      </div>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+      <div class="composer-row">
+        <button id="locationButton" class="location-button" type="button" aria-label="Activar ubicación" aria-pressed="false" title="Activar ubicación">
+          <svg class="pin-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+            <path d="M20 10.2c0 5.1-8 11.3-8 11.3S4 15.3 4 10.2a8 8 0 1 1 16 0Z"></path>
+            <circle cx="12" cy="10" r="2.6"></circle>
+          </svg>
+        </button>
+        <form id="chatForm" class="composer">
+          <label class="sr-only" for="messageInput">Escribí tu consulta</label>
+          <div class="composer-field">
+            <textarea id="messageInput" name="message" maxlength="1200" rows="1" placeholder="¿dónde puedo picar algo?" required></textarea>
+          </div>
+          <button id="sendButton" class="send-button" type="submit" aria-label="Enviar mensaje">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12 19V5M6 11l6-6 6 6"></path></svg>
+          </button>
+        </form>
+      </div>
+      <p class="footnote">Los horarios y precios pueden cambiar. Confirmalos directamente con cada lugar.</p>
+    </section>
+  </main>
+</body>
+</html>
