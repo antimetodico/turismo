@@ -233,8 +233,8 @@
     const links = [];
     const website = safeExternalUrl(p.website);
     const instagram = safeExternalUrl(p.instagram);
-    if (website) links.push('<a href="' + escapeHtml(website) + '" target="_blank" rel="noopener noreferrer">Sitio web</a>');
-    if (instagram) links.push('<a href="' + escapeHtml(instagram) + '" target="_blank" rel="noopener noreferrer">Instagram</a>');
+    if (website) links.push('<a class="map-popup-icon-link" href="' + escapeHtml(website) + '" target="_blank" rel="noopener noreferrer" aria-label="Sitio web" title="Sitio web"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M3 12h18M12 3a15 15 0 0 1 0 18M12 3a15 15 0 0 0 0 18"></path></svg><span class="map-popup-link-label">Sitio web</span></a>');
+    if (instagram) links.push('<a class="map-popup-icon-link" href="' + escapeHtml(instagram) + '" target="_blank" rel="noopener noreferrer" aria-label="Instagram" title="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="3" width="18" height="18" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><circle class="map-popup-instagram-dot" cx="17.5" cy="6.8" r="1"></circle></svg><span class="map-popup-link-label">Instagram</span></a>');
     if (links.length) parts.push('<div class="map-popup-links">' + links.join("") + '</div>');
     parts.push('</article>');
     return parts.join("");
