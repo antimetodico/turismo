@@ -12,6 +12,8 @@
   const mapStatus = document.getElementById("mapStatus");
   const mapStatusText = document.getElementById("mapStatusText");
   const mapRetry = document.getElementById("mapRetry");
+  let mapNotice = null;
+  let mapNoticeTimer = null;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
   if (!mapSection || !mapToggle || !mapCanvas || !mapPicker || !mapDock) return;
@@ -39,6 +41,33 @@
 
   function getConfig(id) {
     return MAPS.find((item) => item.id === id) || null;
+  }
+
+  function ensureMapNotice() {
+    if (mapNotice || !mapSection) return mapNotice;
+    mapNotice = document.createElement("div");
+    mapNotice.className = "map-switch-notice";
+    mapNotice.setAttribute("role", "status");
+    mapNotice.setAttribute("aria-live", "polite");
+    mapNotice.setAttribute("aria-atomic", "true");
+    mapNotice.hidden = true;
+    mapSection.appendChild(mapNotice);
+    return mapNotice;
+  }
+
+  function showMapNotice(label) {
+    const notice = ensureMapNotice();
+    if (!notice) return;
+    window.clearTimeout(mapNoticeTimer);
+    notice.textContent = label;
+    notice.hidden = false;
+    notice.classList.remove("is-visible");
+    void notice.offsetWidth;
+    notice.classList.add("is-visible");
+    mapNoticeTimer = window.setTimeout(() => {
+      notice.classList.remove("is-visible");
+      window.setTimeout(() => { if (notice && !notice.classList.contains("is-visible")) notice.hidden = true; }, reduceMotion ? 20 : 260);
+    }, 1350);
   }
 
   function setStatus(message, mode) {
@@ -312,12 +341,14 @@
     const config = getConfig(id);
     if (!config) return;
     const opts = options || {};
+    const previousId = selectedId;
     if (selectedId === id && activeGeoLayer && !opts.force) {
       if (mapInstance) mapInstance.invalidateSize({ pan: false });
       return;
     }
 
     selectedId = id;
+    if (opts.showNotice && previousId && previousId !== id) showMapNotice(config.label);
     const version = ++requestVersion;
     setActiveButtons(id);
     mapSection.classList.add("has-selection");
@@ -432,7 +463,7 @@
   mapToggle.addEventListener("click", openMap);
   if (panoramaToggle) panoramaToggle.addEventListener("click", closeMap);
   mapOptions.forEach((button) => button.addEventListener("click", () => selectMap(button.dataset.mapId)));
-  dockButtons.forEach((button) => button.addEventListener("click", () => selectMap(button.dataset.mapId)));
+  dockButtons.forEach((button) => button.addEventListener("click", () => selectMap(button.dataset.mapId, { showNotice: true })));
   mapRetry.addEventListener("click", () => {
     if (selectedId) {
       dataCache.delete(selectedId);
@@ -453,6 +484,43 @@
       if (mapInstance && mapSection.classList.contains("is-open")) mapInstance.invalidateSize({ pan: false });
     }, 100);
   });
+
+  // Briefly scale popup descriptions in response to pinch attempts, then spring back.
+  let popupPinchStartDistance = 0;
+  let popupPinchDescription = null;
+  function touchDistance(touches) {
+    const dx = touches[0].clientX - touches[1].clientX;
+    const dy = touches[0].clientY - touches[1].clientY;
+    return Math.hypot(dx, dy);
+  }
+  mapCanvas.addEventListener("touchstart", (event) => {
+    if (event.touches.length !== 2 || !event.target.closest(".leaflet-popup-content")) return;
+    popupPinchDescription = event.target.closest(".leaflet-popup-content")?.querySelector(".map-popup-description");
+    if (!popupPinchDescription) return;
+    popupPinchStartDistance = touchDistance(event.touches);
+    popupPinchDescription.classList.remove("is-pinch-returning");
+    event.stopPropagation();
+  }, { capture: true, passive: true });
+  mapCanvas.addEventListener("touchmove", (event) => {
+    if (event.touches.length !== 2 || !popupPinchDescription || !popupPinchStartDistance) return;
+    const ratio = touchDistance(event.touches) / popupPinchStartDistance;
+    const scale = Math.max(.86, Math.min(1.14, ratio));
+    popupPinchDescription.style.transform = "scale(" + scale.toFixed(3) + ")";
+    event.preventDefault();
+    event.stopPropagation();
+  }, { capture: true, passive: false });
+  function resetPopupPinch(event) {
+    if (!popupPinchDescription) return;
+    if (event && event.touches && event.touches.length > 0) return;
+    const description = popupPinchDescription;
+    popupPinchDescription = null;
+    popupPinchStartDistance = 0;
+    description.classList.add("is-pinch-returning");
+    description.style.transform = "scale(1)";
+    window.setTimeout(() => description.classList.remove("is-pinch-returning"), reduceMotion ? 30 : 420);
+  }
+  mapCanvas.addEventListener("touchend", resetPopupPinch, { capture: true, passive: true });
+  mapCanvas.addEventListener("touchcancel", resetPopupPinch, { capture: true, passive: true });
 
   mapSection.addEventListener("transitionend", (event) => {
     if (event.target === mapSection && event.propertyName === "opacity") finishClose();
