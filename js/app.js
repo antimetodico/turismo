@@ -54,7 +54,6 @@ function createPanoramaViewer() {
       panoramaReady = true;
       if (viewer === panoramaViewer) attachBrandToPanorama();
     });
-    if (panoramaReady) attachBrandToPanorama();
   } else {
     panoramaReady = true;
   }
@@ -62,6 +61,7 @@ function createPanoramaViewer() {
 }
 
 panoramaViewer = createPanoramaViewer();
+if (panoramaReady) attachBrandToPanorama();
 function setOrientationButton(active, message) {
   if (!orientationToggle) return;
   orientationToggle.disabled = false;
@@ -233,6 +233,7 @@ window.addEventListener('pageshow', event => {
   if (panoramaElement) panoramaElement.replaceChildren();
   brandHotspotAdded = false;
   panoramaViewer = createPanoramaViewer();
+  if (panoramaReady) attachBrandToPanorama();
 
   if (orientationToggle) {
     if (panoramaViewer && typeof panoramaViewer.isOrientationSupported === 'function' &&
