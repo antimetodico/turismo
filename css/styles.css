@@ -722,3 +722,31 @@ html.is-returning.return-controls-visible .assistant-toggle { opacity:1; pointer
   }
   .map-status.is-loading::before { animation:none !important; }
 }
+
+
+/* Small category confirmation when switching maps from the bottom dock. */
+.map-switch-notice {
+  position:absolute; z-index:18; left:50%;
+  bottom:calc(max(14px,env(safe-area-inset-bottom)) + 72px);
+  max-width:calc(100% - 36px); padding:8px 12px;
+  border:1px solid rgba(255,255,255,.16); border-radius:999px;
+  background:rgba(12,13,12,.78); color:#fff;
+  font:500 11px/1.2 var(--font-body); letter-spacing:.025em;
+  text-align:center; white-space:nowrap; overflow:hidden; text-overflow:ellipsis;
+  box-shadow:0 4px 18px rgba(0,0,0,.16);
+  -webkit-backdrop-filter:blur(14px) saturate(150%); backdrop-filter:blur(14px) saturate(150%);
+  opacity:0; transform:translate(-50%,5px) scale(.96); pointer-events:none;
+}
+.map-switch-notice[hidden] { display:none !important; }
+.map-switch-notice.is-visible { animation:map-notice-pop .26s cubic-bezier(.2,.8,.2,1) both; }
+@keyframes map-notice-pop {
+  0% { opacity:0;transform:translate(-50%,5px) scale(.96); }
+  70% { opacity:1;transform:translate(-50%,-1px) scale(1.015); }
+  100% { opacity:1;transform:translate(-50%,0) scale(1); }
+}
+.map-popup-description { transform:scale(1); transform-origin:center center; transition:transform .28s cubic-bezier(.2,.8,.2,1); will-change:transform; }
+.map-popup-description.is-pinch-returning { transition:transform .38s cubic-bezier(.2,1.45,.35,1); }
+@media (prefers-reduced-motion:reduce) {
+  .map-switch-notice.is-visible { animation:none;opacity:1;transform:translateX(-50%); }
+  .map-popup-description,.map-popup-description.is-pinch-returning { transition-duration:.01ms; }
+}
