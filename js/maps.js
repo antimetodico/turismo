@@ -499,7 +499,7 @@
     if (!popupPinchDescription) return;
     popupPinchStartDistance = touchDistance(event.touches);
     popupPinchDescription.classList.remove("is-pinch-returning");
-    event.stopPropagation();
+    event.stopImmediatePropagation();
   }, { capture: true, passive: true });
   mapCanvas.addEventListener("touchmove", (event) => {
     if (event.touches.length !== 2 || !popupPinchDescription || !popupPinchStartDistance) return;
@@ -507,11 +507,12 @@
     const scale = Math.max(.86, Math.min(1.14, ratio));
     popupPinchDescription.style.transform = "scale(" + scale.toFixed(3) + ")";
     event.preventDefault();
-    event.stopPropagation();
+    event.stopImmediatePropagation();
   }, { capture: true, passive: false });
   function resetPopupPinch(event) {
     if (!popupPinchDescription) return;
     if (event && event.touches && event.touches.length > 0) return;
+    if (event) event.stopImmediatePropagation();
     const description = popupPinchDescription;
     popupPinchDescription = null;
     popupPinchStartDistance = 0;
