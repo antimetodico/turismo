@@ -17,8 +17,19 @@ const panoramaToggle = document.getElementById('panoramaToggle');
 const mapSection = document.getElementById('map');
 const mapFrame = mapSection?.querySelector('iframe');
 
-if (window.pannellum && panoramaElement) {
-  panoramaViewer = window.pannellum.viewer('panorama', {
+function createPanoramaViewer() {
+  if (!window.pannellum || !panoramaElement) {
+    panoramaReady = true;
+    panoramaElement?.classList.add('panorama-unavailable');
+    // The brand normally rides inside a Pannellum hotspot; without it, centre it on the static photo.
+    document.getElementById('heroBrand')?.classList.add('is-static');
+    return null;
+  }
+
+  panoramaElement.classList.remove('panorama-unavailable');
+  document.getElementById('heroBrand')?.classList.remove('is-static');
+  panoramaReady = false;
+  const viewer = window.pannellum.viewer('panorama', {
     type: 'equirectangular',
     panorama: 'images/gesell-360.jpg',
     autoLoad: true,
@@ -36,11 +47,21 @@ if (window.pannellum && panoramaElement) {
     friction: 0.15,
     orientationOnByDefault: false,
   });
-} else if (panoramaElement) {
-  panoramaElement.classList.add('panorama-unavailable');
-  // The brand normally rides inside a Pannellum hotspot; without it, centre it on the static photo.
-  document.getElementById('heroBrand')?.classList.add('is-static');
+
+  if (typeof viewer.on === 'function') {
+    try { panoramaReady = Boolean(viewer.isLoaded?.()); } catch {}
+    viewer.on('load', () => {
+      panoramaReady = true;
+      if (viewer === panoramaViewer) attachBrandToPanorama();
+    });
+    if (panoramaReady) attachBrandToPanorama();
+  } else {
+    panoramaReady = true;
+  }
+  return viewer;
 }
+
+panoramaViewer = createPanoramaViewer();
 function setOrientationButton(active, message) {
   if (!orientationToggle) return;
   orientationToggle.disabled = false;
@@ -186,16 +207,6 @@ function attachBrandToPanorama() {
   });
 }
 
-if (panoramaViewer && typeof panoramaViewer.on === "function") {
-  try { panoramaReady = Boolean(panoramaViewer.isLoaded?.()); } catch {}
-  panoramaViewer.on("load", () => {
-    panoramaReady = true;
-    attachBrandToPanorama();
-  });
-  if (panoramaReady) attachBrandToPanorama();
-} else {
-  panoramaReady = true;
-}
 startHomepageReturnSequence();
 
 /* Browsers may restore the homepage from the back-forward cache with the
@@ -203,11 +214,38 @@ startHomepageReturnSequence();
    return reveal so the native phone Back gesture works just like the UI button. */
 window.addEventListener('pageshow', event => {
   if (!event.persisted) return;
+
   document.querySelector('.assistant-transition')?.remove();
   if (assistantLink) {
     delete assistantLink.dataset.opening;
     assistantLink.classList.remove('is-activating');
   }
+
+  /* iOS Safari can restore a bfcache page with Pannellum's WebGL canvas
+     corrupted (often visible as colored vertical bands). Recreate the viewer
+     instead of trying to reuse the invalid GPU drawing buffer. */
+  try {
+    if (panoramaViewer?.isOrientationActive?.()) panoramaViewer.stopOrientation();
+    panoramaViewer?.destroy?.();
+  } catch (error) {
+    console.warn('No se pudo reiniciar el visor 360° restaurado.', error);
+  }
+  if (panoramaElement) panoramaElement.replaceChildren();
+  brandHotspotAdded = false;
+  panoramaViewer = createPanoramaViewer();
+
+  if (orientationToggle) {
+    if (panoramaViewer && typeof panoramaViewer.isOrientationSupported === 'function' &&
+        panoramaViewer.isOrientationSupported()) {
+      orientationToggle.hidden = false;
+      orientationToggle.disabled = false;
+      setOrientationButton(false, 'Activar movimiento');
+      orientationToggle.removeAttribute('title');
+    } else {
+      hideOrientationButton();
+    }
+  }
+
   startHomepageReturnSequence(true);
 });
 
