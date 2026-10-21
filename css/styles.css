@@ -512,16 +512,34 @@ html.is-returning.return-controls-visible .assistant-toggle { opacity:1; pointer
 .map-dock-indicator {
   position:absolute;
   z-index:0;
-  top:5px;
-  bottom:5px;
-  left:5px;
-  width:calc((100% - 10px) / 4);
-  border:1px solid color-mix(in srgb,var(--active-accent) 68%,transparent);
+  top:4px;
+  bottom:4px;
+  left:4px;
+  width:calc((100% - 8px) / 4);
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,.48);
   border-radius:999px;
-  background:color-mix(in srgb,var(--active-accent) 15%,rgba(255,255,255,.025));
-  box-shadow:0 0 18px color-mix(in srgb,var(--active-accent) 10%,transparent);
+  background:
+    linear-gradient(145deg,rgba(255,255,255,.34),rgba(255,255,255,.08) 34%,rgba(255,255,255,.025) 68%,rgba(255,255,255,.15)),
+    color-mix(in srgb,var(--active-accent) 12%,rgba(255,255,255,.09));
+  box-shadow:
+    inset 0 1px 1px rgba(255,255,255,.62),
+    inset 0 -1px 1px rgba(0,0,0,.18),
+    0 2px 8px rgba(0,0,0,.2),
+    0 0 18px color-mix(in srgb,var(--active-accent) 12%,transparent);
+  -webkit-backdrop-filter:blur(22px) saturate(180%);
+  backdrop-filter:blur(22px) saturate(180%);
   transform:translateX(calc(var(--active-index) * 100%));
-  transition:transform .4s cubic-bezier(.2,.8,.2,1),background-color .25s ease,border-color .25s ease,box-shadow .25s ease;
+  transition:transform .42s cubic-bezier(.2,.8,.2,1),background-color .25s ease,border-color .25s ease,box-shadow .25s ease;
+  pointer-events:none;
+}
+.map-dock-indicator::before {
+  content:"";
+  position:absolute;
+  inset:1px 2px auto;
+  height:45%;
+  border-radius:inherit;
+  background:linear-gradient(180deg,rgba(255,255,255,.28),rgba(255,255,255,0));
   pointer-events:none;
 }
 .map-dock-button {
@@ -537,14 +555,31 @@ html.is-returning.return-controls-visible .assistant-toggle { opacity:1; pointer
   border:0;
   border-radius:999px;
   background:transparent;
-  color:rgba(255,255,255,.7);
+  color:#fff;
   cursor:pointer;
   -webkit-tap-highlight-color:transparent;
-  transition:color .22s ease,transform .18s ease;
+  -webkit-appearance:none;
+  appearance:none;
+  transition:transform .18s ease;
 }
-.map-dock-button svg { display:block;flex:0 0 auto;width:26px;height:26px; }
-.map-dock-button:hover { color:#fff; }
+/* Apply translucency to the complete SVG as one layer. Keeping stroke color
+   opaque prevents overlapping paths from becoming unexpectedly darker/brighter. */
+.map-dock-button svg {
+  display:block;
+  flex:0 0 auto;
+  width:26px;
+  height:26px;
+  opacity:.68;
+  stroke-width:2;
+  overflow:visible;
+  transition:opacity .22s ease,filter .22s ease;
+}
+.map-dock-button:hover svg { opacity:.86; }
 .map-dock-button:active { transform:scale(.92); }
+.map-dock-button.is-active svg {
+  opacity:1;
+  filter:drop-shadow(0 0 3px color-mix(in srgb,var(--map-accent) 18%,transparent));
+}
 .map-dock-button.is-active { color:var(--map-accent); }
 .map-dock-button:focus-visible { outline:2px solid var(--map-accent);outline-offset:1px; }
 .map-status {
