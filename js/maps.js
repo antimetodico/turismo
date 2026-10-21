@@ -271,7 +271,7 @@
       ? properties._umap_options : {};
     const rawIconUrl = typeof options.iconUrl === "string" ? options.iconUrl.trim() : "";
     const sizeValue = Number(options.iconSize);
-    const size = Number.isFinite(sizeValue) ? Math.max(24, Math.min(48, sizeValue)) : 36;
+    const size = Number.isFinite(sizeValue) ? Math.max(24, Math.min(48, sizeValue)) : 28;
     const label = properties.name || properties.title || config.label;
     const color = typeof options.color === "string" && /^#[0-9a-f]{3,8}$/i.test(options.color)
       ? options.color : config.accent;
