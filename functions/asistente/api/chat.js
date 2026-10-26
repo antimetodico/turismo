@@ -26,6 +26,16 @@ export async function onRequest(context) {
     });
   }
 
+  if (question.includes("breve teatro") || question.includes("microteatro")) {
+    return json({
+      reply: "El VIII Encuentro de Breve Teatro y Microteatro Villa Gesell 2026 está anunciado para el 30 y 31 de octubre y el 1 de noviembre, en la Casa de la Cultura y el Auditorio Municipal (Avenida 3 y Paseo 141). La propuesta reúne funciones de teatro breve y microteatro. La agenda disponible no detalla acá el cronograma de obras y horarios, así que conviene confirmarlos antes de ir. Agenda oficial: https://marazul.gesell.tur.ar/eventos/viii-encuentro-de-breve-teatro-microteatro-villa-gesell-2026-70905145FB.",
+      places: [],
+      locationUsed: false,
+      locationSource: null,
+      resultsFound: 0
+    });
+  }
+
   const assetFetcher = context.env.ASSETS;
   if (!assetFetcher || typeof assetFetcher.fetch !== "function") {
     return json({ error: "El servicio de archivos del sitio no está disponible en este despliegue." }, 500);
