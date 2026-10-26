@@ -445,24 +445,43 @@ async function openEvent(event) {
   }
 }
 
-askAboutEventButton?.addEventListener("click", () => {
+askAboutEventButton?.addEventListener("click", async () => {
   if (!activeEvent || busy) return;
-  const event = activeEvent;
-  const description = eventDialogDescription.textContent || event.description || "";
-  const date = eventDialogDate.textContent || event.dateLabel || event.dateText || "Fecha no confirmada";
-  const location = eventDialogLocation.textContent || event.location || "Ubicación no confirmada";
-  const prompt = [
-    "Contame un poco sobre este evento y ayudame a entender qué puedo esperar. Respondé de forma natural y breve, incluyendo cuándo y dónde es. Usá los datos de abajo como información de la agenda oficial; no inventes detalles que no estén confirmados.",
-    "Evento: " + (eventDialogTitle.textContent || event.title),
-    "Descripción disponible: " + description,
-    "Fecha: " + date,
-    "Lugar: " + location,
-    "Agenda oficial: " + (event.url || "https://www.gesell.tur.ar/eventos")
-  ].join("\n");
+  const event = {
+    title: eventDialogTitle.textContent || activeEvent.title || "Evento",
+    description: eventDialogDescription.textContent || activeEvent.description || "",
+    date: eventDialogDate.textContent || activeEvent.dateLabel || activeEvent.dateText || "Fecha no confirmada",
+    location: eventDialogLocation.textContent || activeEvent.location || "Ubicación no confirmada",
+    url: activeEvent.url || "https://www.gesell.tur.ar/eventos"
+  };
   eventDialog.close();
-  input.value = prompt;
-  updateComposer();
-  form.requestSubmit();
+  const userQuestion = "Contame sobre " + event.title + ".";
+  appendMessage("user", userQuestion);
+  chatHistory.push({ role: "user", text: userQuestion });
+  statusEl.textContent = "";
+  setBusy(true);
+  askAboutEventButton.disabled = true;
+  const typing = appendTyping();
+  try {
+    const response = await fetch("/asistente/api/event-chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json", Accept: "application/json" },
+      body: JSON.stringify({ event })
+    });
+    const data = await response.json().catch(() => ({}));
+    typing.remove();
+    if (!response.ok || !data.reply) throw new Error(data.error || "Event consultation failed.");
+    appendMessage("assistant", data.reply);
+    chatHistory.push({ role: "model", text: data.reply });
+    chatHistory = chatHistory.slice(-8);
+  } catch (error) {
+    typing.remove();
+    appendMessage("assistant", "No pude consultar los detalles de este evento en este momento. La fecha es " + event.date + " y se realiza en " + event.location + ". Podés ampliar la información en la agenda oficial.");
+    console.error("GesellGO event consultation failed:", error);
+  } finally {
+    setBusy(false);
+    askAboutEventButton.disabled = false;
+  }
 });
 
 eventDialogClose?.addEventListener("click", () => eventDialog.close());
