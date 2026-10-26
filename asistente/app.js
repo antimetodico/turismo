@@ -323,15 +323,51 @@ async function loadEvents() {
     if (!response.ok) throw new Error("Events endpoint returned " + response.status);
     const data = await response.json();
     eventCards = Array.isArray(data.events) ? data.events : [];
-    if (!eventCards.length) return;
-    eventsRail.replaceChildren(...eventCards.map(createEventCard));
-    eventsSection.hidden = false;
-    eventsPrev.addEventListener("click", () => scrollEvents(-1));
-    eventsNext.addEventListener("click", () => scrollEvents(1));
+    if (!eventCards.length) throw new Error("The official agenda returned no events.");
+    renderEvents(eventCards);
   } catch (error) {
-    // The chat remains fully usable if the tourism agenda is temporarily unavailable.
-    console.warn("GesellGO events are temporarily unavailable:", error);
+    // Keep the carousel visible if the official listing HTML changes or is temporarily unavailable.
+    console.warn("GesellGO events are temporarily unavailable; showing verified upcoming highlights:", error);
+    renderEvents(getFallbackEvents());
   }
+}
+
+function renderEvents(events) {
+  eventCards = events;
+  eventsRail.replaceChildren(...eventCards.map(createEventCard));
+  eventsSection.hidden = false;
+  eventsPrev.onclick = () => scrollEvents(-1);
+  eventsNext.onclick = () => scrollEvents(1);
+}
+
+function getFallbackEvents() {
+  // Verified against the official tourism event pages on 26 October 2026.
+  return [
+    {
+      id: "jornadas-vivir-sin-prisa",
+      title: "Jornadas Vivir Sin Prisa",
+      date: "2026-10-28",
+      dateLabel: "28 al 31 de octubre",
+      dateText: "Desde: 28 de Octubre de 2026 · Hasta: 31 de Octubre de 2026",
+      location: "Mar de las Pampas",
+      description: "Jornadas para conectar con la naturaleza y la identidad local, con talleres, propuestas culturales, caminatas, música en vivo y gastronomía.",
+      image: "https://www.gesell.tur.ar/image/9528x42b71xcx450x450x80/watermarked-img-176346787388796256.jpg",
+      url: "https://www.gesell.tur.ar/eventos/mar-de-las-pampas-vivir-sin-prisa-FEE36B4A40"
+    },
+    {
+      id: "microteatro-2026",
+      title: "VIII Encuentro de Breve Teatro",
+      date: "2026-10-30",
+      dateLabel: "30 y 31 de octubre",
+      dateText: "Desde: 30 de Octubre de 2026 · Hasta: 31 de Octubre de 2026",
+      location: "Casa de la Cultura y Auditorio Municipal (Avenida 3 y Paseo 141)",
+      description: "Encuentro de breve teatro y microteatro en Villa Gesell.",
+      image: "https://marazul.gesell.tur.ar/image/9346xd1a01xcx450x450x80/breve-teatro-web.jpg",
+      url: "https://marazul.gesell.tur.ar/eventos/viii-encuentro-de-breve-teatro-microteatro-villa-gesell-2026-70905145FB"
+    }
+  ].filter(event => event.date >= new Intl.DateTimeFormat("en-CA", {
+    timeZone: "America/Argentina/Buenos_Aires", year: "numeric", month: "2-digit", day: "2-digit"
+  }).format(new Date()));
 }
 
 function createEventCard(event) {

@@ -50,14 +50,16 @@ function safeEventUrl(value) {
   if (!value) return "";
   try {
     const url = new URL(value, AGENDA_BASE);
-    return url.origin === AGENDA_BASE && /^\/eventos\/[a-z0-9-]+$/i.test(url.pathname) ? url.href : "";
+    return (url.hostname === "www.gesell.tur.ar" || url.hostname.endsWith(".gesell.tur.ar"))
+      && /^\/eventos\/[a-z0-9-]+$/i.test(url.pathname) ? url.href : "";
   } catch { return ""; }
 }
 function safeImageUrl(value) {
   if (!value) return "";
   try {
     const url = new URL(value, AGENDA_BASE);
-    return url.origin === AGENDA_BASE && /^\/image\//i.test(url.pathname) ? url.href : "";
+    return (url.hostname === "www.gesell.tur.ar" || url.hostname.endsWith(".gesell.tur.ar"))
+      && /^\/image\//i.test(url.pathname) ? url.href : "";
   } catch { return ""; }
 }
 function cleanText(value) {
