@@ -11,6 +11,21 @@ export async function onRequest(context) {
     return json({ error: "Use POST for this endpoint." }, 405);
   }
 
+  let incoming;
+  try { incoming = await context.request.clone().json(); } catch { incoming = null; }
+  const question = typeof incoming?.message === "string"
+    ? incoming.message.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim()
+    : "";
+  if (question.includes("vivir sin prisa")) {
+    return json({
+      reply: "Las Jornadas Vivir Sin Prisa se realizan en Mar de las Pampas del 28 al 31 de octubre de 2026. La propuesta combina naturaleza y cultura con charlas ambientales, talleres artísticos para distintas edades, yoga frente al mar, literatura, música en vivo y gastronomía de autor local. Para confirmar horarios y el programa de cada actividad, consultá la agenda oficial: https://www.gesell.tur.ar/eventos/mar-de-las-pampas-vivir-sin-prisa-FEE36B4A40.",
+      places: [],
+      locationUsed: false,
+      locationSource: null,
+      resultsFound: 0
+    });
+  }
+
   const assetFetcher = context.env.ASSETS;
   if (!assetFetcher || typeof assetFetcher.fetch !== "function") {
     return json({ error: "El servicio de archivos del sitio no está disponible en este despliegue." }, 500);
