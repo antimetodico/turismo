@@ -14,7 +14,7 @@ export async function onRequest(context) {
   let incoming;
   try { incoming = await context.request.clone().json(); } catch { incoming = null; }
   const question = typeof incoming?.message === "string"
-    ? incoming.message.toLowerCase().normalize("NFD").replace(/[\\u0300-\\u036f]/g, "").replace(/[^a-z0-9]+/g, " ").trim()
+    ? incoming.message.toLowerCase().normalize("NFD").replace(/\p{M}/gu, "").replace(/[^a-z0-9]+/g, " ").trim()
     : "";
   if (question.includes("vivir sin prisa")) {
     return json({
