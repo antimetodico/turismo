@@ -48,12 +48,13 @@ export async function onRequest({ request }) {
     if (time) dateLabel += (dateLabel ? " · " : "") + time;
     const firstEventImage = (page.match(/<(?:img|source)\b[^>]*(?:src|data-src)=["']([^"']*\/image\/[^"']+)["']/i) || [])[1] || "";
     const image = safeImageUrl(decodeHtml(imageMeta)) || safeImageUrl(decodeHtml(firstEventImage));
+    const known = knownEventDetails(eventUrl);
     return json({
-      title: title || "Evento",
-      description: description.slice(0, 1000),
-      dateLabel: dateLabel || "",
-      location: location.slice(0, 260),
-      image,
+      title: known?.title || title || "Evento",
+      description: known?.description || (description.length >= 60 ? description.slice(0, 1000) : ""),
+      dateLabel: known?.dateLabel || dateLabel || "",
+      location: known?.location || location.slice(0, 260),
+      image: known?.image || image,
       url: eventUrl
     }, 200, { "Cache-Control": "public, max-age=300, s-maxage=86400, stale-while-revalidate=3600" });
   } catch (error) {
