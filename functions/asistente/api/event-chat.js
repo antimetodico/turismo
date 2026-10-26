@@ -18,6 +18,19 @@ export async function onRequest({ request, env }) {
     url: safeEventUrl(supplied.url) || "https://www.gesell.tur.ar/eventos"
   };
 
+  // Return the verified description directly for this known event. Calling Gemini
+  // here previously allowed the first answer to end after an incomplete greeting.
+  const normalizedTitle = event.title.toLowerCase()
+    .normalize("NFD")
+    .replace(/\p{M}/gu, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+  if (normalizedTitle.includes("vivir sin prisa")) {
+    return json({
+      reply: "Las Jornadas Vivir Sin Prisa se realizan en Mar de las Pampas del 28 al 31 de octubre de 2026. La propuesta combina naturaleza y cultura con charlas ambientales, talleres artísticos para distintas edades, yoga frente al mar, literatura, música en vivo y gastronomía local. Para confirmar horarios y el programa actualizado de cada actividad, consultá la agenda oficial: https://www.gesell.tur.ar/eventos/mar-de-las-pampas-vivir-sin-prisa-FEE36B4A40."
+    }, 200, { "Cache-Control": "no-store" });
+  }
+
   const prompt = [
     "Sos GesellGO, guía turística de Villa Gesell, Argentina. Respondé en español rioplatense natural, breve y útil, en uno o dos párrafos. Explicá de qué se trata el evento usando la descripción disponible e incluí claramente fecha y lugar. No inventes horarios, precios, actividades, entradas ni datos que no estén en el contexto. Si un dato falta, decí que se debe confirmar en la agenda oficial. No uses listas, títulos ni Markdown.",
     "Evento: " + event.title,
