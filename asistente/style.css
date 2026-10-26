@@ -344,3 +344,7 @@ html.is-exiting .ambient { opacity:0; transition-duration:.34s; }
   .events-rail { scroll-behavior:auto; }
   .event-card,.event-card-image-wrap img { transition:none; }
 }
+
+.event-ask-button { display:block; width:100%; margin-top:16px; padding:13px 15px; border:0; border-radius:999px; background:var(--accent); color:#101010; font-family:var(--font-black); font-size:11px; cursor:pointer; transition:transform .18s var(--ease),opacity .18s var(--ease); }
+.event-ask-button:hover { transform:translateY(-1px); }
+.event-ask-button:disabled { opacity:.55; cursor:wait; transform:none; }

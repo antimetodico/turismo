@@ -312,7 +312,9 @@ const eventDialogDescription = document.querySelector("#eventDialogDescription")
 const eventDialogDate = document.querySelector("#eventDialogDate");
 const eventDialogLocation = document.querySelector("#eventDialogLocation");
 const eventDialogSource = document.querySelector("#eventDialogSource");
+const askAboutEventButton = document.querySelector("#askAboutEvent");
 let eventCards = [];
+let activeEvent = null;
 
 loadEvents();
 
@@ -341,8 +343,8 @@ function renderEvents(events) {
 }
 
 function getFallbackEvents() {
-  // Verified against the official tourism event pages on 26 October 2026.
-  return [
+  // Temporary fallback until the official listing feed can be parsed reliably.
+  const events = [
     {
       id: "jornadas-vivir-sin-prisa",
       title: "Jornadas Vivir Sin Prisa",
@@ -350,7 +352,7 @@ function getFallbackEvents() {
       dateLabel: "28 al 31 de octubre",
       dateText: "Desde: 28 de Octubre de 2026 · Hasta: 31 de Octubre de 2026",
       location: "Mar de las Pampas",
-      description: "Jornadas para conectar con la naturaleza y la identidad local, con talleres, propuestas culturales, caminatas, música en vivo y gastronomía.",
+      description: "Mar de las Pampas celebra las Jornadas “Vivir sin Prisa”: naturaleza, cultura y una destacada propuesta gastronómica. Las actividades incluyen charlas ambientales, talleres artísticos, yoga frente al mar, literatura, música en vivo y gastronomía local.",
       image: "https://www.gesell.tur.ar/image/9528x42b71xcx450x450x80/watermarked-img-176346787388796256.jpg",
       url: "https://www.gesell.tur.ar/eventos/mar-de-las-pampas-vivir-sin-prisa-FEE36B4A40"
     },
@@ -358,10 +360,10 @@ function getFallbackEvents() {
       id: "microteatro-2026",
       title: "VIII Encuentro de Breve Teatro",
       date: "2026-10-30",
-      dateLabel: "30 y 31 de octubre",
-      dateText: "Desde: 30 de Octubre de 2026 · Hasta: 31 de Octubre de 2026",
+      dateLabel: "30 y 31 de octubre y 1 de noviembre",
+      dateText: "Desde: 30 de Octubre de 2026 · Hasta: 1 de Noviembre de 2026",
       location: "Casa de la Cultura y Auditorio Municipal (Avenida 3 y Paseo 141)",
-      description: "Encuentro de breve teatro y microteatro en Villa Gesell.",
+      description: "Encuentro de breve teatro y microteatro en Villa Gesell. La agenda oficial anuncia funciones durante el fin de semana; consultá el enlace oficial para confirmar el cronograma actualizado.",
       image: "https://marazul.gesell.tur.ar/image/9346xd1a01xcx450x450x80/breve-teatro-web.jpg",
       url: "https://marazul.gesell.tur.ar/eventos/viii-encuentro-de-breve-teatro-microteatro-villa-gesell-2026-70905145FB"
     }
@@ -410,6 +412,9 @@ function scrollEvents(direction) {
 
 async function openEvent(event) {
   if (!eventDialog) return;
+  activeEvent = event;
+  askAboutEventButton.disabled = false;
+  askAboutEventButton.textContent = "Consultar a GesellGO sobre este evento";
   eventDialogTitle.textContent = event.title || "Evento";
   eventDialogDescription.textContent = "Cargando información del evento…";
   eventDialogDate.textContent = event.dateLabel || event.dateText || "Fecha a confirmar";
@@ -435,6 +440,26 @@ async function openEvent(event) {
     console.warn("GesellGO event detail unavailable:", error);
   }
 }
+
+askAboutEventButton?.addEventListener("click", () => {
+  if (!activeEvent || busy) return;
+  const event = activeEvent;
+  const description = eventDialogDescription.textContent || event.description || "";
+  const date = eventDialogDate.textContent || event.dateLabel || event.dateText || "Fecha no confirmada";
+  const location = eventDialogLocation.textContent || event.location || "Ubicación no confirmada";
+  const prompt = [
+    "Contame un poco sobre este evento y ayudame a entender qué puedo esperar. Respondé de forma natural y breve, incluyendo cuándo y dónde es. Usá los datos de abajo como información de la agenda oficial; no inventes detalles que no estén confirmados.",
+    "Evento: " + (eventDialogTitle.textContent || event.title),
+    "Descripción disponible: " + description,
+    "Fecha: " + date,
+    "Lugar: " + location,
+    "Agenda oficial: " + (event.url || "https://www.gesell.tur.ar/eventos")
+  ].join("\n");
+  eventDialog.close();
+  input.value = prompt;
+  updateComposer();
+  form.requestSubmit();
+});
 
 eventDialogClose?.addEventListener("click", () => eventDialog.close());
 eventDialog?.addEventListener("click", event => {

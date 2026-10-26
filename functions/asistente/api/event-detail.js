@@ -13,28 +13,44 @@ export async function onRequest({ request }) {
     });
     if (!upstream.ok) throw new Error("Event detail returned HTTP " + upstream.status);
     const html = await upstream.text();
-    const title = decodeHtml((html.match(/<h3[^>]*>([\s\S]*?)<\/h3>/i) || [])[1] || "");
-    const descriptionMeta = (html.match(/<meta[^>]+name=["']description["'][^>]+content=["']([^"']*)["']/i) || [])[1]
-      || (html.match(/<meta[^>]+content=["']([^"']*)["'][^>]+name=["']description["']/i) || [])[1]
-      || (html.match(/<meta[^>]+property=["']og:description["'][^>]+content=["']([^"']*)["']/i) || [])[1]
-      || "";
-    const imageMeta = (html.match(/<meta[^>]+property=["']og:image["'][^>]+content=["']([^"']+)["']/i) || [])[1] || "";
-    const infoIndex = html.search(/Horario\s*:/i);
-    const infoTail = infoIndex >= 0 ? html.slice(infoIndex) : html;
-    const paragraphs = [...infoTail.matchAll(/<p[^>]*>([\s\S]*?)<\/p>/gi)].map(match => cleanText(decodeHtml(match[1]))).filter(Boolean);
+    const page = html
+      .replace(/<script\b[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style\b[\s\S]*?<\/style>/gi, " ");
+    const title = decodeHtml(firstMatch(page, [
+      /<h3\b[^>]*>([\s\S]*?)<\/h3>/i,
+      /<meta\b[^>]*property=["']og:title["'][^>]*content=["']([^"']*)["']/i,
+      /<title\b[^>]*>([\s\S]*?)<\/title>/i
+    ])).split(/\s*::\s*/)[0].trim();
+    const descriptionMeta = firstMatch(page, [
+      /<meta\b[^>]*name=["']description["'][^>]*content=["']([^"']*)["']/i,
+      /<meta\b[^>]*content=["']([^"']*)["'][^>]*name=["']description["']/i,
+      /<meta\b[^>]*property=["']og:description["'][^>]*content=["']([^"']*)["']/i
+    ]);
+    const imageMeta = firstMatch(page, [
+      /<meta\b[^>]*property=["']og:image["'][^>]*content=["']([^"']+)["']/i,
+      /<meta\b[^>]*content=["']([^"']+)["'][^>]*property=["']og:image["']/i
+    ]);
+    const infoIndex = page.search(/Información del evento/i);
+    const infoTail = infoIndex >= 0 ? page.slice(infoIndex) : page;
+    const paragraphs = [...infoTail.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
+      .map(match => cleanText(decodeHtml(match[1])))
+      .filter(value => value && !/^(próximos eventos|información del evento|compartir|ver más)$/i.test(value));
     const location = paragraphs[0] || "";
-    const description = cleanText(decodeHtml(descriptionMeta)) || paragraphs.slice(1).find(value => value.length > 45) || "";
-    const from = cleanText(decodeHtml((html.match(/Desde\s*:\s*([^<\r\n]+)/i) || [])[1] || ""));
-    const until = cleanText(decodeHtml((html.match(/Hasta\s*:\s*([^<\r\n]+)/i) || [])[1] || ""));
-    const time = cleanText(decodeHtml((html.match(/Horario\s*:\s*([^<\r\n]+)/i) || [])[1] || ""));
+    const descriptionParts = paragraphs.slice(1).filter(value =>
+      value.length > 35 && !/^(desde|hasta|horario)\s*:/i.test(value) && !/ir a la web del evento/i.test(value)
+    );
+    const description = descriptionParts.slice(0, 3).join(" ") || cleanText(decodeHtml(descriptionMeta));
+    const from = cleanText(decodeHtml((page.match(/Desde\s*:\s*(?:<[^>]+>\s*)*([^<\r\n]+)/i) || [])[1] || ""));
+    const until = cleanText(decodeHtml((page.match(/Hasta\s*:\s*(?:<[^>]+>\s*)*([^<\r\n]+)/i) || [])[1] || ""));
+    const time = cleanText(decodeHtml((page.match(/Horario\s*:\s*(?:<[^>]+>\s*)*([^<\r\n]+)/i) || [])[1] || ""));
     let dateLabel = from || "";
     if (until && normalize(until) !== normalize(from)) dateLabel = from + " al " + until;
     if (time) dateLabel += (dateLabel ? " · " : "") + time;
-    const firstEventImage = (html.match(/<img[^>]+src=["']([^"']*\/image\/[^"']+)["']/i) || [])[1] || "";
+    const firstEventImage = (page.match(/<(?:img|source)\b[^>]*(?:src|data-src)=["']([^"']*\/image\/[^"']+)["']/i) || [])[1] || "";
     const image = safeImageUrl(decodeHtml(imageMeta)) || safeImageUrl(decodeHtml(firstEventImage));
     return json({
       title: title || "Evento",
-      description: description.slice(0, 700),
+      description: description.slice(0, 1000),
       dateLabel: dateLabel || "",
       location: location.slice(0, 260),
       image,
@@ -46,6 +62,13 @@ export async function onRequest({ request }) {
   }
 }
 
+function firstMatch(source, patterns) {
+  for (const pattern of patterns) {
+    const match = source.match(pattern);
+    if (match && match[1]) return match[1];
+  }
+  return "";
+}
 function safeEventUrl(value) {
   if (!value) return "";
   try {
