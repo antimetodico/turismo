@@ -416,7 +416,7 @@ async function openEvent(event) {
   askAboutEventButton.disabled = false;
   askAboutEventButton.textContent = "Consultar a GesellGO sobre este evento";
   eventDialogTitle.textContent = event.title || "Evento";
-  eventDialogDescription.textContent = "Cargando información del evento…";
+  eventDialogDescription.textContent = event.description || "Cargando información del evento…";
   eventDialogDate.textContent = event.dateLabel || event.dateText || "Fecha a confirmar";
   eventDialogLocation.textContent = event.location || "Villa Gesell";
   eventDialogSource.href = event.url || "https://www.gesell.tur.ar/eventos";
@@ -436,7 +436,11 @@ async function openEvent(event) {
     eventDialogLocation.textContent = detail.location || event.location || "Villa Gesell";
     if (detail.image) eventDialogImage.src = detail.image;
   } catch (error) {
-    eventDialogDescription.textContent = "No pudimos cargar la descripción ahora. Podés consultar los detalles en la agenda oficial.";
+    // Preserve any description already supplied by the event card; a detail-endpoint
+    // outage should not erase useful information that we already have.
+    if (!event.description) {
+      eventDialogDescription.textContent = "La agenda oficial no publicó una descripción completa para este evento. Podés consultar el enlace oficial o preguntarle a GesellGO con los datos disponibles.";
+    }
     console.warn("GesellGO event detail unavailable:", error);
   }
 }
