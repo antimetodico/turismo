@@ -15,9 +15,8 @@ export async function onRequest({ request }) {
     url: safeEventUrl(supplied.url) || "https://www.gesell.tur.ar/eventos"
   };
 
-  // Event details already come from the official agenda. Compose the answer
-  // deterministically so a model greeting or an incomplete generation cannot
-  // replace the actual event information.
+  // The app already supplies the official event details. Compose the response
+  // deterministically so a model greeting or incomplete generation cannot replace them.
   const description = event.description
     ? event.description + " "
     : "La agenda no ofrece una descripción más extensa por el momento. ";
@@ -30,13 +29,13 @@ export async function onRequest({ request }) {
 }
 
 function safeText(value, maxLength) {
-  return typeof value === "string" ? value.replace(/\\s+/g, " ").trim().slice(0, maxLength) : "";
+  return typeof value === "string" ? value.replace(/\s+/g, " ").trim().slice(0, maxLength) : "";
 }
 function safeEventUrl(value) {
   try {
     const url = new URL(value);
     return (url.hostname === "www.gesell.tur.ar" || url.hostname.endsWith(".gesell.tur.ar"))
-      && /^\\/eventos\\/[a-z0-9-]+$/i.test(url.pathname) ? url.href : "";
+      && /^\/eventos\/[a-z0-9-]+$/i.test(url.pathname) ? url.href : "";
   } catch { return ""; }
 }
 function json(data, status = 200, extraHeaders = {}) {
