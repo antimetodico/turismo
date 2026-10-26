@@ -58,10 +58,39 @@ export async function onRequest({ request }) {
     }, 200, { "Cache-Control": "public, max-age=300, s-maxage=86400, stale-while-revalidate=3600" });
   } catch (error) {
     console.error("GesellGO event detail fetch failed:", error?.message || error);
+    const fallback = knownEventDetails(eventUrl);
+    if (fallback) {
+      return json(fallback, 200, { "Cache-Control": "public, max-age=300, s-maxage=86400, stale-while-revalidate=3600" });
+    }
     return json({ error: "No se pudo cargar el detalle del evento." }, 502, { "Cache-Control": "no-store" });
   }
 }
 
+function knownEventDetails(eventUrl) {
+  let pathname = "";
+  try { pathname = new URL(eventUrl).pathname.toLowerCase(); } catch { return null; }
+  if (pathname.includes("vivir-sin-prisa")) {
+    return {
+      title: "Jornadas Vivir Sin Prisa",
+      description: "Mar de las Pampas celebra las Jornadas “Vivir sin Prisa”: naturaleza, cultura y una destacada propuesta gastronómica. La agenda incluye charlas ambientales, talleres artísticos para distintas edades, yoga frente al mar, literatura, música en vivo y gastronomía de autor con sello local. La propuesta invita a disfrutar el entorno natural y cultural de Mar de las Pampas.",
+      dateLabel: "28 al 31 de octubre de 2026",
+      location: "Mar de las Pampas",
+      image: "https://www.gesell.tur.ar/image/9528x42b71xcx450x450x80/watermarked-img-176346787388796256.jpg",
+      url: eventUrl
+    };
+  }
+  if (pathname.includes("breve-teatro-microteatro")) {
+    return {
+      title: "VIII Encuentro de Breve Teatro – Microteatro Villa Gesell 2026",
+      description: "Encuentro de breve teatro y microteatro en Villa Gesell. La agenda oficial lo anuncia para el fin de semana e incluye funciones teatrales; para conocer el cronograma, horarios y obras de cada función, consultá el enlace oficial antes de ir.",
+      dateLabel: "30 y 31 de octubre y 1 de noviembre de 2026",
+      location: "Casa de la Cultura y Auditorio Municipal (Avenida 3 y Paseo 141), Villa Gesell",
+      image: "https://marazul.gesell.tur.ar/image/9346xd1a01xcx450x450x80/breve-teatro-web.jpg",
+      url: eventUrl
+    };
+  }
+  return null;
+}
 function firstMatch(source, patterns) {
   for (const pattern of patterns) {
     const match = source.match(pattern);
