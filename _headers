@@ -7,7 +7,7 @@
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=(self), payment=(), accelerometer=(self), gyroscope=(self)
   X-Frame-Options: SAMEORIGIN
-  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src 'self'; img-src 'self' data: blob: https://tile.openstreetmap.org https://res.cloudinary.com; frame-src https://umap.openstreetmap.fr; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'
+  Content-Security-Policy: default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; font-src 'self'; img-src 'self' data: blob: https://tile.openstreetmap.org https://res.cloudinary.com https://www.gesell.tur.ar; frame-src https://umap.openstreetmap.fr; object-src 'none'; base-uri 'self'; form-action 'self'; frame-ancestors 'self'
 
 # Images and fonts rarely change: cache for a week (CDN + browser)
 /images/*

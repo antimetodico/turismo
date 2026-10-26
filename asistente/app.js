@@ -297,3 +297,109 @@ if (!reduceMotion) {
     if (!input.value) { placeholderChars = 0; placeholderErasing = false; }
   });
 }
+
+
+// ── Official tourism events carousel ─────────────────────────────────────────
+const eventsSection = document.querySelector("#eventsSection");
+const eventsRail = document.querySelector("#eventsRail");
+const eventsPrev = document.querySelector("#eventsPrev");
+const eventsNext = document.querySelector("#eventsNext");
+const eventDialog = document.querySelector("#eventDialog");
+const eventDialogClose = document.querySelector("#eventDialogClose");
+const eventDialogImage = document.querySelector("#eventDialogImage");
+const eventDialogTitle = document.querySelector("#eventDialogTitle");
+const eventDialogDescription = document.querySelector("#eventDialogDescription");
+const eventDialogDate = document.querySelector("#eventDialogDate");
+const eventDialogLocation = document.querySelector("#eventDialogLocation");
+const eventDialogSource = document.querySelector("#eventDialogSource");
+let eventCards = [];
+
+loadEvents();
+
+async function loadEvents() {
+  if (!eventsSection || !eventsRail) return;
+  try {
+    const response = await fetch("/asistente/api/events", { headers: { Accept: "application/json" } });
+    if (!response.ok) throw new Error("Events endpoint returned " + response.status);
+    const data = await response.json();
+    eventCards = Array.isArray(data.events) ? data.events : [];
+    if (!eventCards.length) return;
+    eventsRail.replaceChildren(...eventCards.map(createEventCard));
+    eventsSection.hidden = false;
+    eventsPrev.addEventListener("click", () => scrollEvents(-1));
+    eventsNext.addEventListener("click", () => scrollEvents(1));
+  } catch (error) {
+    // The chat remains fully usable if the tourism agenda is temporarily unavailable.
+    console.warn("GesellGO events are temporarily unavailable:", error);
+  }
+}
+
+function createEventCard(event) {
+  const button = document.createElement("button");
+  button.type = "button";
+  button.className = "event-card";
+  button.setAttribute("aria-label", "Ver evento: " + event.title);
+  const imageWrap = document.createElement("span");
+  imageWrap.className = "event-card-image-wrap";
+  const image = document.createElement("img");
+  image.src = event.image;
+  image.alt = "";
+  image.loading = "lazy";
+  image.decoding = "async";
+  image.addEventListener("error", () => imageWrap.classList.add("image-unavailable"), { once: true });
+  imageWrap.append(image);
+  const body = document.createElement("span");
+  body.className = "event-card-body";
+  const title = document.createElement("span");
+  title.className = "event-card-title";
+  title.textContent = event.title;
+  const date = document.createElement("span");
+  date.className = "event-card-date";
+  date.textContent = event.dateLabel || event.dateText || "Próximamente";
+  body.append(title, date);
+  button.append(imageWrap, body);
+  button.addEventListener("click", () => openEvent(event));
+  return button;
+}
+
+function scrollEvents(direction) {
+  if (!eventsRail) return;
+  const card = eventsRail.querySelector(".event-card");
+  eventsRail.scrollBy({ left: direction * ((card?.getBoundingClientRect().width || 210) + 12), behavior: reduceMotion ? "auto" : "smooth" });
+}
+
+async function openEvent(event) {
+  if (!eventDialog) return;
+  eventDialogTitle.textContent = event.title || "Evento";
+  eventDialogDescription.textContent = "Cargando información del evento…";
+  eventDialogDate.textContent = event.dateLabel || event.dateText || "Fecha a confirmar";
+  eventDialogLocation.textContent = event.location || "Villa Gesell";
+  eventDialogSource.href = event.url || "https://www.gesell.tur.ar/eventos";
+  eventDialogImage.src = event.image || "";
+  eventDialogImage.alt = event.title || "";
+  if (!eventDialog.open) eventDialog.showModal();
+  try {
+    const detailUrl = new URL("/asistente/api/event-detail", window.location.origin);
+    detailUrl.searchParams.set("url", event.url);
+    const response = await fetch(detailUrl.toString(), { headers: { Accept: "application/json" } });
+    if (!response.ok) throw new Error("Event detail endpoint returned " + response.status);
+    const detail = await response.json();
+    if (!eventDialog.open || eventDialogSource.href !== (event.url || "https://www.gesell.tur.ar/eventos")) return;
+    eventDialogTitle.textContent = detail.title || event.title;
+    eventDialogDescription.textContent = detail.description || "Consultá la agenda oficial para ver más información sobre esta actividad.";
+    eventDialogDate.textContent = detail.dateLabel || event.dateLabel || event.dateText || "Fecha a confirmar";
+    eventDialogLocation.textContent = detail.location || event.location || "Villa Gesell";
+    if (detail.image) eventDialogImage.src = detail.image;
+  } catch (error) {
+    eventDialogDescription.textContent = "No pudimos cargar la descripción ahora. Podés consultar los detalles en la agenda oficial.";
+    console.warn("GesellGO event detail unavailable:", error);
+  }
+}
+
+eventDialogClose?.addEventListener("click", () => eventDialog.close());
+eventDialog?.addEventListener("click", event => {
+  if (event.target === eventDialog) eventDialog.close();
+});
+window.addEventListener("keydown", event => {
+  if (event.key === "Escape" && eventDialog?.open) eventDialog.close();
+});
