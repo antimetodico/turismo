@@ -3,12 +3,9 @@ const AGENDA_PATH = "/eventos";
 
 export async function onRequest({ request }) {
   if (request.method !== "GET") return json({ error: "Use GET for this endpoint." }, 405);
-  const year = Number(new Intl.DateTimeFormat("en", { timeZone: "America/Argentina/Buenos_Aires", year: "numeric" }).format(new Date()));
+  // The agenda filters are client-side only; the canonical page already contains
+  // all event cards. Query parameters can make the upstream response omit them.
   const agendaUrl = new URL(AGENDA_PATH, AGENDA_BASE);
-  agendaUrl.searchParams.set("ano", String(year));
-  agendaUrl.searchParams.set("mes", "99");
-  agendaUrl.searchParams.set("ubicacion", "0");
-  agendaUrl.searchParams.set("tipo", "0");
 
   try {
     const upstream = await fetch(agendaUrl.toString(), {
