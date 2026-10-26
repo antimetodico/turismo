@@ -9,7 +9,7 @@ export async function onRequest({ request }) {
 
   try {
     const upstream = await fetch(agendaUrl.toString(), {
-      headers: { Accept: "text/html,application/xhtml+xml", "Accept-Language": "es-AR,es;q=0.9,en;q=0.7", "User-Agent": "Mozilla/5.0 (compatible; GesellGOEvents/1.0; +https://turismo-dga.pages.dev/)" },
+      headers: { Accept: "text/html,application/xhtml+xml", "Accept-Language": "es-AR,es;q=0.9,en;q=0.7", "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36", "Referer": "https://www.gesell.tur.ar/" },
       cf: { cacheTtl: 86400, cacheEverything: true }
     });
     if (!upstream.ok) throw new Error("Agenda returned HTTP " + upstream.status);
