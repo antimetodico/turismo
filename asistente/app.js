@@ -365,9 +365,13 @@ function getFallbackEvents() {
       image: "https://marazul.gesell.tur.ar/image/9346xd1a01xcx450x450x80/breve-teatro-web.jpg",
       url: "https://marazul.gesell.tur.ar/eventos/viii-encuentro-de-breve-teatro-microteatro-villa-gesell-2026-70905145FB"
     }
-  ].filter(event => event.date >= new Intl.DateTimeFormat("en-CA", {
+  ];
+  const parts = new Intl.DateTimeFormat("en", {
     timeZone: "America/Argentina/Buenos_Aires", year: "numeric", month: "2-digit", day: "2-digit"
-  }).format(new Date()));
+  }).formatToParts(new Date());
+  const values = Object.fromEntries(parts.map(part => [part.type, part.value]));
+  const today = values.year + "-" + values.month + "-" + values.day;
+  return events.filter(event => event.date >= today);
 }
 
 function createEventCard(event) {
