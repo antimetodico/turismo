@@ -348,3 +348,70 @@ html.is-exiting .ambient { opacity:0; transition-duration:.34s; }
 .event-ask-button { display:block; width:100%; margin-top:16px; padding:13px 15px; border:0; border-radius:999px; background:var(--accent); color:#101010; font-family:var(--font-black); font-size:11px; cursor:pointer; transition:transform .18s var(--ease),opacity .18s var(--ease); }
 .event-ask-button:hover { transform:translateY(-1px); }
 .event-ask-button:disabled { opacity:.55; cursor:wait; transform:none; }
+
+
+/* Readability pass: comfortable type sizes, clearer hierarchy and more breathing room. */
+.back-home { font-size:12px; min-height:40px; padding-inline:13px; }
+.back-home svg { width:17px; height:17px; }
+.chat-topline { margin-bottom:14px; }
+.chat-topline p { font-size:12px; line-height:1.4; letter-spacing:.07em; }
+.clear-button { font-size:12px; padding:11px 15px; }
+.suggestions { gap:9px; margin-bottom:12px; }
+.suggestion { padding:11px 14px; font-size:13px; line-height:1.3; }
+.messages { gap:14px; padding:16px 2px 20px; }
+.message { font-size:16px; line-height:1.65; max-width:94%; }
+.assistant-message { padding:14px 17px; border-radius:20px 20px 20px 6px; }
+.user-message { padding:13px 17px; }
+.status { min-height:18px; padding:2px 4px 6px; font-size:12px; line-height:1.5; }
+.composer-row { gap:10px; }
+.location-button { flex-basis:46px; width:46px; height:46px; }
+.pin-icon { width:22px; height:22px; }
+.composer { min-height:56px; padding-left:16px; }
+.composer textarea { min-height:44px; max-height:140px; padding-block:11px; font-size:17px; line-height:1.4; }
+.send-button { flex-basis:42px; width:42px; height:42px; }
+.footnote { margin-top:10px; font-size:12px; line-height:1.55; }
+.events-heading { margin-bottom:10px; }
+.events-heading p { font-size:12px; line-height:1.4; letter-spacing:.07em; }
+.events-controls button { width:32px; height:32px; font-size:25px; }
+.events-rail { gap:12px; padding-bottom:9px; }
+.event-card { flex-basis:clamp(210px, 48%, 260px); border-radius:15px; }
+.event-card-image-wrap { height:112px; }
+.event-card-body { gap:7px; padding:12px 13px 13px; }
+.event-card-title { min-height:2.5em; font-size:14px; line-height:1.35; letter-spacing:0; }
+.event-card-date { font-size:12px; line-height:1.45; white-space:normal; }
+.event-dialog { width:min(560px,calc(100vw - 24px)); max-height:min(90dvh,820px); border-radius:22px; }
+.event-dialog-close { width:40px; height:40px; font-size:28px; }
+.event-dialog-content { padding:22px 24px 26px; }
+.event-dialog-eyebrow { margin-bottom:10px; font-size:12px; line-height:1.4; letter-spacing:.08em; }
+.event-dialog-content h2 { margin-bottom:16px; font-size:clamp(22px,5vw,28px); line-height:1.25; letter-spacing:-.02em; }
+.event-dialog-description { margin-bottom:22px; font-size:16px; line-height:1.7; }
+.event-meta { margin-bottom:17px; }
+.event-meta-label { margin-bottom:5px; font-size:12px; line-height:1.4; letter-spacing:.07em; }
+.event-meta p { font-size:15px; line-height:1.6; }
+.event-source-link { margin-top:10px; font-size:13px; line-height:1.5; }
+.event-ask-button { margin-top:20px; padding:15px 17px; font-size:14px; line-height:1.45; }
+@media (max-width:560px) {
+  .page { padding-right:16px; padding-left:16px; }
+  .chat-topline p { font-size:11px; }
+  .suggestion { padding:11px 13px; font-size:13px; }
+  .message { font-size:16px; max-width:96%; line-height:1.65; }
+  .assistant-message { padding:14px 16px; }
+  .user-message { padding:13px 16px; }
+  .events-rail { gap:10px; margin-right:-16px; padding-right:16px; }
+  .event-card { flex-basis:220px; }
+  .event-card-image-wrap { height:100px; }
+  .event-card-body { padding:11px 12px 12px; gap:6px; }
+  .event-card-title { font-size:14px; }
+  .event-card-date { font-size:12px; }
+  .event-dialog-content { padding:20px 18px 22px; }
+  .event-dialog-description { font-size:16px; }
+  .event-meta p { font-size:15px; }
+  .footnote { font-size:11px; }
+}
+@media (max-height:620px) {
+  .event-card-image-wrap { height:76px; }
+  .event-card-body { padding:8px 10px 9px; gap:4px; }
+  .event-card-title { min-height:0; font-size:12px; }
+  .events-heading { margin-bottom:5px; }
+  .events-rail { padding-bottom:5px; }
+}
